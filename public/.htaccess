@@ -1,0 +1,8 @@
+RewriteEngine On
+
+# Serve files without processing them if the file exists
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Rewrite all other requests to index.html
+RewriteRule ^ %{REQUEST_FILENAME}.html [QSA,L]

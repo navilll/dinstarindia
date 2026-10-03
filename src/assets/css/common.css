@@ -1,0 +1,15 @@
+.c-pointer{
+    cursor: pointer;
+}
+.change-li{
+    .btn{
+        a{
+            color: #777777;
+        }
+        &.active{
+            a{
+                color: var(--primary);
+            }
+        }
+    }
+}
