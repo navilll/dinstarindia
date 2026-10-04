@@ -79,6 +79,15 @@ type MenuItem = {
 export const MenuList: MenuItem[] = [
   { menu: "Home", to: "/" },
   { menu: "About Us", to: "/about-us" },
+  {
+    menu: "Solutions",
+    child: [
+      { children: "Call Center", to: "/solutions#call-center" },
+      { children: "Enterprise Communication", to: "/solutions#enterprise-communication" },
+      { children: "DINSTARINDIA SMS Solution", to: "/solutions#sms-solution" },
+      { children: "Industry Solution", to: "/solutions#industry-solution" },
+    ],
+  },
   { menu: "Services", to: "/services" },
 ];
 export const MenuList2: MenuItem[] = [

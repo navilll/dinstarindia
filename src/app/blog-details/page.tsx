@@ -53,7 +53,7 @@ const BlogDetails = () => {
                                             lorem. Morbi interdum odio ac leo vehicula iaculis. Aenean condimentum, erat ac volutpat iaculis, nibh massa pharetra lectus,</p>
                                             <blockquote className="block-quote style-1">
                                                 <p>“ Mauris justo augue, laoreet quis faucibus et, ultrices eu ante. Duis magna eratut dui eu maximus metus bibendum suscipit ”</p>
-                                                <cite>Codesign</cite>
+                                                <cite>dinstar</cite>
                                             </blockquote>
                                             <ul className="wp-block-gallery columns-3">
                                                 <li className="blocks-gallery-item"><Image alt="grid1" src={IMAGES.BlogGridPic2} /></li>

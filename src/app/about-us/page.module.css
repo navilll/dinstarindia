@@ -1,0 +1,94 @@
+.aboutIntro :global(.about-bx5) {
+  margin-top: 0;
+}
+
+.approachList {
+  border-top: 1px solid #dedede;
+}
+
+.approachItem {
+  display: grid;
+  grid-template-columns: 54px minmax(0, 1fr);
+  gap: 18px;
+  border-bottom: 1px solid #dedede;
+  padding: 23px 0;
+}
+
+.approachNumber,
+.processNumber {
+  color: var(--primary);
+  font-family: Oswald, sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.approachItem h3,
+.processStep h3 {
+  margin: 0 0 8px;
+  color: #222;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.approachItem p,
+.processStep p {
+  margin: 0;
+}
+
+.processList {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 28px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.processStep {
+  min-width: 0;
+  border-top: 3px solid var(--primary);
+  padding-top: 17px;
+}
+
+.processNumber {
+  display: block;
+  margin-bottom: 18px;
+  font-size: 28px;
+}
+
+.contactSection {
+  background: #252525;
+  color: #fff;
+}
+
+.contactLayout {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 36px;
+}
+
+.contactTitle {
+  max-width: 650px;
+  margin: 0 0 14px;
+  color: #fff;
+}
+
+.contactText {
+  max-width: 680px;
+  margin: 0;
+  color: #dedede;
+}
+
+@media (max-width: 767px) {
+  .processList {
+    grid-template-columns: 1fr;
+    gap: 22px;
+  }
+
+  .contactLayout {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 22px;
+  }
+}
