@@ -14776,7 +14776,7 @@ ul a.rsswidget {
   .sep-bl:after {
     content: "";
     position: absolute;
-    background-color: var(--primary); }
+    background-color: #ffffff; }
 
 .sep-tl:before {
   height: 100%;

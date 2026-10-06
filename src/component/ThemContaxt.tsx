@@ -88,7 +88,6 @@ export const MenuList: MenuItem[] = [
       { children: "Industry Solution", to: "/solutions#industry-solution" },
     ],
   },
-  { menu: "Services", to: "/services" },
 ];
 export const MenuList2: MenuItem[] = [
   {

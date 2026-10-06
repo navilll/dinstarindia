@@ -14,6 +14,7 @@ import ServiceBlog from "@/element/ServiceBlog";
 import TeamSlider from "@/element/TeamSlider";
 import Testimonail from "@/element/Testimonail";
 import WatchUs from "@/element/WatchUs";
+import ProgressSection from "@/element/ProgressSection";
 
 export default function Home() {
   const [isOpen, setOpen] = useState<boolean>(false);
@@ -28,7 +29,7 @@ export default function Home() {
           <section className="content-inner line-img section-title style-2" data-name="About Us">
             <AboutUs />
           </section>
-          <section id="portfolio" className="content-inner-2 bg-gray line-img pb-1 section-title style-1" data-name="Portfolio">
+          <section id="portfolio" className="content-inner-2 bg-gray line-img pb-1 section-title style-1" data-name="Products">
             <div className="container">
               <div className="row align-items-center section-head-bx">
                 <div className="col-md-8">
@@ -62,16 +63,8 @@ export default function Home() {
           <section className="dz-content-bx style-1 line-img p-t50">
             <WatchUs setOpen={setOpen} />
           </section>
-          <section className="content-inner section-title style-2 line-img" data-name="Our Team">
-            <div className="container">
-              <div className="section-head style-1 text-center">
-                <h2 className="title">INDUSTRY <span className="text-primary">SOLUTIONS</span></h2>
-                <div className="dz-separator style-1 text-primary"></div>
-              </div>
-              <div className="row">
-                <div className="col-lg-12 m-b30"><TeamSlider /></div>
-              </div>
-            </div>
+          <section className="section-full content-inner line-img section-title style-2" data-name="SOLUTIONS">
+              <ProgressSection />
           </section>
           <section className="content-inner bg-gray section-title style-1 line-img" data-name="Testimonial">
             <div className="container">
@@ -104,7 +97,7 @@ export default function Home() {
         </div>
         <HomeFooter />
       </div>
-      <ModalVideo channel="youtube" isOpen={isOpen} videoId="4UdeL0kdMMs" onClose={() => setOpen(false)} />
+      <ModalVideo channel="youtube" isOpen={isOpen} videoId="7jd4hMNjqac" onClose={() => setOpen(false)} />
     </>
   );
 }

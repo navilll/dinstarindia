@@ -34,7 +34,7 @@ const ServiceBlog = () => {
                                     <div className="sep-tl"></div>
                                     <div className="sep-br"></div>
                                     <h4 className="title m-b10">{item.title}</h4>
-                                    <h6 className="sub-title text-primary">BUILT FOR BUSINESS</h6>
+                                    <h6 className="sub-title text-white">BUILT FOR BUSINESS</h6>
                                 </div>
                             </div>
                         </div>

@@ -2,9 +2,9 @@ import Image from 'next/image';
 import IMAGES from '../component/theme';
 
 const progressData = [
-    { name:'ARCHITECTURE', percent:'90%', },
-    { name:'3D DESIGN', percent:'80%', },
-    { name:'INTERIOR DESIGN', percent:'95%', },
+    { name:'VOIP GATEWAYS', percent:'90%', },
+    { name:'IP PBX AND SBC', percent:'80%', },
+    { name:'IP PHONES AND SIP INTERCOMS', percent:'95%', },
 ];
 
 const ProgressSection = () => {
@@ -18,10 +18,10 @@ const ProgressSection = () => {
                 </div>
                 <div className="col-lg-6">
                     <div className="section-head style-1">
-                        <h2 className="title">DISTINCTIVE INTERIOR <span className="text-primary">FOR SPECIAL IDEAS</span></h2>
+                        <h2 className="title">ONE-STOP <span className="text-primary">COMMUNICATION SOLUTIONS</span></h2>
                         <div className="dz-separator style-1 text-primary"></div>
                     </div>
-                    <p className="m-b30">Fusce accumsan felis sed purus sollicitudin posuere. Vivamus id pharetra augue. Phasellus molestie ornare lacus mattis iaculis. Nulla dui dui, convallis et venenatis id, condimentum ut justo.</p>
+                    <p className="m-b30">DINSTAR provides every customer with one-stop solutions, professional technical service, excellent user experience, and a high-efficient communication network.</p>
                     {progressData.map((item, i)=>(
                         <div className="progress-bx style-1 m-b40" key={i}>
                             <div className="progress-info">
