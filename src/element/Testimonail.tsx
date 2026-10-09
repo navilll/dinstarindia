@@ -6,10 +6,30 @@ import { Autoplay,Navigation } from "swiper/modules";
 import IMAGES from '../component/theme';
 
 const sliderData = [
-    { image: IMAGES.Testimonial1, name:'Shaan', position:'Call Centre Manager', quote:"Dinstar India's commitment to high-quality telecommunication solutions shines through its innovative IP phones. They help our agents stay connected, and the focus on local manufacturing and quality is clear."},
-    { image: IMAGES.Testimonial2, name:'David', position:'Business Customer', quote:'The Dinstar IP phone delivers the performance and reliability our call centre needs. Its useful features have boosted productivity and helped streamline our operations.'},
-    { image: IMAGES.Testimonial3, name:'Anjali', position:'Enterprise Customer', quote:'Reliable connectivity, crystal-clear voice quality, and seamless integration have made a real difference for our team. Dinstar India sets a high standard for IP phone solutions.'},
-    { image: IMAGES.Testimonial2, name:'Shaan', position:'Call Centre Manager', quote:"Dinstar India's commitment to high-quality telecommunication solutions shines through its innovative IP phones. They help our agents stay connected, and the focus on local manufacturing and quality is clear."},
+    {
+        image: IMAGES.Testimonial1,
+        name: 'Seema',
+        position: 'Call Centre Manager',
+        quote: "Dinstar India's reliable IP phone solutions have made communication easier for our call centre. The clear voice quality, practical features, and dependable connectivity help our agents stay productive while supporting our day-to-day operations."
+    },
+    {
+        image: IMAGES.Testimonial2,
+        name: 'David',
+        position: 'Business Customer',
+        quote: "The Dinstar IP phone provides the performance and reliability our business needs every day. Its useful features, clear audio, and seamless connectivity have improved communication between our teams and helped us maintain a more efficient workflow."
+    },
+    {
+        image: IMAGES.Testimonial3,
+        name: 'Deepak',
+        position: 'Enterprise Customer',
+        quote: "Reliable connectivity, crystal-clear voice quality, and smooth integration have made a noticeable difference for our organization. Dinstar India's professional IP phone solutions give our team the confidence to communicate efficiently across different business operations."
+    },
+    {
+        image: IMAGES.Testimonial2,
+        name: 'Shaan',
+        position: 'Call Centre Manager',
+        quote: "Dinstar India's high-quality telecommunication solutions have helped our call centre maintain dependable communication. The innovative IP phones offer clear conversations, useful features, and reliable connectivity that support our agents and improve overall productivity."
+    },
 ];
 
 interface navButton {

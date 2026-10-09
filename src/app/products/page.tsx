@@ -13,7 +13,6 @@ type ViewMode = "grid" | "compact" | "list";
 const Products = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const [category, setCategory] = useState("all");
-  const [selectedModels, setSelectedModels] = useState<string[]>([]);
   const [sortOrder, setSortOrder] = useState("featured");
   const [viewMode, setViewMode] = useState<ViewMode>("grid");
   const [currentPage, setCurrentPage] = useState(1);
@@ -21,7 +20,6 @@ const Products = () => {
   const normalizedSearch = searchTerm.trim().toLowerCase();
   const filteredProducts = products
     .filter((product) => category === "all" || product.category === category)
-    .filter((product) => selectedModels.length === 0 || selectedModels.includes(product.slug))
     .filter((product) => `${product.name} ${product.category} ${product.description}`.toLowerCase().includes(normalizedSearch))
     .sort((first, second) => {
       if (sortOrder === "name-asc") return first.name.localeCompare(second.name);
@@ -34,7 +32,6 @@ const Products = () => {
   const resetFilters = () => {
     setSearchTerm("");
     setCategory("all");
-    setSelectedModels([]);
     setSortOrder("featured");
     setCurrentPage(1);
   };
@@ -52,24 +49,15 @@ const Products = () => {
                 <div className={styles.filterGroup}>
                   <h2>Product categories</h2>
                   <label className={styles.checkboxRow}>
-                    <input type="checkbox" checked={category === categories[0]} onChange={(event) => { setCategory(event.target.checked ? categories[0] : "all"); setCurrentPage(1); }} />
-                    <span>{categories[0]}</span>
+                    <input type="radio" name="product-category" checked={category === "all"} onChange={() => { setCategory("all"); setCurrentPage(1); }} />
+                    <span>All products</span>
                     <span className={styles.filterCount}>{products.length}</span>
                   </label>
-                </div>
-                <div className={styles.filterGroup}>
-                  <h2>Filter by model</h2>
-                  {products.map((product) => (
-                    <label className={styles.checkboxRow} key={product.slug}>
-                      <input
-                        type="checkbox"
-                        checked={selectedModels.includes(product.slug)}
-                        onChange={(event) => {
-                          setSelectedModels((models) => event.target.checked ? [...models, product.slug] : models.filter((slug) => slug !== product.slug));
-                          setCurrentPage(1);
-                        }}
-                      />
-                      <span>{product.name}</span>
+                  {categories.map((productCategory) => (
+                    <label className={styles.checkboxRow} key={productCategory}>
+                      <input type="radio" name="product-category" checked={category === productCategory} onChange={() => { setCategory(productCategory); setCurrentPage(1); }} />
+                      <span>{productCategory}</span>
+                      <span className={styles.filterCount}>{products.filter((product) => product.category === productCategory).length}</span>
                     </label>
                   ))}
                 </div>
@@ -82,12 +70,12 @@ const Products = () => {
               <div className={styles.catalogMain}>
                 <section className={styles.catalogHero} aria-labelledby="catalog-title">
                   <div className={styles.heroCopy}>
-                    <span className={styles.eyebrow}>DINSTAR DIGITAL GATEWAYS</span>
-                    <h1 id="catalog-title">Connect legacy lines.<br /><span>Move voice forward.</span></h1>
-                    <p>VoIP trunk gateways for business telephony, network migration, and reliable PSTN connectivity.</p>
+                    <span className={styles.eyebrow}>DINSTAR COMMUNICATIONS</span>
+                    <h1 id="catalog-title">Business communication.<br /><span>Built to connect.</span></h1>
+                    <p>Explore Dinstar IP PBX, session border controller, and VoIP gateway products.</p>
                   </div>
                   <div className={styles.heroImage}>
-                    <Image src={products[0].image} alt="Dinstar MTG200 digital VoIP gateway" fill sizes="(max-width: 767px) 100vw, 35vw" priority />
+                    <Image src={products[0].image} alt={`Dinstar ${products[0].name}`} fill sizes="(max-width: 767px) 100vw, 35vw" priority />
                   </div>
                 </section>
                 <div className={styles.catalogToolbar}>
@@ -126,12 +114,13 @@ const Products = () => {
                     <article className={styles.productCard} key={product.slug}>
                       <Link href={`/products/${product.slug}`} className={styles.productLink}>
                         <div className={styles.productImage}>
-                          <Image src={product.image} alt={`Dinstar ${product.name} digital VoIP gateway`} fill sizes="(max-width: 575px) 100vw, (max-width: 991px) 50vw, 25vw" />
+                          <Image src={product.image} alt={`Dinstar ${product.name}`} fill sizes="(max-width: 575px) 100vw, (max-width: 991px) 50vw, 25vw" />
                         </div>
                         <div className={styles.productInfo}>
                           <span className={styles.productCategory}>{product.category}</span>
+                          {product.status && <span className={styles.productStatus}>{product.status}</span>}
                           <h2>{product.name}</h2>
-                          <p>{product.name === "MTG200" ? product.description : "Digital VoIP gateway. Contact us for model specifications."}</p>
+                          <p>{product.description}</p>
                           <span className={styles.detailsLink}>VIEW DETAILS <i className="las la-long-arrow-alt-right" /></span>
                         </div>
                       </Link>

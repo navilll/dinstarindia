@@ -1,5 +1,7 @@
 import Mainlayout from "@/component/Mainlayout";
 import { getProduct, products } from "@/data/products";
+import type { Metadata } from "next";
+import Link from "next/link";
 import ProductGallery from "./ProductGallery";
 import ProductEnquiryModal from "./ProductEnquiryModal";
 import ProductTabs from "./ProductTabs";
@@ -8,6 +10,14 @@ import { notFound } from "next/navigation";
 
 export function generateStaticParams() {
   return products.map((product) => ({ slug: product.slug }));
+}
+
+export function generateMetadata({ params }: ProductPageProps): Metadata {
+  const product = getProduct(params.slug);
+
+  return product
+    ? { title: `${product.name} | Dinstar India`, description: product.description }
+    : { title: "Product not found | Dinstar India" };
 }
 
 interface ProductPageProps {
@@ -26,12 +36,16 @@ const ProductDetails = ({ params }: ProductPageProps) => {
       <div className="page-content bg-white">
         <section className={styles.productSection}>
           <div className="container">
+            <nav className={styles.breadcrumb} aria-label="Breadcrumb">
+              <Link href="/">Home</Link><span>/</span><Link href="/products">Products</Link><span>/</span><span aria-current="page">{product.name}</span>
+            </nav>
             <div className={styles.productLayout}>
               <div className={styles.productMain}>
                 <div className={styles.productOverview}>
                   <ProductGallery images={product.gallery} productName={product.name} />
                   <div className={styles.productSummary}>
                     <span className={styles.category}>{product.category}</span>
+                    {product.status && <span className={styles.productStatus}>{product.status}</span>}
                     <h1 className="title">{product.name}</h1>
                     <p className={styles.lead}>{product.description}</p>
                     {product.highlights && (

@@ -92,6 +92,11 @@ export default function Home() {
                 <div className="dz-separator style-1 text-primary"></div>
               </div>
               <div className="blog-area"><BlogSlider /></div>
+              <div className="text-center mt-4">
+                <Link href="/blog-grid" className="btn shadow-primary btn-primary">
+                  VIEW ALL INSIGHTS <i className="m-l10 fas fa-caret-right" />
+                </Link>
+              </div>
             </div>
           </section>
         </div>

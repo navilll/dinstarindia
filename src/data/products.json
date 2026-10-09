@@ -1,0 +1,327 @@
+[
+  {
+    "slug": "uc200-pro",
+    "name": "UC200 Pro",
+    "category": "IP PBX",
+    "imageKey": "uc200Pro",
+    "galleryKeys": ["uc200Pro"],
+    "description": "A powerful, reliable IP PBX for SMEs, supporting up to 500 SIP users and 50 concurrent calls.",
+    "overview": [
+      "UC200 Pro is a powerful and reliable IP PBX designed to meet the communication needs of SMEs, with up to 500 SIP users and 50 concurrent calls. Its versatile features support seamless communication and enhanced productivity while helping reduce phone bills.",
+      "The UC200 Pro supports 60, 200, or 500 SIP extensions and 15, 30, or 50 concurrent calls. It includes 2 FXS and 2 FXO ports, supports up to 8 FXS and 8 FXO ports, and has three additional user-board slots for 2S, 2O, or 1S1O modules. Software licenses can increase SIP users and concurrent calls.",
+      "Built-in security includes Fail2ban, allow and block lists, ACLs, an IP firewall, TLS, SRTP, and ZRTP. The system supports integration with hotel PMS, billing, CRM, conference, paging, and security systems, and provides an intuitive web interface, remote management, configuration backup and restore, and IP phone auto-provisioning.",
+      "Dinstar VoIP gateways support a gradual transition from analog telephony, allowing existing analog phones, fax machines, legacy PBXs, and PSTN lines to be used during migration."
+    ],
+    "highlights": [
+      "Up to 500 SIP users and 50 concurrent calls",
+      "2 FXO and 2 FXS ports; expandable with up to 3 additional modules",
+      "Built-in VPN server and client",
+      "No annual licensing fees or recurring fees"
+    ],
+    "specifications": [
+      { "label": "SIP extensions", "value": "60 / 200 / 500" },
+      { "label": "Concurrent calls", "value": "15 / 30 / 50" },
+      { "label": "Default analog ports", "value": "2 FXS, 2 FXO" },
+      { "label": "Maximum FXS ports", "value": "8" },
+      { "label": "Maximum FXO ports", "value": "8" },
+      { "label": "Expansion", "value": "3 additional slots for 2S, 2O, or 1S1O modules" },
+      { "label": "Power supply", "value": "12 VDC, 2 A" },
+      { "label": "Power consumption", "value": "10 W" },
+      { "label": "Dimensions (W x D x H)", "value": "260 x 154 x 42 mm" },
+      { "label": "Unit weight", "value": "1.1 kg" }
+    ],
+    "features": [
+      "Multi-level IVR, auto-attendant, call queue, ring group, and paging",
+      "Call forwarding, waiting, holding, transfer, pickup, and parking",
+      "Voicemail, voicemail to email, local recording, and call detail records",
+      "Flexible routing by time period, caller or called prefix, and source trunk",
+      "Failover routing, dial rules, and caller/called number manipulation",
+      "T.30/T.38 fax support, conferences, video calls, and intercom",
+      "Fail2ban, allow and block lists, ACLs, TLS, SRTP, and ZRTP"
+    ]
+  },
+  {
+    "slug": "uc350-uc350-pro",
+    "name": "UC350/UC350 Pro",
+    "category": "IP PBX",
+    "imageKey": "uc350ProFront",
+    "galleryKeys": ["uc350Front", "uc350Back", "uc350ProFront", "uc350ProSide", "uc350ProBack"],
+    "description": "A modular, high-capacity IP PBX series for medium and large enterprises, with up to 5,000 extensions and 500 concurrent calls.",
+    "overview": [
+      "The UC350 Series is a high-capacity unified communications solution. UC350 and UC350 Pro support up to 1,000 and 5,000 extensions, and 100 and 500 concurrent calls, respectively.",
+      "Voice, video, paging, fax, conferencing, and recording are integrated in the system. Four hot-pluggable slots accept E1/T1, FXS, and FXO boards so the system can be configured for different deployment needs, including branches of large groups and government agencies."
+    ],
+    "highlights": [
+      "UC350: up to 1,000 extensions and 100 concurrent calls",
+      "UC350 Pro: up to 5,000 extensions and 500 concurrent calls",
+      "Four hot-pluggable slots for E1/T1, FXS, and FXO boards",
+      "Voice, video, paging, fax, conference, and recording"
+    ],
+    "features": ["Modular design", "Auto provisioning", "Intelligent IVR", "Hot standby", "IP firewall", "TLS/SRTP"]
+  },
+  {
+    "slug": "uc8000",
+    "name": "UC8000",
+    "category": "IP PBX",
+    "imageKey": "placeholder",
+    "galleryKeys": ["placeholder"],
+    "description": "A full-featured software edition IP PBX deployable on-premises, in a virtual machine, or in the cloud.",
+    "overview": [
+      "UC8000 is Dinstar's software edition IP PBX. It can run on customer hardware, a virtual machine, or in the cloud and interoperates with Dinstar IP phones and VoIP gateways.",
+      "The platform provides an IP telephony solution for medium and large enterprises, single-site and multi-branch organizations, government, and industry deployments."
+    ],
+    "highlights": ["Software edition with flexible deployment options", "Works with Dinstar IP phones and VoIP gateways"],
+    "features": ["On-premises, virtual-machine, or cloud deployment", "Scalable IP telephony"]
+  },
+  {
+    "slug": "uc200-eol",
+    "name": "UC200 (EOL)",
+    "category": "IP PBX",
+    "status": "EOL",
+    "imageKey": "placeholder",
+    "galleryKeys": ["placeholder"],
+    "description": "End-of-life compact IP PBX for SMEs, with up to 500 SIP users and 30 concurrent calls.",
+    "overview": [
+      "UC200 is a compact IP PBX designed for small and medium-sized businesses. The supplied product information lists support for up to 500 SIP users and 30 concurrent calls.",
+      "This model is marked end of life. Contact Dinstar India for product lifecycle, support, and replacement information."
+    ],
+    "highlights": ["Up to 500 SIP users", "Up to 30 concurrent calls", "End-of-life model"]
+  },
+  {
+    "slug": "uc120-eol",
+    "name": "UC120 (EOL)",
+    "category": "IP PBX",
+    "status": "EOL",
+    "imageKey": "placeholder",
+    "galleryKeys": ["placeholder"],
+    "description": "End-of-life Dinstar IP PBX. Contact Dinstar India for lifecycle, support, and replacement information.",
+    "overview": ["This model is marked end of life. The supplied product document does not include UC120 specifications; contact Dinstar India for lifecycle, support, and replacement information."]
+  },
+  {
+    "slug": "dinlink-softphone",
+    "name": "DinLink Softphone",
+    "category": "IP PBX",
+    "imageKey": "placeholder",
+    "galleryKeys": ["placeholder"],
+    "description": "A softphone application for enterprise IP PBX users, with communication and collaboration functions.",
+    "overview": ["DinLink is a softphone application designed for enterprise IP PBX users, providing communication functions and collaboration tools."]
+  },
+  {
+    "slug": "pms",
+    "name": "PMS",
+    "category": "IP PBX",
+    "imageKey": "placeholder",
+    "galleryKeys": ["placeholder"],
+    "description": "Dinstar IP PBX hotel PMS integration. Contact us for supported systems and integration details.",
+    "overview": ["The supplied UC200 Pro information describes integration with hotel PMS systems. Contact Dinstar India to discuss supported systems and integration requirements."]
+  },
+  {
+    "slug": "attendant-console",
+    "name": "Attendant Console",
+    "category": "IP PBX",
+    "imageKey": "placeholder",
+    "galleryKeys": ["placeholder"],
+    "description": "An attendant console for Dinstar IP PBX deployments. Contact us for supported platforms and capabilities.",
+    "overview": ["Contact Dinstar India for attendant console platform compatibility, features, and deployment information."]
+  },
+  {
+    "slug": "sbc300",
+    "name": "SBC300",
+    "category": "Session Border Controller",
+    "imageKey": "sbc300Front",
+    "galleryKeys": ["sbc300Front", "sbc300Back"],
+    "description": "Dinstar session border controller for secure connectivity between SIP networks. Contact us for model specifications."
+  },
+  {
+    "slug": "sbc1000",
+    "name": "SBC1000",
+    "category": "Session Border Controller",
+    "imageKey": "sbc1000Front",
+    "galleryKeys": ["sbc1000Front", "sbc1000Back"],
+    "description": "Dinstar session border controller for secure connectivity between SIP networks. Contact us for model specifications."
+  },
+  {
+    "slug": "sbc3000",
+    "name": "SBC3000",
+    "category": "Session Border Controller",
+    "imageKey": "sbc3000Front",
+    "galleryKeys": ["sbc3000Front", "sbc3000Back"],
+    "description": "Dinstar session border controller for secure connectivity between SIP networks. Contact us for model specifications."
+  },
+  {
+    "slug": "sbc3000-pro",
+    "name": "SBC3000 Pro",
+    "category": "Session Border Controller",
+    "imageKey": "sbc3000ProFront",
+    "galleryKeys": ["sbc3000ProFront", "sbc3000ProBack", "sbc3000ProSide"],
+    "description": "Dinstar session border controller for secure connectivity between SIP networks. Contact us for model specifications."
+  },
+  {
+    "slug": "sbc8000",
+    "name": "SBC8000",
+    "category": "Session Border Controller",
+    "imageKey": "sbc8000",
+    "galleryKeys": ["sbc8000"],
+    "description": "Dinstar session border controller for secure connectivity between SIP networks. Contact us for model specifications."
+  },
+  {
+    "slug": "mtg200",
+    "name": "MTG200",
+    "category": "Digital VoIP Gateway",
+    "imageKey": "mtg200Front",
+    "galleryKeys": ["mtg200Front", "mtg200Back"],
+    "description": "Digital VoIP gateway for connecting E1/T1 digital trunks with SIP networks. Contact us for port options and specifications."
+  },
+  {
+    "slug": "mtg1000",
+    "name": "MTG1000",
+    "category": "Digital VoIP Gateway",
+    "imageKey": "placeholder",
+    "galleryKeys": ["placeholder"],
+    "description": "Digital VoIP gateway for connecting digital trunks with SIP networks. Contact us for MTG1000 specifications."
+  },
+  {
+    "slug": "mtg2000",
+    "name": "MTG2000",
+    "category": "Digital VoIP Gateway",
+    "imageKey": "mtg2000Front",
+    "galleryKeys": ["mtg2000Front", "mtg2000Back"],
+    "description": "Digital VoIP gateway for connecting E1/T1 digital trunks with SIP networks. Contact us for port options and specifications."
+  },
+  {
+    "slug": "mtg2000b",
+    "name": "MTG2000B",
+    "category": "Digital VoIP Gateway",
+    "imageKey": "mtg2000bFront",
+    "galleryKeys": ["mtg2000bFront", "mtg2000bBack"],
+    "description": "Digital VoIP gateway for connecting digital trunks with SIP networks. Contact us for MTG2000B specifications."
+  },
+  {
+    "slug": "mtg3000",
+    "name": "MTG3000",
+    "category": "Digital VoIP Gateway",
+    "imageKey": "mtg3000Front",
+    "galleryKeys": ["mtg3000Front", "mtg3000Side", "mtg3000Side2"],
+    "description": "High-capacity digital VoIP gateway for connecting digital trunks with SIP networks. Contact us for specifications."
+  },
+  {
+    "slug": "mtg5000",
+    "name": "MTG5000",
+    "category": "Digital VoIP Gateway",
+    "imageKey": "mtg5000Front",
+    "galleryKeys": ["mtg5000Front", "mtg5000Back", "mtg5000Side"],
+    "description": "High-capacity digital VoIP gateway for connecting digital trunks with SIP networks. Contact us for specifications."
+  },
+  {
+    "slug": "mtg3000t",
+    "name": "MTG3000T",
+    "category": "Digital VoIP Gateway",
+    "imageKey": "mtg3000tFront",
+    "galleryKeys": ["mtg3000tFront", "mtg3000tBack"],
+    "description": "Digital VoIP gateway for connecting digital trunks with SIP networks. Contact us for MTG3000T specifications."
+  },
+  {
+    "slug": "dag1000-1-2s",
+    "name": "DAG1000-1/2S",
+    "category": "FXS VoIP Gateway",
+    "imageKey": "dag1000-1sFront",
+    "galleryKeys": ["dag1000-1sFront", "dag1000-1sBack", "dag1000-2sFront", "dag1000-2sBack"],
+    "description": "Analog FXS VoIP gateway models for connecting analog telephone devices to SIP networks. Contact us for model options and specifications."
+  },
+  {
+    "slug": "dag1000-4s",
+    "name": "DAG1000-4S",
+    "category": "FXS VoIP Gateway",
+    "imageKey": "dag1000-4sFront",
+    "galleryKeys": ["dag1000-4sFront", "dag1000-4sBack"],
+    "description": "Analog FXS VoIP gateway for connecting analog telephone devices to SIP networks. Contact us for specifications."
+  },
+  {
+    "slug": "dag1000-4s-ge",
+    "name": "DAG1000-4S(GE)",
+    "category": "FXS VoIP Gateway",
+    "imageKey": "dag1000-4sGeFront",
+    "galleryKeys": ["dag1000-4sGeFront", "dag1000-4sGeBack", "dag1000-4sGeSide", "dag1000-4sGeTop"],
+    "description": "Analog FXS VoIP gateway with Gigabit Ethernet (GE). Contact us for specifications."
+  },
+  {
+    "slug": "dag1000-8s-ge",
+    "name": "DAG1000-8S(GE)",
+    "category": "FXS VoIP Gateway",
+    "imageKey": "dag1000-8sGe1",
+    "galleryKeys": ["dag1000-8sGe1", "dag1000-8sGe2", "dag1000-8sGe3", "dag1000-8sGe4"],
+    "description": "Analog FXS VoIP gateway with Gigabit Ethernet (GE). Contact us for specifications."
+  },
+  {
+    "slug": "dag2000-16s-ge",
+    "name": "DAG2000-16S(GE)",
+    "category": "FXS VoIP Gateway",
+    "imageKey": "dag2000-16sFront",
+    "galleryKeys": ["dag2000-16sFront", "dag2000-16sBack", "dag2000-16sDetail", "dag2000-16sExtra"],
+    "description": "Analog FXS VoIP gateway with 16 ports and Gigabit Ethernet (GE). Contact us for specifications."
+  },
+  {
+    "slug": "dag2000-24s-ge",
+    "name": "DAG2000-24S(GE)",
+    "category": "FXS VoIP Gateway",
+    "imageKey": "dag2000-24sFront",
+    "galleryKeys": ["dag2000-24sFront", "dag2000-24sBack"],
+    "description": "Analog FXS VoIP gateway with 24 ports and Gigabit Ethernet (GE). Contact us for specifications."
+  },
+  {
+    "slug": "dag2000-32s-ge",
+    "name": "DAG2000-32S(GE)",
+    "category": "FXS VoIP Gateway",
+    "imageKey": "dag2000-32sFront",
+    "galleryKeys": ["dag2000-32sFront", "dag2000-32sBack"],
+    "description": "Analog FXS VoIP gateway with 32 ports and Gigabit Ethernet (GE). Contact us for specifications."
+  },
+  {
+    "slug": "dag2500-48-72-96s",
+    "name": "DAG2500-48/72/96S",
+    "category": "FXS VoIP Gateway",
+    "imageKey": "placeholder",
+    "galleryKeys": ["placeholder"],
+    "description": "High-density analog FXS VoIP gateway series. Contact us for port configuration and specifications."
+  },
+  {
+    "slug": "dag3000-312s",
+    "name": "DAG3000-312S",
+    "category": "FXS VoIP Gateway",
+    "imageKey": "placeholder",
+    "galleryKeys": ["placeholder"],
+    "description": "High-density analog FXS VoIP gateway. Contact us for configuration and specifications."
+  },
+  {
+    "slug": "dag1000-2o",
+    "name": "DAG1000-2O",
+    "category": "FXO VoIP Gateway",
+    "imageKey": "dag1000-2oFront",
+    "galleryKeys": ["dag1000-2oFront", "dag1000-2oBack"],
+    "description": "Analog FXO VoIP gateway for connecting PSTN lines to SIP networks. Contact us for specifications."
+  },
+  {
+    "slug": "dag1000-4o",
+    "name": "DAG1000-4O",
+    "category": "FXO VoIP Gateway",
+    "imageKey": "dag1000-4oFront",
+    "galleryKeys": ["dag1000-4oFront", "dag1000-4oBack"],
+    "description": "Analog FXO VoIP gateway for connecting PSTN lines to SIP networks. Contact us for specifications."
+  },
+  {
+    "slug": "dag1000-8o",
+    "name": "DAG1000-8O",
+    "category": "FXO VoIP Gateway",
+    "imageKey": "dag1000-8oFront",
+    "galleryKeys": ["dag1000-8oFront", "dag1000-8oBack"],
+    "description": "Analog FXO VoIP gateway for connecting PSTN lines to SIP networks. Contact us for specifications."
+  },
+  {
+    "slug": "dag2000-16o",
+    "name": "DAG2000-16O",
+    "category": "FXO VoIP Gateway",
+    "imageKey": "dag2000-16oFront",
+    "galleryKeys": ["dag2000-16oFront", "dag2000-16oBack"],
+    "description": "Analog FXO VoIP gateway for connecting PSTN lines to SIP networks. Contact us for specifications."
+  }
+]

@@ -11700,8 +11700,6 @@ ul.grid-2 {
   .widget_services ul li {
     padding-bottom: 1.125rem;
     margin-bottom: 0.8125rem;
-    position: relative;
-    padding: 0.5rem 0rem 0.5rem 1.5rem;
     margin-bottom: 0;
     line-height: 1.25rem; }
     .wp-block-latest-posts li a,
@@ -11824,8 +11822,6 @@ ul.grid-2 {
 .widget_categories ul li {
   text-align: right;
   display: table;
-  width: 100%;
-  padding: 0.5rem 0rem 0.5rem 1.5rem !important;
   line-height: 1.3 !important; }
 
 .wp-block-categories-list li:before,
