@@ -1,0 +1,67 @@
+.contactSection { padding: 80px 0; }
+.contactGrid { display: grid; grid-template-columns: .85fr 1.15fr; gap: 36px; }
+.eyebrow { color: var(--primary); font-size: 13px; font-weight: 600; letter-spacing: 1px; }
+.contactCard { padding: 38px 32px; background: var(--primary); color: #d2e0ee; }
+.cardIcon { display: grid; place-items: center; width: 62px; height: 62px; border: 1px solid #ffffff40; color: #fff; margin-bottom: 28px; }
+.contactCard .eyebrow { color: #b3cee9; }
+.contactCard h2 { color: #fff; font-family: var(--font-family-title); font-size: 32px; letter-spacing: 3px; font-weight: 500; line-height: 1.4; margin: 18px 0; }
+.contactCard > p { margin-bottom: 28px; }
+.contactLink { display: flex; align-items: center; gap: 16px; color: #fff; padding: 24px 0; border-top: 1px solid #ffffff25; text-decoration: none; }
+.contactLink > div { flex: 1; min-width: 0; }
+.contactLink svg { flex-shrink: 0; }
+.contactLink small, .addressLink small { display: block; font-size: 12px; color: #a9c5e2; margin-bottom: 7px; }
+.contactLink strong { display: block; font-size: 16px; font-weight: 500; color: #fff; overflow-wrap: anywhere; }
+.contactLink:hover { color: #fff; }
+.addressLink { display: flex; align-items: flex-start; gap: 16px; border-top: 1px solid #ffffff25; padding-top: 24px; color: #fff; text-decoration: none; }
+.addressLink > svg { flex-shrink: 0; }
+.addressLink p { color: #d2e0ee; margin: 0 0 15px; }
+.addressLink div > span { display: inline-flex; align-items: center; gap: 10px; color: #fff; font-size: 14px; }
+.cardFooter { margin-top: 30px; padding-top: 22px; border-top: 1px solid #ffffff25; font-size: 12px; color: #a9c5e2; }
+.formCard { padding: 35px; border: 1px solid #e0e5ec; scroll-margin-top: 110px; }
+.formCard :global(.section-head) { margin-bottom: 20px; }
+.formCard :global(.title) { margin-top: 16px; letter-spacing: 4px !important; }
+.formCard > p { margin-bottom: 28px; }
+.formGrid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; }
+.formGrid label { display: block; color: #333; font-size: 14px; font-weight: 500; }
+.formGrid label > span { color: var(--primary); }
+.formGrid input, .formGrid select, .formGrid textarea { width: 100%; display: block; margin-top: 9px; border: 1px solid #dbe1e9; padding: 12px 14px; min-height: 48px; background: #fafbfd; font: inherit; font-size: 14px; font-weight: 400; color: #333; }
+.formGrid input::placeholder, .formGrid textarea::placeholder { color: #999; }
+.formGrid textarea { min-height: 135px; resize: vertical; }
+.formGrid input:focus, .formGrid select:focus, .formGrid textarea:focus { outline: 2px solid #093c6f20; border-color: var(--primary); background: #fff; }
+.fullWidth { grid-column: 1 / -1; }
+.formBottom { display: flex; align-items: center; justify-content: space-between; gap: 25px; margin-top: 25px; }
+.formBottom p { max-width: 220px; font-size: 12px; color: #888; margin: 0; }
+.formBottom button { display: inline-flex; align-items: center; gap: 15px; white-space: nowrap; }
+.formBottom button:disabled { opacity: .6; cursor: wait; }
+.formStatus { font-size: 14px; }
+.success { display: flex; align-items: center; gap: 10px; background: #edf3fb; color: var(--primary); padding: 14px; margin: 20px 0 0; }
+.error { background: #fff4ef; color: #924b3d; padding: 14px; margin: 20px 0 0; }
+.error a { color: inherit; text-decoration: underline; }
+.helpSection { padding: 70px 0; background: #f5f7fa; }
+.helpSection :global(.title) { letter-spacing: 4px !important; }
+.helpGrid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 25px; }
+.helpGrid article { padding: 30px; border: 1px solid #e0e5ec; background: #fff; }
+.helpGrid article > svg { color: var(--primary); margin-bottom: 25px; }
+.helpGrid h3 { color: #222; font-size: 20px; font-weight: 600; margin: 0 0 14px; }
+.helpGrid p { margin-bottom: 24px; }
+.helpGrid a { display: inline-flex; align-items: center; gap: 12px; color: var(--primary); font-size: 14px; font-weight: 600; }
+.locationSection { padding: 80px 0; }
+.locationGrid { display: grid; grid-template-columns: 1fr 1fr; gap: 70px; align-items: center; }
+.locationGrid :global(.title) { letter-spacing: 4px !important; }
+.locationGrid a { display: inline-flex; align-items: center; gap: 16px; margin-top: 15px; }
+.locationCard { padding: 40px; border: 1px solid #dce6f3; background-color: #f3f7fc; background-image: linear-gradient(#d5e1f04a 1px, transparent 1px), linear-gradient(90deg, #d5e1f04a 1px, transparent 1px); background-size: 32px 32px; }
+.locationMarker { display: grid; place-items: center; width: 74px; height: 74px; border: 1px solid #c3d6ec; background: #fff; color: var(--primary); margin-bottom: 25px; }
+.locationCard h3 { margin: 18px 0; font-size: 26px; color: #222; }
+.locationCard > div:last-child { display: flex; align-items: center; gap: 12px; border-top: 1px solid #d4e0f0; padding-top: 20px; margin-top: 25px; color: var(--primary); font-size: 14px; }
+.faqSection { padding: 60px 0 80px; border-top: 1px solid #e4e4e4; }
+.faqGrid { display: grid; grid-template-columns: .8fr 1.2fr; gap: 65px; }
+.faqGrid :global(.title) { letter-spacing: 4px !important; }
+.faqGrid details { border-bottom: 1px solid #e0e5ec; }
+.faqGrid summary { display: flex; justify-content: space-between; align-items: center; gap: 16px; padding: 22px 0; color: #333; font-size: 16px; font-weight: 600; list-style: none; cursor: pointer; }
+.faqGrid summary::-webkit-details-marker { display: none; }
+.faqGrid details[open] summary svg { transform: rotate(180deg); }
+.faqGrid details p { margin: 0 0 24px; }
+.faqGrid summary:focus-visible, .contactSection a:focus-visible, .formBottom button:focus-visible { outline: 2px solid var(--primary); outline-offset: 4px; }
+@media (max-width: 991px) { .contactGrid { gap: 25px; } .contactCard, .formCard { padding: 28px 24px; } .contactCard h2 { font-size: 28px; } .contactLink strong { font-size: 14px; } .formBottom { flex-direction: column; align-items: flex-start; gap: 18px; } .formBottom p { max-width: none; } .helpGrid article { padding: 24px; } .locationGrid { gap: 35px; } }
+@media (max-width: 767px) { .contactSection, .helpSection, .locationSection, .faqSection { padding: 50px 0; } .contactGrid, .helpGrid, .locationGrid, .faqGrid { grid-template-columns: 1fr; gap: 28px; } .contactCard, .formCard { padding: 30px 25px; } .locationCard { padding: 30px; } .faqGrid { gap: 12px; } .formCard :global(.title), .helpSection :global(.title), .locationGrid :global(.title), .faqGrid :global(.title) { letter-spacing: 3px !important; } }
+@media (max-width: 380px) { .formGrid { grid-template-columns: 1fr; } .fullWidth { grid-column: auto; } .contactCard, .formCard { padding: 25px 20px; } }

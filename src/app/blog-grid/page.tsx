@@ -4,19 +4,13 @@ import Image from "next/image";
 import Link from "next/link";
 import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 import Mainlayout from "@/component/Mainlayout";
-import IMAGES from "@/component/theme";
-import Pagebanner from "@/element/Pagebanner";
+import BreadcrumbBanner from "@/component/BreadcrumbBanner";
 import { blogPosts, getBlogImage } from "@/data/blogs";
 
 const BlogGrid = () => (
   <Mainlayout>
     <div className="page-content bg-white">
-      <div
-        className="dz-bnr-inr style-1 overlay-white-dark"
-        style={{ backgroundImage: `url(${IMAGES.BanerImg3.src})` }}
-      >
-        <Pagebanner maintitle="OUR BLOG" currenttitle="Our Blog" parent="Home" />
-      </div>
+      <BreadcrumbBanner title="OUR BLOG" current="Our Blog" />
       <div className="content-inner">
         <div className="container">
           <div className="row section-head-bx align-items-center">

@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import Pagebanner from '../../element/Pagebanner';
+import BreadcrumbBanner from '@/component/BreadcrumbBanner';
 import IMAGES from '../../component/theme';
 import ClientSwiper from '../../element/ClientSwiper';
 import ProgressSection from '../../element/ProgressSection';
@@ -20,9 +20,7 @@ const Services = () => {
     return (
         <Mainlayout>
             <div className="page-content bg-white">
-                <div className="dz-bnr-inr style-1 overlay-white-dark" style={{backgroundImage: `url(${IMAGES.BanerImg2.src})`}}>
-                    <Pagebanner maintitle='OUR SERVICES' currenttitle='Services' parent="Home" />
-                </div>
+                <BreadcrumbBanner title="OUR SERVICES" current="Services" />
                 <section className="content-inner line-img">
                     <div className="container">
                         <div className="row">

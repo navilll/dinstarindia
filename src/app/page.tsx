@@ -34,7 +34,7 @@ export default function Home() {
               <div className="row align-items-center section-head-bx">
                 <div className="col-md-8">
                   <div className="section-head style-1">
-                    <h2 className="title">OUR <span className="text-primary">TELECOMMUNICATION SOLUTIONS</span></h2>
+                    <h2 className="title">OUR <span className="text-primary">COMMUNICATION SOLUTIONS</span></h2>
                     <div className="dz-separator style-1 text-primary"></div>
                   </div>
                 </div>

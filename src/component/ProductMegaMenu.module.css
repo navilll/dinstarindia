@@ -1,0 +1,39 @@
+.menu { position: relative; }
+.breadcrumb { padding: 14px 28px 0; background: #f7faff; }
+.breadcrumb ol { display: flex; align-items: center; flex-wrap: wrap; gap: 12px; padding: 0; margin: 0; list-style: none; font-size: 13px; color: #777; }
+.breadcrumb li + li::before { content: "/"; margin-right: 12px; color: #aaa; }
+.breadcrumb a { color: var(--primary); text-decoration: none; }
+.breadcrumb li[aria-current] { color: #222; }
+.menu > a { padding-right: 22px !important; }
+.toggle { position: absolute; top: 50%; right: 4px; transform: translateY(-50%); display: grid; place-items: center; padding: 3px; border: 0; background: transparent; color: inherit; cursor: pointer; }
+.panel { position: fixed; top: var(--panel-top); left: 50%; transform: translateX(-50%); width: min(1160px, calc(100vw - 48px)); max-height: calc(100dvh - var(--panel-top) - 16px); overflow-y: auto; background: #fff; border: 1px solid #dce5ef; border-top: 3px solid var(--primary); border-radius: 0 0 12px 12px; box-shadow: 0 24px 65px #08264726; z-index: 1005; text-align: left; font-family: var(--font-family-base); }
+.heading { display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: 23px 28px; border-bottom: 1px solid #e7edf4; background: #f7faff; }
+.heading span { display: block; color: #7590ae; font-size: 12px; letter-spacing: .12em; font-weight: 600; margin-bottom: 7px; }
+.heading strong { color: #173a60; font-size: 20px; font-weight: 600; }
+.heading > a, .footer a { display: inline-flex; align-items: center; gap: 10px; font-size: 14px; font-weight: 600; color: var(--primary); text-decoration: none; }
+.categoryGrid { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); padding: 27px 26px 28px; gap: 18px; }
+.category { min-width: 0; border-right: 1px solid #e8eef5; padding-right: 10px; }
+.category:last-child { border-right: 0; padding-right: 0; }
+.category h2 { display: flex; flex-direction: column; align-items: flex-start; gap: 12px; min-height: 88px; font-family: inherit; font-size: 16px; font-weight: 600; color: #183b5f; margin: 0 0 12px; line-height: 1.5; }
+.category h2 > span { display: grid; place-items: center; background: #eaf2fc; color: var(--primary); border-radius: 8px; width: 38px; height: 38px; }
+.category ul { margin: 0; padding: 0; list-style: none; }
+.category li + li { margin-top: 3px; }
+.category li a { display: flex; align-items: center; gap: 7px; padding: 7px 5px; border-radius: 5px; color: #5f748b; font-size: 14px; line-height: 1.5; text-decoration: none; }
+.category li a:hover { background: #edf4fd; color: var(--primary); }
+.category li svg { color: #97aec7; flex-shrink: 0; }
+.category li small { color: #7c8491; font-size: 14px; border: 1px solid #dde4ed; padding: 1px 3px; margin-left: auto; border-radius: 3px; }
+.footer { display: flex; align-items: center; justify-content: space-between; padding: 17px 28px; background: #edf3fb; border-top: 1px solid #e0e9f4; }
+.footer > span { display: flex; align-items: center; gap: 10px; color: #5d7897; font-size: 14px; }
+.panel a:focus-visible, .toggle:focus-visible { outline: 2px solid var(--primary); outline-offset: 3px; }
+@media (max-width: 1199px) { .categoryGrid { gap: 12px; padding: 24px 20px; } .category li a { font-size: 13px; gap: 5px; } }
+@media (max-width: 991px) {
+  .menu > a { width: 100%; padding-right: 42px !important; }
+  .toggle { top: 12px; right: 4px; transform: none; height: 28px; width: 28px; border-radius: 3px; background: var(--primary); color: #fff; }
+  .panel { position: static; transform: none; width: 100%; max-height: none; box-shadow: none; border-radius: 7px; margin-bottom: 12px; }
+  .heading { padding: 16px; align-items: flex-start; flex-wrap: wrap; gap: 12px; } .heading strong { font-size: 12px; }
+  .categoryGrid { grid-template-columns: 1fr; padding: 18px; gap: 24px; }
+  .category { border: 0; padding: 0; } .category h2 { flex-direction: row; align-items: center; font-size: 14px; min-height: 0; margin-bottom: 10px; }
+  .category li a { font-size: 14px; gap: 7px; padding: 8px 3px; }
+  .footer { padding: 16px; flex-wrap: wrap; gap: 13px; } .footer > span { font-size: 13px; }
+}
+

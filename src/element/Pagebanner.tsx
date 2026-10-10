@@ -4,9 +4,10 @@ interface bnrcontent {
     maintitle: string;
     currenttitle: string;
     parent: string;   
+    ancestors?: { label: string; href: string }[];
 } 
 
-const Pagebanner = ({maintitle, currenttitle, parent } : bnrcontent) => {
+const Pagebanner = ({maintitle, currenttitle, parent, ancestors = [] } : bnrcontent) => {
     return (
         <>
 			<div className="container">
@@ -15,7 +16,8 @@ const Pagebanner = ({maintitle, currenttitle, parent } : bnrcontent) => {
 					<nav aria-label="breadcrumb" className="breadcrumb-row">
 						<ul className="breadcrumb">
                             <li className="breadcrumb-item"><Link href="/">{parent}</Link></li>
-                            <li className="breadcrumb-item">{currenttitle}</li>
+                            {ancestors.map(ancestor => <li className="breadcrumb-item" key={ancestor.href}><Link href={ancestor.href}>{ancestor.label}</Link></li>)}
+                            <li className="breadcrumb-item" aria-current="page">{currenttitle}</li>
 						</ul>
 					</nav>			
 				</div>

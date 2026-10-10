@@ -1,0 +1,55 @@
+.banner {
+  position: relative;
+  isolation: isolate;
+  display: grid;
+  place-items: center;
+  min-height: clamp(360px, 30vw, 580px);
+  margin: 20px 20px 0;
+  padding: 70px 104px 70px 28px;
+  overflow: hidden;
+  border-radius: 12px;
+  background-color: var(--primary);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+.banner::before {
+  position: absolute;
+  inset: 0;
+  content: "";
+  z-index: -1;
+  background: linear-gradient(90deg, rgba(2, 10, 22, .94), rgba(3, 22, 43, .84) 50%, rgba(2, 10, 22, .89));
+}
+.content { width: 100%; max-width: 1300px; }
+.content h1 {
+  margin: 0 0 28px;
+  color: #fff;
+  font-family: var(--font-family-base);
+  font-size: clamp(36px, 4vw, 76px);
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -.02em;
+  text-wrap: balance;
+  text-shadow: 0 4px 18px rgba(0, 0, 0, .65);
+}
+.breadcrumb { display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 14px; margin: 0; padding: 0; list-style: none; color: #fff; font-size: 15px; text-shadow: 0 2px 8px rgba(0, 0, 0, .8); }
+.breadcrumb li { display: inline-flex; align-items: center; gap: 14px; }
+.breadcrumb a { color: #fff; text-decoration: none; }
+.breadcrumb a:hover { text-decoration: underline; text-underline-offset: 4px; }
+.breadcrumb a:focus-visible { outline: 2px solid #fff; outline-offset: 5px; }
+.socialRail { position: absolute; inset: 0 0 0 auto; width: 76px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 24px; background: #fff; color: var(--primary); }
+.socialRail > span { writing-mode: vertical-rl; font-family: var(--font-family-title); font-size: 14px; font-weight: 400; letter-spacing: 3px; text-transform: uppercase; }
+.socialRail ul { display: flex; flex-direction: column; align-items: center; gap: 17px; margin: 0; padding: 0; list-style: none; }
+.socialRail a { display: grid; place-items: center; width: 24px; height: 24px; color: #222; font-size: 14px; text-decoration: none; }
+.socialRail a:hover { color: var(--primary); }
+.socialRail a:focus-visible { outline: 2px solid var(--primary); outline-offset: 3px; }
+@media (max-width: 767px) {
+  .banner { margin: 12px 12px 0; min-height: 340px; padding: 55px 20px 100px; background-position: 62% center; border-radius: 10px; }
+  .content h1 { font-size: 36px; margin-bottom: 22px; }
+  .breadcrumb { font-size: 14px; gap: 10px; }
+  .breadcrumb li { gap: 10px; }
+  .socialRail { inset: auto 0 0; width: 100%; height: 52px; flex-direction: row; gap: 16px; }
+  .socialRail > span { writing-mode: horizontal-tb; font-size: 11px; letter-spacing: 1px; }
+  .socialRail ul { flex-direction: row; gap: 7px; }
+  .socialRail a { width: 21px; height: 24px; font-size: 12px; }
+}

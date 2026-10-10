@@ -82,10 +82,11 @@ export const MenuList: MenuItem[] = [
   {
     menu: "Solutions",
     child: [
-      { children: "Call Center", to: "/solutions#call-center" },
-      { children: "Enterprise Communication", to: "/solutions#enterprise-communication" },
-      { children: "DINSTARINDIA SMS Solution", to: "/solutions#sms-solution" },
-      { children: "Industry Solution", to: "/solutions#industry-solution" },
+      { children: "All Solutions", to: "/solutions" },
+      { children: "Call Center", to: "/solutions/call-center" },
+      { children: "Enterprise Communication", to: "/solutions/enterprise-communication" },
+      { children: "DINSTAR SMS Solution", to: "/solutions/sms-solution" },
+      { children: "Industry Solution", to: "/solutions/industry-solution" },
     ],
   },
 ];

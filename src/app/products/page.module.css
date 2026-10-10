@@ -10,6 +10,14 @@
   margin: 8px 0 12px;
 }
 
+.productDescription {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 .catalogHeader p {
   margin: 0;
 }

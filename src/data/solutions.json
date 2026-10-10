@@ -1,0 +1,65 @@
+[
+  {
+    "id": "call-center",
+    "title": "Call Center",
+    "sourceUrl": "https://dinstarindia.in/solutions/call-center/",
+    "contentHeading": "Call center solutions for today and tomorrow",
+    "intro": ["Build a scalable calling environment for inbound, outbound, or blended operations. Dinstar India’s solutions support dialing automation for customer service, market research, and telemarketing.", "Combine IP phones, VoIP gateways, dialers, and headsets with call management capabilities for domestic and international operations."],
+    "features": [
+      { "title": "Call Recording", "description": "Record inbound and outbound conversations for later training and quality review." },
+      { "title": "Call Control", "description": "Manage queues, waiting messages, hold, mute, and call transfers." },
+      { "title": "International Numbers", "description": "Use virtual numbers across countries to support international calling workflows." },
+      { "title": "Call Conference", "description": "Support inbound and outbound conversations within your contact center workflow." },
+      { "title": "Call Routing", "description": "Direct callers to available agents and reduce unnecessary waiting." },
+      { "title": "Configuration", "description": "Get help preparing desktop IP phones for your agents." },
+      { "title": "Call Security", "description": "Control incoming and outgoing VoIP traffic with session border controllers." },
+      { "title": "CRM Integration", "description": "Connect call management, conversation history, and customer relationship workflows." }
+    ],
+    "functions": ["Proxy and filter SIP signaling between endpoints and IP PBX systems.", "Support NAT traversal between private networks and the internet.", "Prioritize sessions and manage bandwidth using quality-of-service policies."]
+  },
+  {
+    "id": "enterprise-communication",
+    "title": "Enterprise Communication",
+    "sourceUrl": "https://dinstarindia.in/solutions/enterprise-communication/",
+    "contentHeading": "Connect your internal and external audiences",
+    "intro": ["Create a collaborative workplace with customizable communications for onsite and remote users. Dinstar India brings together conferencing and virtual communication tools for businesses of different sizes.", "Support everyday operations by connecting colleagues, customers, and distributed locations through a communication setup suited to your organization."],
+    "features": [
+      { "title": "Business Conferencing", "description": "Bring colleagues together through flexible conferencing solutions suited to small businesses and larger enterprises." },
+      { "title": "Webinars & Video Conferencing", "description": "Use real-time conversations for teaching, training, promotion, customer relationships, and collaboration." },
+      { "title": "Solutions for Remote Users", "description": "Support remote teams through virtual communication platforms and suitable desktop, wireless, video, and mobile endpoints." },
+      { "title": "Online Meetings", "description": "Connect internal and external participants so teams can collaborate across locations and continue their everyday work." }
+    ]
+  },
+  {
+    "id": "sms-solution",
+    "title": "DINSTAR SMS Solution",
+    "sourceUrl": "https://dinstarindia.in/solutions/SMS-solution/",
+    "contentHeading": "Direct messaging for your business",
+    "intro": ["Reach customers with deployable SMS workflows for campaigns, alerts, and service updates, using suitable GSM/WCDMA/LTE gateways, SIMBank, and SIMCloud.", "Messaging applications span finance, real estate, travel, education, hospitality, and healthcare. Integration with other channels supports a coordinated customer communication strategy."],
+    "features": [
+      { "title": "Bulk SMS", "description": "Organize scalable messaging campaigns and customer notifications." },
+      { "title": "Application Integration", "description": "Connect business programs through a flexible HTTP API." },
+      { "title": "Centralized Management", "description": "Coordinate messaging gateways across multiple locations." },
+      { "title": "SMPP Connectivity", "description": "Use supported SMS gateway connections for messaging applications." },
+      { "title": "SIM Operations", "description": "Support balance checks, automated recharges, and SMS counters." },
+      { "title": "Email & SMS", "description": "Connect email-to-SMS and SMS-to-email workflows." },
+      { "title": "USSD Support", "description": "Access additional gateway functions for your deployment." },
+      { "title": "Integrated Messaging", "description": "Use SIMBank and SIMCloud within a broader communication setup." }
+    ],
+    "sections": [{ "title": "Messaging that grows with your organization", "body": "Plan a scalable deployment around operating costs, customer engagement, and straightforward setup. Our team can help confirm the required gateway hardware and application compatibility." }]
+  },
+  {
+    "id": "industry-solution",
+    "title": "Industry Solution",
+    "sourceUrl": "https://dinstarindia.in/solutions/industry-solution/",
+    "contentHeading": "Communication shaped around your industry",
+    "intro": ["Different industries need different technologies, infrastructure, and collaboration workflows. Dinstar India offers communication solutions designed around those needs, with deployment, management, and personnel training in mind.", "Plan a scalable setup for enterprise offices, healthcare, education, or hospitality, matching the solution to how your people work."],
+    "features": [
+      { "title": "Enterprise", "description": "Connect main offices, conference rooms, reception, and network infrastructure to support workplace collaboration." },
+      { "title": "Healthcare", "description": "Support hospital communication workflows involving email, SMS, and information exchange, with security considered during deployment." },
+      { "title": "Education", "description": "Enable remote classes, video conferencing, teaching, research, and collaborative learning through suitable communication technologies." },
+      { "title": "Hospitality", "description": "Support hotel operations with call management, guest voicemail, staff mobility, and communication for security personnel." }
+    ],
+    "sections": [{ "title": "A deployment your team can use", "body": "Choose technologies that fit your operating environment and prepare personnel to use them. Training and configuration help bring communication capabilities into everyday work." }]
+  }
+]

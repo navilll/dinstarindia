@@ -120,7 +120,7 @@ const Products = () => {
                           <span className={styles.productCategory}>{product.category}</span>
                           {product.status && <span className={styles.productStatus}>{product.status}</span>}
                           <h2>{product.name}</h2>
-                          <p>{product.description}</p>
+                          <p className={styles.productDescription}>{product.description}</p>
                           <span className={styles.detailsLink}>VIEW DETAILS <i className="las la-long-arrow-alt-right" /></span>
                         </div>
                       </Link>

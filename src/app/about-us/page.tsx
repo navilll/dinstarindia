@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import IMAGES from "../../component/theme";
-import Pagebanner from "../../element/Pagebanner";
+import BreadcrumbBanner from "@/component/BreadcrumbBanner";
 import Mainlayout from "../../component/Mainlayout";
 import styles from "./page.module.css";
 
@@ -54,9 +54,7 @@ const About = () => {
   return (
     <Mainlayout>
       <div className='page-content bg-white'>
-        <div className='dz-bnr-inr style-1 overlay-white-dark' style={{ backgroundImage: `url(${IMAGES.BanerImg1.src})` }}>
-          <Pagebanner maintitle='ABOUT US' currenttitle='About Us' parent='Home' />
-        </div>
+        <BreadcrumbBanner title="ABOUT US" current="About Us" />
         <section className={`content-inner style-2 position-relative ${styles.aboutIntro}`} data-name="Our Company">
           <div className="container">
             <div className="row about-bx5 align-items-end">
@@ -74,6 +72,16 @@ const About = () => {
                   </div>
                   <p className="m-b15">Dinstar India helps businesses build dependable communication systems with genuine VoIP and IP communication products, practical technical guidance, and support from selection through deployment.</p>
                   <p className="m-b30">From contact centers to distributed enterprise teams, we bring together gateways, IP-PBX systems, session border controllers, IP phones, and SIP intercoms to meet real operational needs.</p>
+                  <p className="m-b15">
+                    Our solutions are designed to improve connectivity, simplify communication workflows, and help organizations stay connected across offices, remote teams, and customer service environments.
+                  </p>
+
+                  <p className="m-b30">
+                    With a focus on product quality, compatibility, and long-term reliability, Dinstar India supports businesses in creating scalable communication infrastructures that grow with their needs.
+                  </p>
+                  <p className="m-b30">
+                    Whether you are upgrading existing infrastructure or building a new communication network, Dinstar India delivers flexible, cost-effective solutions backed by expert assistance and dependable after-sales support.
+                  </p>
                   <div className="row m-b30">
                     <div className="col-md-4 col-6 m-b15">
                       <h5 className="text-primary">Genuine Products</h5>

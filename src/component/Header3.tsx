@@ -1,10 +1,11 @@
 "use client"
-import { useContext, useEffect, useReducer, useState } from "react";
+import { useCallback, useContext, useEffect, useReducer, useState } from "react";
 import Image from 'next/image';
 import  IMAGES  from './theme';
 import Link from 'next/link';
 import { Context, MenuList, MenuList2 } from "./ThemContaxt";
 import { usePathname } from "next/navigation";
+import ProductMegaMenu from "./ProductMegaMenu";
 
 const reducer = (previousState: Element, updatedState: any) => {
   return {
@@ -21,6 +22,7 @@ const Header3 = () => {
    const [searchBar, setSearchBar] = useState<boolean>(false)
     const [subscribeModel, setSubscribeModel] = useState<boolean>(false)
     const [mobileSidebar, setMobileSidebar] = useState<boolean>(false);
+    const closeMobileMenu = useCallback(() => setMobileSidebar(false), []);
     const [headerfix, setHeaderfix] = useState<number>(0);
     // const location = useLocation();
     const [menuactive, setMenuactive] = useState("");
@@ -163,6 +165,9 @@ const Header3 = () => {
                                 <ul className="nav navbar-nav navbar navbar-right">
                                     {MenuList2.map((item, ind) => {
                                         const { menu, child, className } = item;
+                                        if (menu === "Products") {
+                                            return <ProductMegaMenu key={ind} onNavigate={closeMobileMenu} />;
+                                        }
                                         if (className === "menu-down" && child?.length) {
                                             return (
                                                 <li className={`sub-menu-down ${ menuactive == item.menu ? "active" : ""}

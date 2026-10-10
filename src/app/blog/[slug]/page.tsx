@@ -2,9 +2,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import Mainlayout from "@/component/Mainlayout";
-import IMAGES from "@/component/theme";
 import BlogSidebar from "@/element/BlogSidebar";
-import Pagebanner from "@/element/Pagebanner";
+import BreadcrumbBanner from "@/component/BreadcrumbBanner";
 import {
   blogPosts,
   getBlogArticleSections,
@@ -38,16 +37,7 @@ export default function BlogDetails({ params }: BlogDetailsProps) {
   return (
     <Mainlayout>
       <div className="page-content bg-white">
-        <div
-          className="dz-bnr-inr style-1 overlay-white-dark"
-          style={{ backgroundImage: `url(${IMAGES.BanerImg8.src})` }}
-        >
-          <Pagebanner
-            maintitle="TELECOM INSIGHTS"
-            parent="Blog"
-            currenttitle={post.title}
-          />
-        </div>
+        <BreadcrumbBanner title="TELECOM INSIGHTS" current={post.title} ancestors={[{ label: "Blog", href: "/blog-grid" }]} />
         <div className="content-inner bg-img-fix">
           <div className="container">
             <div className="row">
