@@ -30,6 +30,7 @@ const ProductDetails = ({ params }: ProductPageProps) => {
   if (!product) {
     notFound();
   }
+  const datasheet = product.resources?.find((resource) => /datasheet/i.test(resource.title));
 
   return (
     <Mainlayout>
@@ -47,6 +48,7 @@ const ProductDetails = ({ params }: ProductPageProps) => {
                     <span className={styles.category}>{product.category}</span>
                     {product.status && <span className={styles.productStatus}>{product.status}</span>}
                     <h1 className="title">{product.name}</h1>
+                    <h2 className={styles.subtitle}>{product.subtitle ?? product.category}</h2>
                     <p className={styles.lead}>{product.description}</p>
                     {product.highlights && (
                       <ul className={styles.summaryHighlights}>
@@ -55,14 +57,25 @@ const ProductDetails = ({ params }: ProductPageProps) => {
                     )}
                     <div className={styles.actionGroup}>
                       <ProductEnquiryModal productName={product.name} />
-                      <a href={`mailto:info@dcnetindia.com?subject=${encodeURIComponent(`Datasheet request - ${product.name}`)}`} className={styles.datasheetAction}>
-                        <i className="las la-file-download" /> REQUEST DATASHEET
+                      <a href={datasheet?.url ?? `mailto:info@dcnetindia.com?subject=${encodeURIComponent(`Datasheet request - ${product.name}`)}`} target={datasheet ? "_blank" : undefined} rel={datasheet ? "noopener noreferrer" : undefined} className={styles.datasheetAction}>
+                        <i className="las la-file-download" /> {datasheet ? "VIEW DATASHEET" : "REQUEST DATASHEET"}
                       </a>
                     </div>
                   </div>
                 </div>
+                {!!product.highlights?.length && <div className={styles.featureStrip} aria-label="Key product capabilities">
+                  {product.highlights.slice(0, 4).map((highlight, index) => <div key={highlight}><span className={styles.featureNumber}>0{index + 1}</span><p>{highlight}</p></div>)}
+                </div>}
+                <div className={styles.detailLayout}>
+                <div>
                 <ProductTabs product={product} />
-              </div>
+                {!!product.resources?.length && <section id="downloads" className={styles.resources}>
+                  <span className={styles.category}>PRODUCT RESOURCES</span>
+                  <h2>Documentation & downloads</h2>
+                  <div className={styles.resourceGrid}>{product.resources.map(resource => <a key={resource.url} href={resource.url} target="_blank" rel="noopener noreferrer"><i className="las la-file-pdf" /><span>{resource.title}<small>PDF document · DINSTAR</small></span><i className="las la-arrow-up" /></a>)}</div>
+                </section>}
+                {product.sourceUrl && <a className={styles.sourceLink} href={product.sourceUrl} target="_blank" rel="noopener noreferrer">View official DINSTAR product information <span aria-hidden="true">↗</span></a>}
+                </div>
               <aside className={styles.enquirySidebar} aria-label="Product enquiry contact information">
                 <span className={styles.sidebarEyebrow}>DINSTAR INDIA</span>
                 <h2>Need product guidance?</h2>
@@ -77,6 +90,8 @@ const ProductDetails = ({ params }: ProductPageProps) => {
                 </a>
                 <p className={styles.sidebarAddress}>3rd Floor, DCNET Building<br />BTM 2nd Stage, Bengaluru</p>
               </aside>
+              </div>
+              </div>
             </div>
           </div>
         </section>

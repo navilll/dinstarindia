@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="640" height="420" viewBox="0 0 640 420" fill="none">
-  <rect width="640" height="420" rx="12" fill="#F2F7F8"/>
-  <path d="M171 153h298v114H171z" fill="#DCEBED" stroke="#16809A" stroke-width="4"/>
-  <path d="M195 178h86v64h-86zM299 178h146v10H299zM299 200h118v8H299zM299 222h96v8h-96z" fill="#fff" stroke="#16809A" stroke-width="3"/>
-  <circle cx="430" cy="226" r="6" fill="#16809A"/>
-  <text x="320" y="316" fill="#526B71" font-family="Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle">PRODUCT IMAGE</text>
-</svg>

@@ -1,0 +1,368 @@
+[
+  {
+    "key": "uc200_pro_0",
+    "file": "uc200-pro-1.png",
+    "sourceUrl": "https://www.dinstar.com/web/images/79391/2018-08-01/UC200%20Pro_side.png",
+    "product": "uc200-pro"
+  },
+  {
+    "key": "uc350_uc350_pro_0",
+    "file": "uc350-uc350-pro-1.png",
+    "sourceUrl": "https://www.dinstar.com/web/images/62188/2018-06-27/UC350_front.png",
+    "product": "uc350-uc350-pro"
+  },
+  {
+    "key": "uc350_uc350_pro_1",
+    "file": "uc350-uc350-pro-2.png",
+    "sourceUrl": "https://www.dinstar.com/web/images/62188/2018-06-27/UC350%20Pro_front.png",
+    "product": "uc350-uc350-pro"
+  },
+  {
+    "key": "uc350_uc350_pro_2",
+    "file": "uc350-uc350-pro-3.png",
+    "sourceUrl": "https://www.dinstar.com/web/images/62188/2018-08-01/UC350_back.png",
+    "product": "uc350-uc350-pro"
+  },
+  {
+    "key": "uc8000_0",
+    "file": "uc8000-1.png",
+    "sourceUrl": "https://www.dinstar.com/web/images/67449/2018-06-27/UC8000_prodetail.png",
+    "product": "uc8000"
+  },
+  {
+    "key": "uc200_eol_0",
+    "file": "uc200-eol-1.png",
+    "sourceUrl": "https://www.dinstar.com/web/images/48058/2018-06-27/UC200-Front(1).png",
+    "product": "uc200-eol"
+  },
+  {
+    "key": "uc200_eol_1",
+    "file": "uc200-eol-2.png",
+    "sourceUrl": "https://www.dinstar.com/web/images/48058/2018-08-01/UC200_back.png",
+    "product": "uc200-eol"
+  },
+  {
+    "key": "uc120_eol_0",
+    "file": "uc120-eol-1.png",
+    "sourceUrl": "https://www.dinstar.com/web/images/57797/2019-04-16/UC120-Front-01.png",
+    "product": "uc120-eol"
+  },
+  {
+    "key": "uc120_eol_1",
+    "file": "uc120-eol-2.png",
+    "sourceUrl": "https://www.dinstar.com/web/images/57797/2019-04-16/UC120-Back-01.png",
+    "product": "uc120-eol"
+  },
+  {
+    "key": "dinlink_softphone_0",
+    "file": "dinlink-softphone-1.png",
+    "sourceUrl": "https://www.dinstar.com/web/images/81650/2019-04-16/DinLink_web.png",
+    "product": "dinlink-softphone"
+  },
+  {
+    "key": "pms_0",
+    "file": "pms-1.png",
+    "sourceUrl": "https://www.dinstar.com/web/images/57797/2019-04-16/PMS010.png",
+    "product": "pms"
+  },
+  {
+    "key": "attendant_console_0",
+    "file": "attendant-console-1.png",
+    "sourceUrl": "https://www.dinstar.com/web/images/57797/2019-04-16/111.png",
+    "product": "attendant-console"
+  },
+  {
+    "key": "sbc300_0",
+    "file": "sbc300-1.png",
+    "sourceUrl": "https://www.dinstar.com/web/images/47174/2018-06-06/SBC300_front%20view.png",
+    "product": "sbc300"
+  },
+  {
+    "key": "sbc300_1",
+    "file": "sbc300-2.png",
+    "sourceUrl": "https://www.dinstar.com/web/images/47174/2018-06-06/SBC300_back%20view.png",
+    "product": "sbc300"
+  },
+  {
+    "key": "sbc1000_0",
+    "file": "sbc1000-1.png",
+    "sourceUrl": "https://www.dinstar.com/web/images/13794/2018-06-06/sbc_1000-F.png",
+    "product": "sbc1000"
+  },
+  {
+    "key": "sbc1000_1",
+    "file": "sbc1000-2.png",
+    "sourceUrl": "https://www.dinstar.com/web/images/13794/2018-06-06/SBC1000_back%20view.png",
+    "product": "sbc1000"
+  },
+  {
+    "key": "sbc3000_0",
+    "file": "sbc3000-1.png",
+    "sourceUrl": "https://www.dinstar.com/web/images/13790/2018-06-21/SBC3000-front.png",
+    "product": "sbc3000"
+  },
+  {
+    "key": "sbc3000_1",
+    "file": "sbc3000-2.png",
+    "sourceUrl": "https://www.dinstar.com/web/images/13790/2018-06-21/SBC3000_back%20view.png",
+    "product": "sbc3000"
+  },
+  {
+    "key": "sbc3000_pro_0",
+    "file": "sbc3000-pro-1.png",
+    "sourceUrl": "https://www.dinstar.com/web/images/81205/2018-06-21/SBC3000%20Pro_front.png",
+    "product": "sbc3000-pro"
+  },
+  {
+    "key": "sbc3000_pro_1",
+    "file": "sbc3000-pro-2.png",
+    "sourceUrl": "https://www.dinstar.com/web/images/81205/2018-06-21/SBC3000%20Pro_back.png",
+    "product": "sbc3000-pro"
+  },
+  {
+    "key": "sbc8000_0",
+    "file": "sbc8000-1.png",
+    "sourceUrl": "https://www.dinstar.com/web/images/66393/2018-06-21/sbc_8000.png",
+    "product": "sbc8000"
+  },
+  {
+    "key": "mtg200_0",
+    "file": "mtg200-1.png",
+    "sourceUrl": "https://www.dinstar.com/web/images/47247/2019-04-19/MTG200_front.png",
+    "product": "mtg200"
+  },
+  {
+    "key": "mtg200_1",
+    "file": "mtg200-2.png",
+    "sourceUrl": "https://www.dinstar.com/web/images/47247/2019-04-19/MTG200_back.png",
+    "product": "mtg200"
+  },
+  {
+    "key": "mtg1000_0",
+    "file": "mtg1000-1.png",
+    "sourceUrl": "https://www.dinstar.com/web/images/47197/2019-04-19/MTG1000_front%20view.png",
+    "product": "mtg1000"
+  },
+  {
+    "key": "mtg1000_1",
+    "file": "mtg1000-2.png",
+    "sourceUrl": "https://www.dinstar.com/web/images/47197/2019-04-19/MTG1000_back.png",
+    "product": "mtg1000"
+  },
+  {
+    "key": "mtg2000_0",
+    "file": "mtg2000-1.png",
+    "sourceUrl": "https://www.dinstar.com/web/images/47222/2019-04-19/MTG2000-%E9%85%8Dfront.png",
+    "product": "mtg2000"
+  },
+  {
+    "key": "mtg2000_1",
+    "file": "mtg2000-2.png",
+    "sourceUrl": "https://www.dinstar.com/web/images/47222/2019-04-19/MTG2000-back.png",
+    "product": "mtg2000"
+  },
+  {
+    "key": "mtg2000b_0",
+    "file": "mtg2000b-1.png",
+    "sourceUrl": "https://www.dinstar.com/web/images/59093/2019-04-19/mtg2000b-front.png",
+    "product": "mtg2000b"
+  },
+  {
+    "key": "mtg2000b_1",
+    "file": "mtg2000b-2.png",
+    "sourceUrl": "https://www.dinstar.com/web/images/59093/2019-04-19/mtg2000b-back.png",
+    "product": "mtg2000b"
+  },
+  {
+    "key": "mtg3000_0",
+    "file": "mtg3000-1.png",
+    "sourceUrl": "https://www.dinstar.com/web/images/47272/2019-04-19/MTG3000_front.png",
+    "product": "mtg3000"
+  },
+  {
+    "key": "mtg3000_1",
+    "file": "mtg3000-2.png",
+    "sourceUrl": "https://www.dinstar.com/web/images/47272/2019-04-19/MTG3000_back.png",
+    "product": "mtg3000"
+  },
+  {
+    "key": "mtg5000_0",
+    "file": "mtg5000-1.png",
+    "sourceUrl": "https://www.dinstar.com/web/images/67201/2019-04-19/MTG5000_front.png",
+    "product": "mtg5000"
+  },
+  {
+    "key": "mtg5000_1",
+    "file": "mtg5000-2.png",
+    "sourceUrl": "https://www.dinstar.com/web/images/67201/2019-04-19/MTG5000_back.png",
+    "product": "mtg5000"
+  },
+  {
+    "key": "mtg3000t_0",
+    "file": "mtg3000t-1.png",
+    "sourceUrl": "https://www.dinstar.com/web/images/47297/2019-04-19/MTG3000T-Front%20(2).png",
+    "product": "mtg3000t"
+  },
+  {
+    "key": "mtg3000t_1",
+    "file": "mtg3000t-2.png",
+    "sourceUrl": "https://www.dinstar.com/web/images/47297/2019-04-19/3000T-B.png",
+    "product": "mtg3000t"
+  },
+  {
+    "key": "dag1000_1_2s_0",
+    "file": "dag1000-1-2s-1.png",
+    "sourceUrl": "https://www.dinstar.com/web/images/22765/2019-02-23/2s_F.png",
+    "product": "dag1000-1-2s"
+  },
+  {
+    "key": "dag1000_1_2s_1",
+    "file": "dag1000-1-2s-2.png",
+    "sourceUrl": "https://www.dinstar.com/web/images/22765/2019-02-23/2s_B.png",
+    "product": "dag1000-1-2s"
+  },
+  {
+    "key": "dag1000_4s_0",
+    "file": "dag1000-4s-1.png",
+    "sourceUrl": "https://www.dinstar.com/web/images/14392/2018-06-27/4S_F.png",
+    "product": "dag1000-4s"
+  },
+  {
+    "key": "dag1000_4s_1",
+    "file": "dag1000-4s-2.png",
+    "sourceUrl": "https://www.dinstar.com/web/images/14392/2018-06-27/4S_B.png",
+    "product": "dag1000-4s"
+  },
+  {
+    "key": "dag1000_4s_ge_0",
+    "file": "dag1000-4s-ge-1.png",
+    "sourceUrl": "https://www.dinstar.com/web/images/62643/2018-06-27/DAG1000-4S(GE)_front%20view.png",
+    "product": "dag1000-4s-ge"
+  },
+  {
+    "key": "dag1000_4s_ge_1",
+    "file": "dag1000-4s-ge-2.png",
+    "sourceUrl": "https://www.dinstar.com/web/images/62643/2018-06-27/DAG1000-4S(GE)_back%20view.png",
+    "product": "dag1000-4s-ge"
+  },
+  {
+    "key": "dag1000_8s_ge_0",
+    "file": "dag1000-8s-ge-1.png",
+    "sourceUrl": "https://www.dinstar.com/web/images/14418/2018-06-27/DAG1000-8S_front%20view.png",
+    "product": "dag1000-8s-ge"
+  },
+  {
+    "key": "dag1000_8s_ge_1",
+    "file": "dag1000-8s-ge-2.png",
+    "sourceUrl": "https://www.dinstar.com/web/images/14418/2018-06-27/DAG1000-8S_back%20view.png",
+    "product": "dag1000-8s-ge"
+  },
+  {
+    "key": "dag2000_16s_ge_0",
+    "file": "dag2000-16s-ge-1.png",
+    "sourceUrl": "https://www.dinstar.com/web/images/15147/2018-06-28/DAG1000-16S_front%20view.png",
+    "product": "dag2000-16s-ge"
+  },
+  {
+    "key": "dag2000_16s_ge_1",
+    "file": "dag2000-16s-ge-2.png",
+    "sourceUrl": "https://www.dinstar.com/web/images/15147/2018-06-28/DAG1000-16S_back%20view.png",
+    "product": "dag2000-16s-ge"
+  },
+  {
+    "key": "dag2000_24s_ge_0",
+    "file": "dag2000-24s-ge-1.png",
+    "sourceUrl": "https://www.dinstar.com/web/images/15173/2018-06-28/24s_F.png",
+    "product": "dag2000-24s-ge"
+  },
+  {
+    "key": "dag2000_24s_ge_1",
+    "file": "dag2000-24s-ge-2.png",
+    "sourceUrl": "https://www.dinstar.com/web/images/15173/2018-06-28/DAG1000-24S_back%20view.png",
+    "product": "dag2000-24s-ge"
+  },
+  {
+    "key": "dag2000_32s_ge_0",
+    "file": "dag2000-32s-ge-1.png",
+    "sourceUrl": "https://www.dinstar.com/web/images/59549/2018-06-28/32s_F.png",
+    "product": "dag2000-32s-ge"
+  },
+  {
+    "key": "dag2000_32s_ge_1",
+    "file": "dag2000-32s-ge-2.png",
+    "sourceUrl": "https://www.dinstar.com/web/images/59549/2018-06-28/DAG1000-32S_back%20view.png",
+    "product": "dag2000-32s-ge"
+  },
+  {
+    "key": "dag2500_48_72_96s_0",
+    "file": "dag2500-48-72-96s-1.png",
+    "sourceUrl": "https://www.dinstar.com/web/images/70384/2018-06-27/DAG2500_front.png",
+    "product": "dag2500-48-72-96s"
+  },
+  {
+    "key": "dag2500_48_72_96s_1",
+    "file": "dag2500-48-72-96s-2.png",
+    "sourceUrl": "https://www.dinstar.com/web/images/70384/2023-05-06/DAG2500_RJ21.png",
+    "product": "dag2500-48-72-96s"
+  },
+  {
+    "key": "dag3000_312s_0",
+    "file": "dag3000-312s-1.png",
+    "sourceUrl": "https://www.dinstar.com/web/images/74617/2018-06-27/DAG3000-312S_f.png",
+    "product": "dag3000-312s"
+  },
+  {
+    "key": "dag3000_312s_1",
+    "file": "dag3000-312s-2.png",
+    "sourceUrl": "https://www.dinstar.com/web/images/74617/2023-05-06/DAG3000-312S_back.png",
+    "product": "dag3000-312s"
+  },
+  {
+    "key": "dag1000_2o_0",
+    "file": "dag1000-2o-1.png",
+    "sourceUrl": "https://www.dinstar.com/web/images/74535/2018-06-27/2O_front.png",
+    "product": "dag1000-2o"
+  },
+  {
+    "key": "dag1000_2o_1",
+    "file": "dag1000-2o-2.png",
+    "sourceUrl": "https://www.dinstar.com/web/images/74535/2018-06-27/2O_back.png",
+    "product": "dag1000-2o"
+  },
+  {
+    "key": "dag1000_4o_0",
+    "file": "dag1000-4o-1.png",
+    "sourceUrl": "https://www.dinstar.com/web/images/14296/2018-06-27/dag_4OF.png",
+    "product": "dag1000-4o"
+  },
+  {
+    "key": "dag1000_4o_1",
+    "file": "dag1000-4o-2.png",
+    "sourceUrl": "https://www.dinstar.com/web/images/14296/2018-06-27/dag_4OB.png",
+    "product": "dag1000-4o"
+  },
+  {
+    "key": "dag1000_8o_0",
+    "file": "dag1000-8o-1.png",
+    "sourceUrl": "https://www.dinstar.com/web/images/14318/2018-06-27/dag_8OF.png",
+    "product": "dag1000-8o"
+  },
+  {
+    "key": "dag1000_8o_1",
+    "file": "dag1000-8o-2.png",
+    "sourceUrl": "https://www.dinstar.com/web/images/14318/2018-06-27/dag_8OB.png",
+    "product": "dag1000-8o"
+  },
+  {
+    "key": "dag2000_16o_0",
+    "file": "dag2000-16o-1.png",
+    "sourceUrl": "https://www.dinstar.com/web/images/46680/2019-04-09/16o_F.png",
+    "product": "dag2000-16o"
+  },
+  {
+    "key": "dag2000_16o_1",
+    "file": "dag2000-16o-2.png",
+    "sourceUrl": "https://www.dinstar.com/web/images/46680/2019-04-09/dag_16SB.png",
+    "product": "dag2000-16o"
+  }
+]

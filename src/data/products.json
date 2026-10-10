@@ -3,325 +3,2994 @@
     "slug": "uc200-pro",
     "name": "UC200 Pro",
     "category": "IP PBX",
-    "imageKey": "uc200Pro",
-    "galleryKeys": ["uc200Pro"],
-    "description": "A powerful, reliable IP PBX for SMEs, supporting up to 500 SIP users and 50 concurrent calls.",
+    "imageKey": "uc200_pro_0",
+    "galleryKeys": [
+      "uc200_pro_0"
+    ],
+    "description": "UC200 Pro is a powerful and reliable IP PBX designed to meet the communication needs of SMEs, with up to 500 SIP users, 50 concurrent calls. With its versatile features, UC200 Pro ensures seamless communication and enhanced productivity, while saving the phone bills of SMEs.",
     "overview": [
-      "UC200 Pro is a powerful and reliable IP PBX designed to meet the communication needs of SMEs, with up to 500 SIP users and 50 concurrent calls. Its versatile features support seamless communication and enhanced productivity while helping reduce phone bills.",
-      "The UC200 Pro supports 60, 200, or 500 SIP extensions and 15, 30, or 50 concurrent calls. It includes 2 FXS and 2 FXO ports, supports up to 8 FXS and 8 FXO ports, and has three additional user-board slots for 2S, 2O, or 1S1O modules. Software licenses can increase SIP users and concurrent calls.",
-      "Built-in security includes Fail2ban, allow and block lists, ACLs, an IP firewall, TLS, SRTP, and ZRTP. The system supports integration with hotel PMS, billing, CRM, conference, paging, and security systems, and provides an intuitive web interface, remote management, configuration backup and restore, and IP phone auto-provisioning.",
-      "Dinstar VoIP gateways support a gradual transition from analog telephony, allowing existing analog phones, fax machines, legacy PBXs, and PSTN lines to be used during migration."
+      "UC200 Pro is a powerful and reliable IP PBX designed to meet the communication needs of SMEs, with up to 500 SIP users, 50 concurrent calls. With its versatile features, UC200 Pro ensures seamless communication and enhanced productivity, while saving the phone bills of SMEs.",
+      "Affordable Upfront System: Cost-effective IP PBX and IP phones. No annual licensing fees or recurring fees.",
+      "Reduce Installation & Maintenance Cost: Easy to use, manage and maintain, remote management and remote upgrade in bulk.",
+      "Retain Old Legacy Equipment: Retain your legacy equipment like analog phones, fax and legacy PBX using VoIP gateways."
     ],
     "highlights": [
       "Up to 500 SIP users and 50 concurrent calls",
-      "2 FXO and 2 FXS ports; expandable with up to 3 additional modules",
-      "Built-in VPN server and client",
-      "No annual licensing fees or recurring fees"
+      "2 FXO and 2 FXS Ports",
+      "Slashed Communication Cost: Free internal calls and low-cost external calls via SIP trunks.",
+      "Attack defense: Fail2ban, whitelist, blacklist, ACL, etc."
     ],
     "specifications": [
-      { "label": "SIP extensions", "value": "60 / 200 / 500" },
-      { "label": "Concurrent calls", "value": "15 / 30 / 50" },
-      { "label": "Default analog ports", "value": "2 FXS, 2 FXO" },
-      { "label": "Maximum FXS ports", "value": "8" },
-      { "label": "Maximum FXO ports", "value": "8" },
-      { "label": "Expansion", "value": "3 additional slots for 2S, 2O, or 1S1O modules" },
-      { "label": "Power supply", "value": "12 VDC, 2 A" },
-      { "label": "Power consumption", "value": "10 W" },
-      { "label": "Dimensions (W x D x H)", "value": "260 x 154 x 42 mm" },
-      { "label": "Unit weight", "value": "1.1 kg" }
+      {
+        "label": "Model",
+        "value": "UC200 Pro"
+      },
+      {
+        "label": "Product type",
+        "value": "IP PBX"
+      },
+      {
+        "label": "SIP extensions",
+        "value": "60 / 200 / 500"
+      },
+      {
+        "label": "Concurrent calls",
+        "value": "15 / 30 / 50"
+      },
+      {
+        "label": "Default analog ports",
+        "value": "2 FXS, 2 FXO"
+      },
+      {
+        "label": "Maximum FXS ports",
+        "value": "8"
+      },
+      {
+        "label": "Maximum FXO ports",
+        "value": "8"
+      },
+      {
+        "label": "Expansion",
+        "value": "3 additional slots for 2S, 2O, or 1S1O modules"
+      },
+      {
+        "label": "Power supply",
+        "value": "12 VDC, 2 A"
+      },
+      {
+        "label": "Power consumption",
+        "value": "10 W"
+      },
+      {
+        "label": "Dimensions (W x D x H)",
+        "value": "260 x 154 x 42 mm"
+      },
+      {
+        "label": "Unit weight",
+        "value": "1.1 kg"
+      },
+      {
+        "label": "Storage Temperature",
+        "value": "-10 ℃ ~90 ℃"
+      },
+      {
+        "label": "Humidity",
+        "value": "10%-90% Non-Condensing"
+      },
+      {
+        "label": "Dimensions (W/D/H)",
+        "value": "260×154×42mm"
+      }
     ],
     "features": [
-      "Multi-level IVR, auto-attendant, call queue, ring group, and paging",
-      "Call forwarding, waiting, holding, transfer, pickup, and parking",
-      "Voicemail, voicemail to email, local recording, and call detail records",
-      "Flexible routing by time period, caller or called prefix, and source trunk",
-      "Failover routing, dial rules, and caller/called number manipulation",
-      "T.30/T.38 fax support, conferences, video calls, and intercom",
-      "Fail2ban, allow and block lists, ACLs, TLS, SRTP, and ZRTP"
+      "Up to 500 SIP users and 50 concurrent calls",
+      "2 FXO and 2 FXS Ports",
+      "Up to 3 additional modules",
+      "Expand with 2S/2O/1S1O modules",
+      "Built-in VPN server/client",
+      "User-friendly web interface",
+      "Call Forward",
+      "Call Waiting",
+      "Call Holding",
+      "Call Transfer",
+      "Hotline",
+      "Do-not-disturb",
+      "3-Way Conference",
+      "Ring Group",
+      "Call Queue",
+      "Routing Groups",
+      "Caller/Called Number Manipulation",
+      "Routing Based on Time Period",
+      "Routing Based on Caller/Called Prefixes",
+      "Routing Based on Source Trunks",
+      "Dial Rules",
+      "Failover Routing",
+      "Multi-level IVR",
+      "Auto-attendant Function",
+      "Voicemail to Email",
+      "Voicemail",
+      "CDRs",
+      "Paging",
+      "Event Report",
+      "Email Client",
+      "Local Recording (Support USB Storage)",
+      "Power Supply: 12VDC, 2A",
+      "Power Consumption: 10W",
+      "Operating Temperature. 0 ℃ ~ 40 ℃",
+      "Storage Temperature: -10 ℃ ~90 ℃",
+      "Humidity: 10%-90% Non-Condensing",
+      "Dimensions (W/D/H): 260×154×42mm",
+      "Unit Weight: 1.1kg"
+    ],
+    "sourceUrl": "https://www.dinstar.com/ip-pbx/uc200pro",
+    "subtitle": "IP PBX",
+    "resources": [
+      {
+        "url": "https://www.dinstar.com/WEB/files/15324/2024-09-04/UC200%20Pro%20VoIP%20PBX%20Datasheet-Desktop.pdf",
+        "title": "UC200 Pro IP PBX Datasheet"
+      },
+      {
+        "url": "https://www.dinstar.com/WEB/files/15324/2024-09-04/UC200%20Pro%20IP%20PBX%20Datasheet_Rack.pdf",
+        "title": "UC200 Pro VoIP PBX Datasheet-Rack"
+      },
+      {
+        "url": "https://www.dinstar.com/WEB/files/15335/2024-09-04/UC200%20Pro%20IP%20PBX%20User%20Manual.pdf",
+        "title": "UC200 Pro IP PBX User Manual"
+      },
+      {
+        "url": "https://www.dinstar.com/WEB/files/15335/2024-09-04/UC200%20Pro%20IP%20PBX%20User%20Manual_Rack.pdf",
+        "title": "UC200 Pro IP PBX User Manual-Rack"
+      },
+      {
+        "url": "https://www.dinstar.com/WEB/files/15333/2024-09-04/UC200%20Pro%20&UC350&%20UC350%20Pro%20Quick%20Installation%20Guide.pdf",
+        "title": "UC200 Pro IP PBX Quick Installation Guide"
+      }
     ]
   },
   {
     "slug": "uc350-uc350-pro",
     "name": "UC350/UC350 Pro",
     "category": "IP PBX",
-    "imageKey": "uc350ProFront",
-    "galleryKeys": ["uc350Front", "uc350Back", "uc350ProFront", "uc350ProSide", "uc350ProBack"],
-    "description": "A modular, high-capacity IP PBX series for medium and large enterprises, with up to 5,000 extensions and 500 concurrent calls.",
+    "imageKey": "uc350_uc350_pro_0",
+    "galleryKeys": [
+      "uc350_uc350_pro_0",
+      "uc350_uc350_pro_1",
+      "uc350_uc350_pro_2"
+    ],
+    "description": "UC350 Series IP PBX is a new generation IP PBX for large capacity unified communication solutions. Based on powerful hardware platform, UC350 Series IP PBX includes UC350 and UC350 Pro. UC350 and UC350 Pro support 1,000/5,000 extensions and 100/500 concurrent calls which is integrated voice, video, paging, fax, conference, recording and other useful functions. It also provides four slots which are able to install E1/T1 boards, FXS and FXO boards by hot-plug mode, so that it can be flexibly configured and combined according to the actual use scenarios. It is suitable for helping to build the telephony system of large and medium-sized enterprises, and can meet the branch office needs of large group enterprises and government agencies, helping enterprises and industry customers to establish a convenient and efficient IP telephone system.",
     "overview": [
-      "The UC350 Series is a high-capacity unified communications solution. UC350 and UC350 Pro support up to 1,000 and 5,000 extensions, and 100 and 500 concurrent calls, respectively.",
-      "Voice, video, paging, fax, conferencing, and recording are integrated in the system. Four hot-pluggable slots accept E1/T1, FXS, and FXO boards so the system can be configured for different deployment needs, including branches of large groups and government agencies."
+      "UC350 Series IP PBX is a new generation IP PBX for large capacity unified communication solutions. Based on powerful hardware platform, UC350 Series IP PBX includes UC350 and UC350 Pro. UC350 and UC350 Pro support 1,000/5,000 extensions and 100/500 concurrent calls which is integrated voice, video, paging, fax, conference, recording and other useful functions. It also provides four slots which are able to install E1/T1 boards, FXS and FXO boards by hot-plug mode, so that it can be flexibly configured and combined according to the actual use scenarios. It is suitable for helping to build the telephony system of large and medium-sized enterprises, and can meet the branch office needs of large group enterprises and government agencies, helping enterprises and industry customers to establish a convenient and efficient IP telephone system."
     ],
     "highlights": [
-      "UC350: up to 1,000 extensions and 100 concurrent calls",
-      "UC350 Pro: up to 5,000 extensions and 500 concurrent calls",
-      "Four hot-pluggable slots for E1/T1, FXS, and FXO boards",
-      "Voice, video, paging, fax, conference, and recording"
+      "Max to 5,000 SIP extensions",
+      "Max to 500 concurrent calls",
+      "Max to 32 FXS/FXO ports, 16S16O or 16 E1/T1 ports",
+      "2/4 GE ports for efficient data forwarding"
     ],
-    "features": ["Modular design", "Auto provisioning", "Intelligent IVR", "Hot standby", "IP firewall", "TLS/SRTP"]
+    "features": [
+      "3-way Calling, Conference call",
+      "Call Forward (Always/No Answer/Busy)",
+      "Video call",
+      "Call Forwarding for particular user",
+      "Voicemail Forwarding",
+      "Blind/Attended Transfer",
+      "Voicemail, Voicemail to Email",
+      "Redial/Call Return",
+      "Call Control",
+      "Speed dial",
+      "Call with Password Protection",
+      "Call transfer, Call parking, Call waiting",
+      "Call Priority",
+      "Do-not-disturb (DND)",
+      "Call Group Control",
+      "DISA",
+      "Instant meeting, Scheduling meeting(Audio only)",
+      "Music on Hold",
+      "Blacklist/Whitelist",
+      "Emergency Call",
+      "CDRs/Call Signaling Recording",
+      "Alarm Call",
+      "One Touch Recording",
+      "Broadcast/Broadcast group",
+      "Auto-recording",
+      "Call pickup/pickup group",
+      "Playback recording on web",
+      "Intercom/ Multicast",
+      "One SIP account with multi device registrations",
+      "Call Queue",
+      "One device multiple numbers",
+      "Call Routing Group, Ring Group",
+      "Auto Provisioning",
+      "Coloring Ring Back Tone(CRBT)",
+      "Auto-attendant Function",
+      "Custom Prompt, Distinctive Ringtone",
+      "Multi-level IVRs",
+      "Feature codes",
+      "Designated Pickup",
+      "Caller ID display",
+      "Manager/Secretary Function",
+      "Caller/Called Number Manipulation",
+      "Routing Based on Time Period",
+      "Routing Based on Caller/Called Prefixes",
+      "Attendant Console",
+      "Mobile Extension",
+      "Auto-Configuration",
+      "IP Blacklist",
+      "Multi-language System Prompt",
+      "Extension User Management Interface",
+      "Random Password for Extension",
+      "Intercom/paging, Hot-desk"
+    ],
+    "sourceUrl": "https://www.dinstar.com/ip-pbx/uc350",
+    "subtitle": "High-end IP PBX",
+    "specifications": [
+      {
+        "label": "Model",
+        "value": "UC350/UC350 Pro"
+      },
+      {
+        "label": "Product type",
+        "value": "High-end IP PBX"
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://www.dinstar.com/WEB/files/62190/2018-06-06/UC350%20Series%20IP%20PBX%20Datasheet%20V2.0.pdf",
+        "title": "UC350 Series IP PBX Datasheet"
+      },
+      {
+        "url": "https://www.dinstar.com/WEB/files/15335/2018-09-06/UC350&UC350%20Pro%20IP%20PBX%20User%20Manual.pdf",
+        "title": "UC350 Series IP PBX User Manual"
+      },
+      {
+        "url": "https://www.dinstar.com/WEB/files/15333/2018-06-06/UC350&UC350%20Pro%20Quick%20Installation%20Guide.pdf",
+        "title": "UC350 Series IP PBX Quick Installation Guide"
+      }
+    ]
   },
   {
     "slug": "uc8000",
     "name": "UC8000",
     "category": "IP PBX",
-    "imageKey": "placeholder",
-    "galleryKeys": ["placeholder"],
-    "description": "A full-featured software edition IP PBX deployable on-premises, in a virtual machine, or in the cloud.",
-    "overview": [
-      "UC8000 is Dinstar's software edition IP PBX. It can run on customer hardware, a virtual machine, or in the cloud and interoperates with Dinstar IP phones and VoIP gateways.",
-      "The platform provides an IP telephony solution for medium and large enterprises, single-site and multi-branch organizations, government, and industry deployments."
+    "imageKey": "uc8000_0",
+    "galleryKeys": [
+      "uc8000_0"
     ],
-    "highlights": ["Software edition with flexible deployment options", "Works with Dinstar IP phones and VoIP gateways"],
-    "features": ["On-premises, virtual-machine, or cloud deployment", "Scalable IP telephony"]
+    "description": "UC8000 is Dinstar software edition IP PBX, full featured, reliable and affordable. You can run it on-premise on your own hardware appliance, a virtual machine, or in cloud. Fully interoperable with Dinstar IP phones and VoIP gateways, UC8000 offers a total IP telephony solution to medium and large enterprises, single location and multi-branch, governments and industry verticals.",
+    "overview": [
+      "UC8000 is Dinstar software edition IP PBX, full featured, reliable and affordable. You can run it on-premise on your own hardware appliance, a virtual machine, or in cloud. Fully interoperable with Dinstar IP phones and VoIP gateways, UC8000 offers a total IP telephony solution to medium and large enterprises, single location and multi-branch, governments and industry verticals.",
+      "Voicemail, Call recording, Auto-attendance, Voicemail-to-email, Flexible call routing, Ring group, Music-on-hold, Call forwarding, Call transfer, Call parking, Call waiting, CDRs, Billing API&many more"
+    ],
+    "highlights": [
+      "Up to 20,000 SIP extensions, up to 4,000 concurrent calls",
+      "Highly scalable and adaptable to medium and large enterprises",
+      "Flexible and simple licensing, grow with your business",
+      "Easy to use and manage with user-friendly Web GUI"
+    ],
+    "features": [
+      "3-way Calling, Conference call",
+      "Call Forward (Always/No Answer/Busy)",
+      "Video call",
+      "Call Forwarding for particular user",
+      "Voicemail Forwarding",
+      "Blind/Attended Transfer",
+      "Voicemail, Voicemail to Email",
+      "Redial/Call Return",
+      "Call Control",
+      "Speed dial",
+      "Call with Password Protection",
+      "Call transfer, Call parking, Call waiting",
+      "Call Priority",
+      "Do-not-disturb (DND)",
+      "Call Group Control",
+      "DISA",
+      "Instant meeting, Scheduling meeting(Audio only)",
+      "Music on Hold",
+      "Blacklist/Whitelist",
+      "Emergency Call",
+      "CDRs/Call Signaling Recording",
+      "Alarm Call",
+      "One Touch Recording",
+      "Broadcast/Broadcast group",
+      "Auto-recording",
+      "Call pickup/pickup group",
+      "Playback recording on web",
+      "Intercom/ Multicast",
+      "One SIP account with multi device registrations",
+      "Call Queue",
+      "One device multiple numbers",
+      "Call Routing Group, Ring Group",
+      "Auto Provisioning",
+      "Coloring Ring Back Tone(CRBT)",
+      "Auto-attendant Function",
+      "Custom Prompt, Distinctive Ringtone",
+      "Multi-level IVRs",
+      "Feature codes",
+      "Designated Pickup",
+      "Caller ID display",
+      "Manager/Secretary Function",
+      "Caller/Called Number Manipulation",
+      "Routing Based on Time Period",
+      "Routing Based on Caller/Called Prefixes",
+      "Attendant Console",
+      "Mobile Extension",
+      "Auto-Configuration",
+      "IP Blacklist",
+      "Multi-language System Prompt",
+      "Extension User Management Interface",
+      "Random Password for Extension",
+      "Intercom/paging, Hot-desk"
+    ],
+    "sourceUrl": "https://www.dinstar.com/ip-pbx/uc8000",
+    "subtitle": "Software Edition IP PBX",
+    "specifications": [
+      {
+        "label": "Model",
+        "value": "UC8000"
+      },
+      {
+        "label": "Product type",
+        "value": "Software Edition IP PBX"
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://www.dinstar.com/WEB/files/15324/2018-06-06/UC8000%20VoIP%20PBX%20Datasheet%20v1.0.pdf",
+        "title": "UC8000 IP PBX Datasheet"
+      },
+      {
+        "url": "https://www.dinstar.com/WEB/files/15335/2018-09-06/UC8000-Software-IP-PBX-User-Manual.pdf",
+        "title": "UC8000 IP PBX User Manual"
+      }
+    ]
   },
   {
     "slug": "uc200-eol",
     "name": "UC200 (EOL)",
     "category": "IP PBX",
     "status": "EOL",
-    "imageKey": "placeholder",
-    "galleryKeys": ["placeholder"],
-    "description": "End-of-life compact IP PBX for SMEs, with up to 500 SIP users and 30 concurrent calls.",
-    "overview": [
-      "UC200 is a compact IP PBX designed for small and medium-sized businesses. The supplied product information lists support for up to 500 SIP users and 30 concurrent calls.",
-      "This model is marked end of life. Contact Dinstar India for product lifecycle, support, and replacement information."
+    "imageKey": "uc200_eol_0",
+    "galleryKeys": [
+      "uc200_eol_0",
+      "uc200_eol_1"
     ],
-    "highlights": ["Up to 500 SIP users", "Up to 30 concurrent calls", "End-of-life model"]
+    "description": "UC200 is a compact yet powerful IP PBX designed to meet the communication needs of SMEs, with up to 500 SIP users, 30 concurrent calls. With its versatile features, UC200 ensures seamless communication and enhanced productivity, while saving the phone bills of SMEs.",
+    "overview": [
+      "UC200 is a compact yet powerful IP PBX designed to meet the communication needs of SMEs, with up to 500 SIP users, 30 concurrent calls. With its versatile features, UC200 ensures seamless communication and enhanced productivity, while saving the phone bills of SMEs.",
+      "Affordable Upfront System: Cost-effective IP PBX and IP phones. No annual licensing fees or recurring fees.",
+      "Reduce Installation & Maintenance Cost: Easy to use, manage and maintain, remote management and remote upgrade in bulk.",
+      "Retain Old Legacy Equipment: Retain your legacy equipment like analog phones, fax and legacy PBX using VoIP gateways."
+    ],
+    "highlights": [
+      "Up to 500 SIP users and 30 concurrent calls",
+      "2 FXO and 2 FXS Ports",
+      "Slashed Communication Cost: Free internal calls and low-cost external calls via SIP trunks.",
+      "Intuitive Web interface"
+    ],
+    "sourceUrl": "https://www.dinstar.com/soho-sme-ip-pbx/uc200",
+    "subtitle": "VoIP PBX",
+    "features": [
+      "Up to 500 SIP users and 30 concurrent calls",
+      "2 FXO and 2 FXS Ports",
+      "Built-in VPN server/client",
+      "User-friendly web interface",
+      "Call Forward",
+      "Call Waiting",
+      "Call Holding",
+      "Call Transfer",
+      "Hotline",
+      "Do-not-disturb",
+      "3-Way Conference",
+      "Ring Group",
+      "Call Queue",
+      "Routing Groups",
+      "Caller/Called Number Manipulation",
+      "Routing Based on Time Period",
+      "Routing Based on Caller/Called Prefixes",
+      "Routing Based on Source Trunks",
+      "Dial Rules",
+      "Failover Routing",
+      "Multi-level IVR",
+      "Auto-attendant Function",
+      "Voicemail to Email",
+      "Voicemail",
+      "CDRs",
+      "Paging",
+      "Event Report",
+      "Email Client",
+      "Local Recording (Support USB Storage)",
+      "Power Supply: 12VDC, 2A",
+      "Power Consumption: 18W",
+      "Operating Temperature. 0 ℃ ~ 40 ℃",
+      "Storage Temperature: -10 ℃ ~90 ℃",
+      "Humidity: 10%-90% Non-Condensing",
+      "Dimensions (W/D/H): 240×180×35mm",
+      "Unit Weight: 1 kg"
+    ],
+    "specifications": [
+      {
+        "label": "Model",
+        "value": "UC200 (EOL)"
+      },
+      {
+        "label": "Product type",
+        "value": "VoIP PBX"
+      },
+      {
+        "label": "Power Supply",
+        "value": "12VDC, 2A"
+      },
+      {
+        "label": "Power Consumption",
+        "value": "18W"
+      },
+      {
+        "label": "Storage Temperature",
+        "value": "-10 ℃ ~90 ℃"
+      },
+      {
+        "label": "Humidity",
+        "value": "10%-90% Non-Condensing"
+      },
+      {
+        "label": "Dimensions (W/D/H)",
+        "value": "240×180×35mm"
+      },
+      {
+        "label": "Unit Weight",
+        "value": "1 kg"
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://www.dinstar.com/WEB/files/15324/2018-06-06/UC200%20VoIP%20PBX%20Datasheet.pdf",
+        "title": "UC200 IP PBX Datasheet"
+      },
+      {
+        "url": "https://www.dinstar.com/WEB/files/15335/2018-10-09/UC200%20IP%20PBX%20User%20Manual.pdf",
+        "title": "UC200 IP PBX User Manual"
+      },
+      {
+        "url": "https://www.dinstar.com/WEB/files/15333/2021-06-17/UC120%20UC200%20Quick%20Intallation%20Guide.pdf",
+        "title": "UC200 IP PBX Quick Installation Guide"
+      }
+    ]
   },
   {
     "slug": "uc120-eol",
     "name": "UC120 (EOL)",
     "category": "IP PBX",
     "status": "EOL",
-    "imageKey": "placeholder",
-    "galleryKeys": ["placeholder"],
-    "description": "End-of-life Dinstar IP PBX. Contact Dinstar India for lifecycle, support, and replacement information.",
-    "overview": ["This model is marked end of life. The supplied product document does not include UC120 specifications; contact Dinstar India for lifecycle, support, and replacement information."]
+    "imageKey": "uc120_eol_0",
+    "galleryKeys": [
+      "uc120_eol_0",
+      "uc120_eol_1"
+    ],
+    "description": "UC120 is a VoIP PBX phone system designed for small and medium sized enterprises to boost productivity, improve efficiency and reduce telephony and operational cost. As a converged platform offering diverse connectivity to all networks like FXO (CO), FXS, GSM/VoLTE and VoIP/SIP, supporting up to 60 users, UC120 allows businesses take advantage of state-of-art technology and enterprise class features with small investments, delivers high performance and superior quality to meet the communication needs of today and tomorrow.",
+    "overview": [
+      "UC120 is a VoIP PBX phone system designed for small and medium sized enterprises to boost productivity, improve efficiency and reduce telephony and operational cost. As a converged platform offering diverse connectivity to all networks like FXO (CO), FXS, GSM/VoLTE and VoIP/SIP, supporting up to 60 users, UC120 allows businesses take advantage of state-of-art technology and enterprise class features with small investments, delivers high performance and superior quality to meet the communication needs of today and tomorrow.",
+      "Affordable Upfront System: Cost-effective IP PBX and IP phones. No annual licensing fees or recurring fees.",
+      "Reduce Installation & Maintenance Cost: Easy to use, manage and maintain, remote management and remote upgrade in bulk.",
+      "Retain Old Legacy Equipment: Retain your legacy equipment like analog phones, fax and legacy PBX using VoIP gateways."
+    ],
+    "sourceUrl": "https://www.dinstar.com/soho-sme-voip-pbx/uc120",
+    "subtitle": "VoIP PBX",
+    "features": [
+      "Up to 60 SIP users and 15 concurrent calls",
+      "1* FXS/FXO Hybrid or 2 * FXS or 2* FXO",
+      "Built-in VPN server/client",
+      "User-friendly web interface",
+      "Call Forward",
+      "Call Waiting",
+      "Call Holding",
+      "Call Transfer",
+      "Hotline",
+      "Do-not-disturb",
+      "3-Way Conference",
+      "Ring Group",
+      "Call Queue",
+      "Routing Groups",
+      "Caller/Called Number Manipulation",
+      "Routing Based on Time Period",
+      "Routing Based on Caller/Called Prefixes",
+      "Routing Based on Source Trunks",
+      "Dial Rules",
+      "Failover Routing",
+      "Multi-level IVR",
+      "Auto-attendant Function",
+      "Voicemail to Email",
+      "Voicemail",
+      "CDRs",
+      "Paging",
+      "Event Report",
+      "Email Client",
+      "Local Recording (Support USB Storage)",
+      "Power Supply: 12VDC, 2A",
+      "Power Consumption: under 10W",
+      "Operating Temperature. 0 ℃ ~ 40 ℃",
+      "Storage Temperature: -20 ℃~80 ℃",
+      "Humidity: 10%-90% Non-Condensing",
+      "Dimensions (W/D/H): 178×98×28mm",
+      "Unit Weight: 0.5 kg"
+    ],
+    "highlights": [
+      "Up to 60 SIP users and 15 concurrent calls",
+      "Slashed Communication Cost: Free internal calls and low-cost external calls via SIP trunks.",
+      "Intuitive Web interface",
+      "Configuration Backup & Restore"
+    ],
+    "specifications": [
+      {
+        "label": "Model",
+        "value": "UC120 (EOL)"
+      },
+      {
+        "label": "Product type",
+        "value": "VoIP PBX"
+      },
+      {
+        "label": "Power Supply",
+        "value": "12VDC, 2A"
+      },
+      {
+        "label": "Power Consumption",
+        "value": "under 10W"
+      },
+      {
+        "label": "Storage Temperature",
+        "value": "-20 ℃~80 ℃"
+      },
+      {
+        "label": "Humidity",
+        "value": "10%-90% Non-Condensing"
+      },
+      {
+        "label": "Dimensions (W/D/H)",
+        "value": "178×98×28mm"
+      },
+      {
+        "label": "Unit Weight",
+        "value": "0.5 kg"
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://www.dinstar.com/WEB/files/54679/2018-06-06/UC120%20SME%20IP%20PBX%20datasheet_v2.0.pdf",
+        "title": "UC120 VoIP PBX Datasheet"
+      },
+      {
+        "url": "https://www.dinstar.com/WEB/files/15335/2018-09-06/UC120%20IP%20PBX%20User%20Manual.pdf",
+        "title": "UC120 IP PBX User Manual"
+      },
+      {
+        "url": "https://www.dinstar.com/WEB/files/15333/2021-06-17/UC120%20UC200%20Quick%20Intallation%20Guide.pdf",
+        "title": "UC120 IP PBX Quick Installation Guide"
+      }
+    ]
   },
   {
     "slug": "dinlink-softphone",
     "name": "DinLink Softphone",
     "category": "IP PBX",
-    "imageKey": "placeholder",
-    "galleryKeys": ["placeholder"],
-    "description": "A softphone application for enterprise IP PBX users, with communication and collaboration functions.",
-    "overview": ["DinLink is a softphone application designed for enterprise IP PBX users, providing communication functions and collaboration tools."]
+    "imageKey": "dinlink_softphone_0",
+    "galleryKeys": [
+      "dinlink_softphone_0"
+    ],
+    "description": "DinLink APP is a softphone application designed for enterprise IPPBX users, providing users with comprehensive communication functions and efficient collaboration tools.",
+    "overview": [
+      "DinLink APP is a softphone application designed for enterprise IPPBX users, providing users with comprehensive communication functions and efficient collaboration tools."
+    ],
+    "sourceUrl": "https://www.dinstar.com/products/softphone-dinlink",
+    "subtitle": "",
+    "specifications": [
+      {
+        "label": "Model",
+        "value": "DinLink Softphone"
+      },
+      {
+        "label": "Product type",
+        "value": ""
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://www.dinstar.com/WEB/files/15324/2026-02-06/Dinlink%20APP%202.0%20Datasheet.pdf",
+        "title": "DinLink App Datasheet"
+      }
+    ]
   },
   {
     "slug": "pms",
     "name": "PMS",
     "category": "IP PBX",
-    "imageKey": "placeholder",
-    "galleryKeys": ["placeholder"],
-    "description": "Dinstar IP PBX hotel PMS integration. Contact us for supported systems and integration details.",
-    "overview": ["The supplied UC200 Pro information describes integration with hotel PMS systems. Contact Dinstar India to discuss supported systems and integration requirements."]
+    "imageKey": "pms_0",
+    "galleryKeys": [
+      "pms_0"
+    ],
+    "description": "Hospitality communication platform integrated with UC Series IP PBX, streamlining operations, enhancing guest services and resource management through integration.",
+    "overview": [
+      "Hospitality communication platform integrated with UC Series IP PBX, streamlining operations, enhancing guest services and resource management through integration."
+    ],
+    "sourceUrl": "https://www.dinstar.com/pro_detial/595257",
+    "subtitle": "Property Management System",
+    "specifications": [
+      {
+        "label": "Model",
+        "value": "PMS"
+      },
+      {
+        "label": "Product type",
+        "value": "Property Management System"
+      }
+    ],
+    "resources": []
   },
   {
     "slug": "attendant-console",
     "name": "Attendant Console",
     "category": "IP PBX",
-    "imageKey": "placeholder",
-    "galleryKeys": ["placeholder"],
-    "description": "An attendant console for Dinstar IP PBX deployments. Contact us for supported platforms and capabilities.",
-    "overview": ["Contact Dinstar India for attendant console platform compatibility, features, and deployment information."]
+    "imageKey": "attendant_console_0",
+    "galleryKeys": [
+      "attendant_console_0"
+    ],
+    "description": "Attendant Console is a communication management tool designed for front desks and call centers. It streamlines call handling, enables real-time extension monitoring, and simplifies customer information processing to enhance service quality and operational efficiency.",
+    "overview": [
+      "Attendant Console is a communication management tool designed for front desks and call centers. It streamlines call handling, enables real-time extension monitoring, and simplifies customer information processing to enhance service quality and operational efficiency."
+    ],
+    "sourceUrl": "https://www.dinstar.com/pro_detial/595256",
+    "subtitle": "",
+    "specifications": [
+      {
+        "label": "Model",
+        "value": "Attendant Console"
+      },
+      {
+        "label": "Product type",
+        "value": ""
+      }
+    ],
+    "resources": []
   },
   {
     "slug": "sbc300",
     "name": "SBC300",
     "category": "Session Border Controller",
-    "imageKey": "sbc300Front",
-    "galleryKeys": ["sbc300Front", "sbc300Back"],
-    "description": "Dinstar session border controller for secure connectivity between SIP networks. Contact us for model specifications."
+    "imageKey": "sbc300_0",
+    "galleryKeys": [
+      "sbc300_0",
+      "sbc300_1"
+    ],
+    "description": "Dinstar SBC300 are designed to deliver security, interoperability and transcoding between SMB and service providers' VoIP networks. SBC300 help SME easily access to service providers' SIP trunks / telecom operators IMS with high-level security,meanwhile perform SIP mediation and audio transcoding. Scaling from 5 to 50 SIP sessions, SBC300 always meet SME demands today and in the future with only small investment.",
+    "sourceUrl": "https://www.dinstar.com/session-border-controller/sbc300",
+    "subtitle": "Session Border Controller",
+    "overview": [
+      "Dinstar SBC300 are designed to deliver security, interoperability and transcoding between SMB and service providers' VoIP networks. SBC300 help SME easily access to service providers' SIP trunks / telecom operators IMS with high-level security,meanwhile perform SIP mediation and audio transcoding. Scaling from 5 to 50 SIP sessions, SBC300 always meet SME demands today and in the future with only small investment."
+    ],
+    "features": [
+      "5 to 50 Simultaneous calls",
+      "SIP call scan attack detection",
+      "5 to 50 transcoding calls",
+      "SIP anti-attack",
+      "Max. 1000 SIP registrations",
+      "SIP Header manipulation",
+      "Max. 20 Registration per second",
+      "SIP malformed packet protection",
+      "Unlimited SIP Trunks",
+      "QoS (ToS, DSCP)",
+      "Prevention of DoS and DDos attacks",
+      "NAT Traversal",
+      "Control of Access Policies",
+      "Dynamic load balancing",
+      "Policy-based anti-attacks",
+      "Flexible Routing Engine",
+      "Call Security with TLS/SRTP",
+      "Caller/ Called number Manipulation",
+      "White List & Black List",
+      "Web-bases GUI for configurations",
+      "Access Rule List",
+      "Configuration Restore/Backup",
+      "Embedded VoIP Firewall",
+      "HTTP Firmware Upgrade",
+      "Voice codecs: G.711A/U,G.723.1,G.729A/B, iLBC, AMR, OPUS",
+      "CDR Report and Export",
+      "SIP 2.0 compliant, UDP/TCP/TLS",
+      "Ping and Tracert",
+      "SIP trunk (Peer to peer)",
+      "Network Capture",
+      "SIP trunk (Access)",
+      "System log",
+      "B2BUA (Back-to-Back User Agent)",
+      "Statistics and Reports",
+      "SIP Request rate limiting",
+      "Centralized management system",
+      "SIP registration rate limiting",
+      "Remote Web and Telnet",
+      "SIP registration scan attack detection",
+      "1+1 Active-standby redundancy High Availability"
+    ],
+    "highlights": [
+      "5-50 SIP sessions, 5-50 transcoding",
+      "1+1 Active-standby redundancy for business continuity",
+      "Comprehensive SIP interoperability, Easily connect with different service providers",
+      "SIP mediation, SIP message Manipulation"
+    ],
+    "specifications": [
+      {
+        "label": "Model",
+        "value": "SBC300"
+      },
+      {
+        "label": "Product type",
+        "value": "Session Border Controller"
+      },
+      {
+        "label": "Voice codecs",
+        "value": "G.711A/U,G.723.1,G.729A/B, iLBC, AMR, OPUS"
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://www.dinstar.com/WEB/files/13801/2018-06-06/SBC300%20Enterprise%20Session%20Border%20Controller%20Datasheet%20%20v2.0.pdf",
+        "title": "SBC300 Session Border Controller Datasheet"
+      },
+      {
+        "url": "https://www.dinstar.com/WEB/files/15651/2018-09-06/SBC300_Session_Border_Controller_User_Manual.pdf",
+        "title": "SBC300 Session Border Controller User Manual"
+      }
+    ]
   },
   {
     "slug": "sbc1000",
     "name": "SBC1000",
     "category": "Session Border Controller",
-    "imageKey": "sbc1000Front",
-    "galleryKeys": ["sbc1000Front", "sbc1000Back"],
-    "description": "Dinstar session border controller for secure connectivity between SIP networks. Contact us for model specifications."
+    "imageKey": "sbc1000_0",
+    "galleryKeys": [
+      "sbc1000_0",
+      "sbc1000_1"
+    ],
+    "description": "Dinstar's SBC1000 is designed to deliver security, interoperability and transcoding for large enterprises and service providers VoIP interconnections, scalable from 50 to 500 SIP sessions. SBC1000 offers carrier-grade performance and functionality you demand in connecting any SIP to SIP applications like SIP trunking, Unified communications, Cloud IP PBX, contact centers, while protect your own VoIP networks.",
+    "sourceUrl": "https://www.dinstar.com/session-border-controller/sbc1000",
+    "subtitle": "Session Border Controller",
+    "overview": [
+      "Dinstar's SBC1000 is designed to deliver security, interoperability and transcoding for large enterprises and service providers VoIP interconnections, scalable from 50 to 500 SIP sessions. SBC1000 offers carrier-grade performance and functionality you demand in connecting any SIP to SIP applications like SIP trunking, Unified communications, Cloud IP PBX, contact centers, while protect your own VoIP networks."
+    ],
+    "features": [
+      "50 to 500 Simultaneous calls",
+      "SIP anti-attack",
+      "50 to 200 transcoding calls",
+      "SIP Header manipulation",
+      "CPS: 25 calls per second",
+      "SIP malformed packet protection",
+      "Max. 5000 SIP registrations",
+      "QoS (ToS, DSCP)",
+      "Max. 25 Registration per second",
+      "NAT Traversal",
+      "Unlimited SIP Trunks",
+      "Dynamic load balancing",
+      "Prevention of DoS and DDos attacks",
+      "Flexible Routing Engine",
+      "Control of Access Policies",
+      "Caller/ Called number Manipulation",
+      "Policy-based anti-attacks",
+      "Web-bases GUI for configurations",
+      "Call Security with TLS/SRTP",
+      "Configuration Restore/Backup",
+      "White List & Black List",
+      "HTTP Firmware Upgrade",
+      "Access Rule List",
+      "CDR Report and Export",
+      "Embedded VoIP Firewall",
+      "Ping and Tracert",
+      "Voice codecs: G.711A/U,G.723.1,G.729A/B, iLBC, AMR, OPUS",
+      "Network Capture",
+      "SIP 2.0 compliant, UDP/TCP/TLS",
+      "System log",
+      "SIP trunk (Peer to peer)",
+      "Statistics and Reports",
+      "SIP trunk (Access)",
+      "Centralized management system",
+      "B2BUA (Back-to-Back User Agent)",
+      "Remote Web and Telnet",
+      "SIP Request rate limiting",
+      "1+1 Active-standby redundancy High Availability",
+      "SIP registration rate limiting",
+      "Dual redundant 100-240V AC power supply",
+      "SIP registration scan attack detection",
+      "19 inch 1U size",
+      "SIP call scan attack detection"
+    ],
+    "highlights": [
+      "50-500 SIP sessions, 50-200 transcoding",
+      "1+1 Active-standby redundancy for business continuity",
+      "Dual Power Supply",
+      "Comprehensive SIP interoperability, Easily connect with multiple service providers"
+    ],
+    "specifications": [
+      {
+        "label": "Model",
+        "value": "SBC1000"
+      },
+      {
+        "label": "Product type",
+        "value": "Session Border Controller"
+      },
+      {
+        "label": "CPS",
+        "value": "25 calls per second"
+      },
+      {
+        "label": "Voice codecs",
+        "value": "G.711A/U,G.723.1,G.729A/B, iLBC, AMR, OPUS"
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://www.dinstar.com/WEB/files/13797/2018-06-06/SBC1000%20Session%20Border%20Controller%20Datasheet%20%20v2.0.pdf",
+        "title": "SBC1000 Session Border Controller Datasheet"
+      },
+      {
+        "url": "https://www.dinstar.com/WEB/files/15651/2018-09-06/SBC1000%20Session%20Border%20Controller%20User%20Manual.pdf",
+        "title": "SBC1000 Session Border Controller User Manual"
+      }
+    ]
   },
   {
     "slug": "sbc3000",
     "name": "SBC3000",
     "category": "Session Border Controller",
-    "imageKey": "sbc3000Front",
-    "galleryKeys": ["sbc3000Front", "sbc3000Back"],
-    "description": "Dinstar session border controller for secure connectivity between SIP networks. Contact us for model specifications."
+    "imageKey": "sbc3000_0",
+    "galleryKeys": [
+      "sbc3000_0",
+      "sbc3000_1"
+    ],
+    "description": "Dinstar SBC3000 are designed to deliver security, interoperability and transcoding for service providers and telecom operators VoIP interconnections, scalable from 500 to 2000 SIP sessions, offer High Availability (HA) with 1+1 active/standby redundancy, comprehensive SIP mediation, intensive protection to ensure uninterrupted communications and services.",
+    "sourceUrl": "https://www.dinstar.com/session-border-controller/sbc3000",
+    "subtitle": "Session Border Controller",
+    "overview": [
+      "Dinstar SBC3000 are designed to deliver security, interoperability and transcoding for service providers and telecom operators VoIP interconnections, scalable from 500 to 2000 SIP sessions, offer High Availability (HA) with 1+1 active/standby redundancy, comprehensive SIP mediation, intensive protection to ensure uninterrupted communications and services."
+    ],
+    "features": [
+      "500 to 2000 Simultaneous calls",
+      "SIP anti-attack",
+      "300 to 1200 transcoding",
+      "SIP Header manipulation",
+      "CPS: 200 calls per second",
+      "SIP malformed packet protection",
+      "Max. 5000 SIP registrations",
+      "QoS (ToS, DSCP)",
+      "Max. 25 Registration per second",
+      "NAT Traversal",
+      "Unlimited SIP Trunks",
+      "Dynamic load balancing",
+      "Prevention of DoS and DDos attacks",
+      "Flexible Routing Engine",
+      "Control of Access Policies",
+      "Caller/ Called number Manipulation",
+      "Policy-based anti-attacks",
+      "Web-bases GUI for configurations",
+      "Call Security with TLS/SRTP",
+      "Configuration Restore/Backup",
+      "White List & Black List",
+      "HTTP Firmware Upgrade",
+      "Access Rule List",
+      "CDR Report and Export",
+      "Embedded VoIP Firewall",
+      "Ping and Tracert",
+      "Voice codecs: G.711A/U,G.723.1,G.729A/B, iLBC, AMR, OPUS",
+      "Network Capture",
+      "SIP 2.0 compliant, UDP/TCP/TLS",
+      "System log",
+      "SIP trunk (Peer to peer)",
+      "Statistics and Reports",
+      "SIP trunk (Access)",
+      "Centralized management system",
+      "B2BUA (Back-to-Back User Agent)",
+      "Remote Web and Telnet",
+      "SIP Request rate limiting",
+      "1+1 Active-standby redundancy High Availability",
+      "SIP registration rate limiting",
+      "Dual redundant 100-240V AC power supply",
+      "SIP registration scan attack detection",
+      "19 inch 1U size",
+      "SIP call scan attack detection"
+    ],
+    "highlights": [
+      "500-2000 SIP sessions, 300-1200 transcoding",
+      "1+1 Active-standby redundancy HA for service continuity",
+      "Dual power supply Hot Backup",
+      "Comprehensive SIP interoperability with various SIP platforms"
+    ],
+    "specifications": [
+      {
+        "label": "Model",
+        "value": "SBC3000"
+      },
+      {
+        "label": "Product type",
+        "value": "Session Border Controller"
+      },
+      {
+        "label": "CPS",
+        "value": "200 calls per second"
+      },
+      {
+        "label": "Voice codecs",
+        "value": "G.711A/U,G.723.1,G.729A/B, iLBC, AMR, OPUS"
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://www.dinstar.com/WEB/files/13793/2018-06-06/SBC3000%20Session%20Boader%20Controller%20Datasheet%20%20v2.0.pdf",
+        "title": "SBC3000 Session Border Controller Datasheet"
+      },
+      {
+        "url": "https://www.dinstar.com/WEB/files/15651/2018-09-06/SBC3000%20Session%20Border%20Controller%20User%20Manual.pdf",
+        "title": "SBC3000 Session Border Controller User Manual"
+      }
+    ]
   },
   {
     "slug": "sbc3000-pro",
     "name": "SBC3000 Pro",
     "category": "Session Border Controller",
-    "imageKey": "sbc3000ProFront",
-    "galleryKeys": ["sbc3000ProFront", "sbc3000ProBack", "sbc3000ProSide"],
-    "description": "Dinstar session border controller for secure connectivity between SIP networks. Contact us for model specifications."
+    "imageKey": "sbc3000_pro_0",
+    "galleryKeys": [
+      "sbc3000_pro_0",
+      "sbc3000_pro_1"
+    ],
+    "description": "SBC3000 Pro delivers secure SIP services, including flexible session routing, QoS, media transcoding, and robust security for small-to-medium telecom operators. Featuring a multi-core processor and non-blocking gigabit switch, it ensures high performance with low power usage. It supports dual hot-swappable power supplies, TLS/SRTP encryption, and a wide range of codecs, including G.729, AMR, and OPUS, offering unmatched reliability and flexibility.",
+    "sourceUrl": "https://www.dinstar.com/session-border-controller/sbc3000pro",
+    "subtitle": "Session Border Controller",
+    "overview": [
+      "SBC3000 Pro delivers secure SIP services, including flexible session routing, QoS, media transcoding, and robust security for small-to-medium telecom operators. Featuring a multi-core processor and non-blocking gigabit switch, it ensures high performance with low power usage. It supports dual hot-swappable power supplies, TLS/SRTP encryption, and a wide range of codecs, including G.729, AMR, and OPUS, offering unmatched reliability and flexibility."
+    ],
+    "features": [
+      "SIP anti-attack",
+      "SIP Header manipulation",
+      "SIP malformed packet protection",
+      "QoS (ToS, DSCP)",
+      "NAT Traversal",
+      "Unlimited SIP Trunks",
+      "Dynamic load balancing",
+      "Prevention of DoS and DDos attacks",
+      "Flexible Routing Engine",
+      "Control of Access Policies",
+      "Caller/ Called number Manipulation",
+      "Policy-based anti-attacks",
+      "Web-bases GUI for configurations",
+      "Call Security with TLS/SRTP",
+      "Configuration Restore/Backup",
+      "White List & Black List",
+      "HTTP Firmware Upgrade",
+      "Access Rule List",
+      "CDR Report and Export",
+      "Embedded VoIP Firewall",
+      "Ping and Tracert",
+      "Voice codecs: G.711A/U,G.723.1,G.729A/B, iLBC, AMR, OPUS",
+      "Network Capture",
+      "SIP 2.0 compliant, UDP/TCP/TLS",
+      "System log",
+      "SIP trunk (Peer to peer)",
+      "Statistics and Reports",
+      "SIP trunk (Access)",
+      "Centralized management system",
+      "B2BUA (Back-to-Back User Agent)",
+      "Remote Web and Telnet",
+      "SIP Request rate limiting",
+      "1+1 Active-standby redundancy High Availability",
+      "SIP registration rate limiting",
+      "Dual redundant 100-240V AC power supply",
+      "SIP registration scan attack detection",
+      "SIP call scan attack detection"
+    ],
+    "highlights": [
+      "1+1 Active-standby redundancy HA for service continuity",
+      "Dual power supply Hot Backup",
+      "Dual Heartbeat Management for constant system monitoring",
+      "Dual Network Port Bonding for redundant connections"
+    ],
+    "specifications": [
+      {
+        "label": "Model",
+        "value": "SBC3000 Pro"
+      },
+      {
+        "label": "Product type",
+        "value": "Session Border Controller"
+      },
+      {
+        "label": "Voice codecs",
+        "value": "G.711A/U,G.723.1,G.729A/B, iLBC, AMR, OPUS"
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://www.dinstar.com/WEB/files/15316/2025-02-14/SBC3000%20Pro%20Session%20Boader%20Controller%20Datasheet.pdf",
+        "title": "SBC3000 Pro Session Border Controller Datasheet"
+      },
+      {
+        "url": "https://www.dinstar.com/WEB/files/70101/2023-02-16/SBC%20Series%20Quick%20Installation%20Guide.pdf",
+        "title": "Session Border Controller Quick Installation Guide"
+      }
+    ]
   },
   {
     "slug": "sbc8000",
     "name": "SBC8000",
     "category": "Session Border Controller",
-    "imageKey": "sbc8000",
-    "galleryKeys": ["sbc8000"],
-    "description": "Dinstar session border controller for secure connectivity between SIP networks. Contact us for model specifications."
+    "imageKey": "sbc8000_0",
+    "galleryKeys": [
+      "sbc8000_0"
+    ],
+    "description": "DINSTAR SBC8000 is a software-based SBC designed to deliver robust security, seamless connectivity, advanced transcoding and media controls to VoIP networks of enterprises, service providers, and telecom operators. SBC8000 offers users the flexibility to deploy the SBCs on their dedicated servers, virtual machines, and private cloud or public cloud, and to scale easily on demand.",
+    "sourceUrl": "https://www.dinstar.com/session-border-controller/sbc8000",
+    "subtitle": "Session Border Controller",
+    "overview": [
+      "DINSTAR SBC8000 is a software-based SBC designed to deliver robust security, seamless connectivity, advanced transcoding and media controls to VoIP networks of enterprises, service providers, and telecom operators. SBC8000 offers users the flexibility to deploy the SBCs on their dedicated servers, virtual machines, and private cloud or public cloud, and to scale easily on demand."
+    ],
+    "features": [
+      "SIP anti-attack",
+      "SIP header manipulation",
+      "CPS: 1000 calls per second",
+      "SIP malformed packet protection",
+      "QoS (ToS, DSCP)",
+      "Max. 25 registration per second",
+      "Max. 5000 SIP registrations",
+      "NAT traversal",
+      "Unlimited SIP trunks",
+      "Dynamic load balancing",
+      "Prevention of DoS and DDos attacks",
+      "Flexible routing engine",
+      "Control of access policies",
+      "Caller/Called number manipulation",
+      "Policy-based anti-attacks",
+      "Web-bases GUI for configurations",
+      "Call security with TLS/SRTP",
+      "Configuration restore/backup",
+      "White List & Black List",
+      "HTTP firmware upgrade",
+      "Access control list",
+      "CDR report and export",
+      "Embedded VoIP firewall",
+      "Ping and tracert",
+      "Voice codecs: G.711A/U,G.723.1,G.729A/B, iLBC, AMR, OPUS",
+      "Network capture",
+      "SIP 2.0 compliant, UDP/TCP/TLS",
+      "System log",
+      "SIP trunk (Peer to peer)",
+      "Statistics and reports",
+      "SIP trunk (Access)",
+      "Centralized management system",
+      "B2BUA (back-to-back user agent)",
+      "Remote web and telnet",
+      "SIP Request rate limiting",
+      "SIP registration rate limiting",
+      "SIP registration scan attack detection",
+      "IPv4-IPv6 interworking",
+      "WebRTC gateway",
+      "1+1 high availability"
+    ],
+    "highlights": [
+      "100,000 SIP registrations",
+      "50,000 concurrent call sessions",
+      "5,000 media transcoding",
+      "License scalability, scale on demand"
+    ],
+    "specifications": [
+      {
+        "label": "Model",
+        "value": "SBC8000"
+      },
+      {
+        "label": "Product type",
+        "value": "Session Border Controller"
+      },
+      {
+        "label": "CPS",
+        "value": "1000 calls per second"
+      },
+      {
+        "label": "Voice codecs",
+        "value": "G.711A/U,G.723.1,G.729A/B, iLBC, AMR, OPUS"
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://www.dinstar.com/WEB/files/66395/2018-06-06/SBC8000%20Session%20Boader%20Controller%20Datasheet%20v1.0.pdf",
+        "title": "SBC8000 Session Border Controller Datasheet"
+      },
+      {
+        "url": "https://www.dinstar.com/WEB/files/15651/2023-08-01/SBC8000%20Session%20Border%20Controller%20User%20Manual.pdf",
+        "title": "SBC8000 Session Border Controller User Manual"
+      }
+    ]
   },
   {
     "slug": "mtg200",
     "name": "MTG200",
     "category": "Digital VoIP Gateway",
-    "imageKey": "mtg200Front",
-    "galleryKeys": ["mtg200Front", "mtg200Back"],
-    "description": "Digital VoIP gateway for connecting E1/T1 digital trunks with SIP networks. Contact us for port options and specifications."
+    "imageKey": "mtg200_0",
+    "galleryKeys": [
+      "mtg200_0",
+      "mtg200_1"
+    ],
+    "description": "MTG200 series Digital VoIP Gateways with 1/2/4 ports E1/T1 simply migrate your legacy PSTN networks (legacy PBX or E1/T1 service providers) , to VoIP network. Only small investment, you can enjoy the real benefits of VoIP, and retain your PSTN connectivity. It is a compact box designed for SMEs and open-source market, fully compatible with Asterisk / Elastix / Trixbox / Freeswitch and mainstream VoIP platform. With support of ISDN PRI / SS7 / R2 MFC, integrating with your legacy PBX or PSTN network is also so easy.",
+    "sourceUrl": "https://www.dinstar.com/digital-voip-gateway/mtg200",
+    "subtitle": "Cost-effective VoIP Trunk Gateway",
+    "overview": [
+      "MTG200 series Digital VoIP Gateways with 1/2/4 ports E1/T1 simply migrate your legacy PSTN networks (legacy PBX or E1/T1 service providers) , to VoIP network. Only small investment, you can enjoy the real benefits of VoIP, and retain your PSTN connectivity. It is a compact box designed for SMEs and open-source market, fully compatible with Asterisk / Elastix / Trixbox / Freeswitch and mainstream VoIP platform. With support of ISDN PRI / SS7 / R2 MFC, integrating with your legacy PBX or PSTN network is also so easy.",
+      "More than 10-year experiences to integrate with a wide range of Legacy PBXs / Service providers' PSTN networks"
+    ],
+    "features": [
+      "1/2E1/T1 Ports",
+      "Support Modem/POS",
+      "2 GE",
+      "DTMF Mode: RFC2833/SIP Info/In-band",
+      "SIP v2.0",
+      "VLAN 802.1p/q",
+      "SIP-T",
+      "ISDN PRI, Q.sig",
+      "SIP/IMS Registration :with up to 256 SIP Accounts",
+      "ISDN SS7",
+      "NAT: Dynamic NAT, Rport",
+      "R2 MFC",
+      "Local/Transparent Ring Back Tone",
+      "Web GUI Configuration",
+      "Overlapping Dialing",
+      "Data Backup/Restore",
+      "Dialing Rules，with up to 2000",
+      "PSTN Call Statistics",
+      "Voice Codecs Group",
+      "SIP Trunk Call Statistics",
+      "Access Rule Lists",
+      "Firmware Upgrade via TFTP/Web",
+      "Radius",
+      "SNMP v1/v2/v3",
+      "Voice Codecs:G.711a/μ law, G.723.1, G.729AB, iLBC,AMR",
+      "Network Capture",
+      "Silence Suppression",
+      "Syslog: Debug, Info, Error, Warning , Notice",
+      "CNG,VAD,Jitter Buffer",
+      "Call History Records via Syslog",
+      "Echo Cancellation (G.168),with up to 128ms",
+      "NTP Synchronization",
+      "T.38 and Pass-through",
+      "Centralized Management System"
+    ],
+    "highlights": [
+      "1/2E1/T1 Ports",
+      "Up to 60 simultaneous calls",
+      "Flexible routing",
+      "Multiple SIP trunks"
+    ],
+    "specifications": [
+      {
+        "label": "Model",
+        "value": "MTG200"
+      },
+      {
+        "label": "Product type",
+        "value": "Cost-effective VoIP Trunk Gateway"
+      },
+      {
+        "label": "DTMF Mode",
+        "value": "RFC2833/SIP Info/In-band"
+      },
+      {
+        "label": "SIP/IMS Registration",
+        "value": "with up to 256 SIP Accounts"
+      },
+      {
+        "label": "NAT",
+        "value": "Dynamic NAT, Rport"
+      },
+      {
+        "label": "Voice Codecs",
+        "value": "G.711a/μ law, G.723.1, G.729AB, iLBC,AMR"
+      },
+      {
+        "label": "Syslog",
+        "value": "Debug, Info, Error, Warning , Notice"
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://www.dinstar.com/WEB/files/15297/2018-09-06/MTG200%20Trunk%20Gateway%20Datasheet%20v1.3.pdf",
+        "title": "MTG200 Digital VoIP Gateway Datasheet"
+      },
+      {
+        "url": "https://www.dinstar.com/WEB/files/15299/2019-04-29/MTG200%20Digital%20VoIP%20Gateway%20User%20Manual.pdf",
+        "title": "MTG200 Digital VoIP Gateway User Manual"
+      },
+      {
+        "url": "https://www.dinstar.com/WEB/files/15298/2019-04-30/MTG%20Series%20Quick%20Installation%20Guide.pdf",
+        "title": "MTG Series Digital VoIP Gateway Series Quick Installation Guide"
+      }
+    ]
   },
   {
     "slug": "mtg1000",
     "name": "MTG1000",
     "category": "Digital VoIP Gateway",
-    "imageKey": "placeholder",
-    "galleryKeys": ["placeholder"],
-    "description": "Digital VoIP gateway for connecting digital trunks with SIP networks. Contact us for MTG1000 specifications."
+    "imageKey": "mtg1000_0",
+    "galleryKeys": [
+      "mtg1000_0",
+      "mtg1000_1"
+    ],
+    "description": "MTG1000 series E1/T1 Digital VoIP Gateways with 1/2 ports E1/T1 is a compact and cost-effective trunk gateway designed to interconnect between PSTN and IP networks. With powerful hardware design, MTG1000 series has comprehensive PSTN access capabilities as well as SIP to SIP interworking features that enables the interconnection between all these elements. MTG1000 series trunk gateway with high-efficient design and strong DSP processor ensures high-performance of the interconversion of PCM voice signal and IP packets, even when the gateways are fully loaded. MTG1000 is interoperable with mainstream VoIP platforms, and is compatible with PSTN network with digital trunk interfaces based on our years' experiences on ISDN PRI / SS7 / R2 MFC.",
+    "sourceUrl": "https://www.dinstar.com/digital-voip-gateway/mtg1000b",
+    "subtitle": "Low Density E1/T1 Digital VoIP Gateway",
+    "overview": [
+      "MTG1000 series E1/T1 Digital VoIP Gateways with 1/2 ports E1/T1 is a compact and cost-effective trunk gateway designed to interconnect between PSTN and IP networks. With powerful hardware design, MTG1000 series has comprehensive PSTN access capabilities as well as SIP to SIP interworking features that enables the interconnection between all these elements. MTG1000 series trunk gateway with high-efficient design and strong DSP processor ensures high-performance of the interconversion of PCM voice signal and IP packets, even when the gateways are fully loaded. MTG1000 is interoperable with mainstream VoIP platforms, and is compatible with PSTN network with digital trunk interfaces based on our years' experiences on ISDN PRI / SS7 / R2 MFC.",
+      "More than 10-year experiences to integrate with a wide range of Legacy PBXs / Service providers' PSTN networks"
+    ],
+    "features": [
+      "1/2 E1s/T1s, RJ48 interface",
+      "Codecs:G.711a/μ law,G.723.1, G.729A/B, iLBC 13k/15k,AMR",
+      "Dual Power Supplies",
+      "Silence Suppression",
+      "2 GE",
+      "Comfort Noise",
+      "SIP v2.0",
+      "Voice Activity Detection",
+      "SIP-T,RFC3372, RFC3204, RFC3398",
+      "Echo Cancellation (G.168),with up to 128ms",
+      "SIP Trunk Work Mode: Peer/Access",
+      "Adaptive Dynamic Buffer",
+      "SIP/IMS Registration :with up to 256 SIP Accounts",
+      "Voice, Fax Gain Control",
+      "NAT: Dynamic NAT, Rport",
+      "FAX:T.38 and Pass-through",
+      "Flexible Route Methods: PSTN-PSTN, PSTN-IP, IP-PSTN",
+      "Support Modem/POS",
+      "Intelligent Routing Rules",
+      "DTMF Mode: RFC2833/SIP Info/In-band",
+      "Call Routing base on Time",
+      "Clear Channel/Clear Mode",
+      "Call Routing base on Caller/Called Prefixes",
+      "ISDN PRI, Q.sig",
+      "256 Route Rules for each Direction",
+      "Signal 7/SS7: ITU-T, ANSI, ITU-CHINA, MTP1/MTP2/MTP3, TUP/ISUP",
+      "Caller and Called Number Manipulation",
+      "R2 MFC",
+      "Local/Transparent Ring Back Tone",
+      "Web GUI Configuration",
+      "Overlapping Dialing",
+      "Data Backup/Restore",
+      "Dialing Rules, with up to 2000",
+      "PSTN Call Statistics",
+      "PSTN group by E1 port or E1 Timeslot",
+      "SIP Trunk Call Statistics",
+      "IP Trunk Group Configuration",
+      "Firmware Upgrade via TFTP/Web",
+      "Voice Codecs Group",
+      "SNMP v1/v2/v3",
+      "Caller and Called Number White Lists",
+      "Network Capture",
+      "Caller and Called Number Black Lists",
+      "Syslog: Debug, Info, Error, Warning , Notice",
+      "Access Rule Lists",
+      "Call History Records via Syslog",
+      "IP Trunk Priority",
+      "NTP Synchronization",
+      "Radius",
+      "Centralized Management System"
+    ],
+    "highlights": [
+      "1/2 ports E1/T1 in 1U chassis",
+      "Dual Power Supplies",
+      "Up to 60 simultaneous calls",
+      "Flexible routing"
+    ],
+    "specifications": [
+      {
+        "label": "Model",
+        "value": "MTG1000"
+      },
+      {
+        "label": "Product type",
+        "value": "Low Density E1/T1 Digital VoIP Gateway"
+      },
+      {
+        "label": "Codecs",
+        "value": "G.711a/μ law,G.723.1, G.729A/B, iLBC 13k/15k,AMR"
+      },
+      {
+        "label": "SIP Trunk Work Mode",
+        "value": "Peer/Access"
+      },
+      {
+        "label": "SIP/IMS Registration",
+        "value": "with up to 256 SIP Accounts"
+      },
+      {
+        "label": "NAT",
+        "value": "Dynamic NAT, Rport"
+      },
+      {
+        "label": "FAX",
+        "value": "T.38 and Pass-through"
+      },
+      {
+        "label": "Flexible Route Methods",
+        "value": "PSTN-PSTN, PSTN-IP, IP-PSTN"
+      },
+      {
+        "label": "DTMF Mode",
+        "value": "RFC2833/SIP Info/In-band"
+      },
+      {
+        "label": "Signal 7/SS7",
+        "value": "ITU-T, ANSI, ITU-CHINA, MTP1/MTP2/MTP3, TUP/ISUP"
+      },
+      {
+        "label": "Syslog",
+        "value": "Debug, Info, Error, Warning , Notice"
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://www.dinstar.com/WEB/files/15297/2018-09-06/MTG1000%20VoIP%20Trunk%20Gateway%20Datasheet%20v2.1.pdf",
+        "title": "MTG1000 Digital VoIP Gateway Datasheet"
+      },
+      {
+        "url": "https://www.dinstar.com/WEB/files/15299/2018-09-06/MTG1000%20Digital%20VoIP%20Gateway%20User%20Manual.pdf",
+        "title": "MTG1000 Digital VoIP Gateway User manual"
+      },
+      {
+        "url": "https://www.dinstar.com/WEB/files/15298/2019-04-30/MTG%20Series%20Quick%20Installation%20Guide.pdf",
+        "title": "MTG Series Digital VoIP Gateway Quick Installation Guide"
+      }
+    ]
   },
   {
     "slug": "mtg2000",
     "name": "MTG2000",
     "category": "Digital VoIP Gateway",
-    "imageKey": "mtg2000Front",
-    "galleryKeys": ["mtg2000Front", "mtg2000Back"],
-    "description": "Digital VoIP gateway for connecting E1/T1 digital trunks with SIP networks. Contact us for port options and specifications."
+    "imageKey": "mtg2000_0",
+    "galleryKeys": [
+      "mtg2000_0",
+      "mtg2000_1"
+    ],
+    "description": "MTG2000 is a carrier-grade intelligent Digital VoIP gateway, scalable from 4 to 20 ports E1/T1. It provides carrier-grade VoIP and FoIP services, as well as value-added functions such as modem and voice recognition. With highly maintainable, manageable and operable features, it offers a flexible, high-efficient, future-oriented communication network for users. MTG2000 supports a wide-range of signaling protocols, realizing the interconnection between SIP and traditional signals like ISDN PRI / SS7, utilizing efficiency of trunking resources while ensuring voice quality. With multiple voice codes, secure signal encryption and smart voice recognition technology, MTG2000 is ideal for various applications of large enterprises, call centers, services providers and telecom operators.",
+    "sourceUrl": "https://www.dinstar.com/digital-voip-gateway/mtg2000",
+    "subtitle": "Carrier-grade Digital VoIP Gateway",
+    "overview": [
+      "MTG2000 is a carrier-grade intelligent Digital VoIP gateway, scalable from 4 to 20 ports E1/T1. It provides carrier-grade VoIP and FoIP services, as well as value-added functions such as modem and voice recognition. With highly maintainable, manageable and operable features, it offers a flexible, high-efficient, future-oriented communication network for users. MTG2000 supports a wide-range of signaling protocols, realizing the interconnection between SIP and traditional signals like ISDN PRI / SS7, utilizing efficiency of trunking resources while ensuring voice quality. With multiple voice codes, secure signal encryption and smart voice recognition technology, MTG2000 is ideal for various applications of large enterprises, call centers, services providers and telecom operators.",
+      "More than 10-year experiences to integrate with a wide range of Legacy PBXs / Service providers' PSTN networks"
+    ],
+    "features": [
+      "4/8/12/16/20 E1s/T1s, RJ48 interface",
+      "Codecs:G.711a/μ law,G.723.1, G.729A/B, iLBC 13k/15k,AMR",
+      "Dual Power Supplies",
+      "Silence Suppression",
+      "2 GE",
+      "Comfort Noise",
+      "SIP v2.0",
+      "Voice Activity Detection",
+      "SIP-T,RFC3372, RFC3204, RFC3398",
+      "Echo Cancellation (G.168),with up to 128ms",
+      "SIP Trunk Work Mode: Peer/Access",
+      "Adaptive Dynamic Buffer",
+      "SIP/IMS Registration :with up to 256 SIP Accounts",
+      "Voice, Fax Gain Control",
+      "NAT: Dynamic NAT, Rport",
+      "FAX:T.38 and Pass-through",
+      "Flexible Route Methods: PSTN-PSTN, PSTN-IP, IP-PSTN",
+      "Support Modem/POS",
+      "Intelligent Routing Rules",
+      "DTMF Mode: RFC2833/SIP Info/In-band",
+      "Call Routing base on Time",
+      "Clear Channel/Clear Mode",
+      "Call Routing base on Caller/Called Prefixes",
+      "ISDN PRI:",
+      "256 Route Rules for each Direction",
+      "Signal 7/SS7: ITU-T, ANSI, ITU-CHINA, MTP1/MTP2/MTP3, TUP/ISUP",
+      "Caller and Called Number Manipulation",
+      "R2 MFC",
+      "Local/Transparent Ring Back Tone",
+      "Web GUI Configuration",
+      "Overlapping Dialing",
+      "Data Backup/Restore",
+      "Dialing Rules, with up to 2000",
+      "PSTN Call Statistics",
+      "PSTN group by E1 port or E1 Timeslot",
+      "SIP Trunk Call Statistics",
+      "IP Trunk Group Configuration",
+      "Firmware Upgrade via TFTP/Web",
+      "Voice Codecs Group",
+      "SNMP v1/v2/v3",
+      "Caller and Called Number White Lists",
+      "Network Capture",
+      "Caller and Called Number Black Lists",
+      "Syslog: Debug, Info, Error, Warning , Notice",
+      "Access Rule Lists",
+      "Call History Records via Syslog",
+      "IP Trunk Priority",
+      "NTP Synchronization",
+      "Radius",
+      "Centralized Management System"
+    ],
+    "highlights": [
+      "4 to 20 ports E1/T1 in 1U chassis",
+      "Up to 600 simultaneous calls",
+      "Redundancy Dual MCU unit",
+      "Dual Power Supplies"
+    ],
+    "specifications": [
+      {
+        "label": "Model",
+        "value": "MTG2000"
+      },
+      {
+        "label": "Product type",
+        "value": "Carrier-grade Digital VoIP Gateway"
+      },
+      {
+        "label": "Codecs",
+        "value": "G.711a/μ law,G.723.1, G.729A/B, iLBC 13k/15k,AMR"
+      },
+      {
+        "label": "SIP Trunk Work Mode",
+        "value": "Peer/Access"
+      },
+      {
+        "label": "SIP/IMS Registration",
+        "value": "with up to 256 SIP Accounts"
+      },
+      {
+        "label": "NAT",
+        "value": "Dynamic NAT, Rport"
+      },
+      {
+        "label": "FAX",
+        "value": "T.38 and Pass-through"
+      },
+      {
+        "label": "Flexible Route Methods",
+        "value": "PSTN-PSTN, PSTN-IP, IP-PSTN"
+      },
+      {
+        "label": "DTMF Mode",
+        "value": "RFC2833/SIP Info/In-band"
+      },
+      {
+        "label": "Signal 7/SS7",
+        "value": "ITU-T, ANSI, ITU-CHINA, MTP1/MTP2/MTP3, TUP/ISUP"
+      },
+      {
+        "label": "Syslog",
+        "value": "Debug, Info, Error, Warning , Notice"
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://www.dinstar.com/WEB/files/15297/2018-09-06/MTG2000%20VoIP%20Trunk%20Gateway%20Datasheet.pdf",
+        "title": "MTG2000 Digital VoIP Gateway Datasheet"
+      },
+      {
+        "url": "https://www.dinstar.com/WEB/files/15299/2018-09-06/MTG2000%20Trunk%20Gateway%20User%20Manual%20V1.2.pdf",
+        "title": "MTG2000 Digital VoIP Gateway User Manual"
+      },
+      {
+        "url": "https://www.dinstar.com/WEB/files/15298/2019-04-30/MTG%20Series%20Quick%20Installation%20Guide.pdf",
+        "title": "MTG Series Digital VoIP Gateway Quick Installation Guide"
+      }
+    ]
   },
   {
     "slug": "mtg2000b",
     "name": "MTG2000B",
     "category": "Digital VoIP Gateway",
-    "imageKey": "mtg2000bFront",
-    "galleryKeys": ["mtg2000bFront", "mtg2000bBack"],
-    "description": "Digital VoIP gateway for connecting digital trunks with SIP networks. Contact us for MTG2000B specifications."
+    "imageKey": "mtg2000b_0",
+    "galleryKeys": [
+      "mtg2000b_0",
+      "mtg2000b_1"
+    ],
+    "description": "MTG2000B is a High Availability (HA) carrier-grade digital VoIP gateway equipped with redundant MCUs and redundant power supplies, scalable from 4 to 16 ports E1/T1. It provides carrier-grade VoIP and FoIP services, as well as value-added functions such as modem and voice recognition. With highly maintainable, manageable and operable features, it offers a flexible, high-efficient, future-oriented communication network for users. MTG2000B supports a wide-range of signaling protocols, realizing the interconnection between SIP and traditional signals like ISDN PRI / SS7, utilizing efficiency of trunking resources while ensuring voice quality. With multiple voice codes, secure signal encryption and smart voice recognition technology, MTG2000B is ideal for various applications of large enterprises, call centers, services providers and telecom operators.",
+    "sourceUrl": "https://www.dinstar.com/digital-voip-gateway/mtg2000b",
+    "subtitle": "High Availability Digital VoIP Gateway",
+    "overview": [
+      "MTG2000B is a High Availability (HA) carrier-grade digital VoIP gateway equipped with redundant MCUs and redundant power supplies, scalable from 4 to 16 ports E1/T1. It provides carrier-grade VoIP and FoIP services, as well as value-added functions such as modem and voice recognition. With highly maintainable, manageable and operable features, it offers a flexible, high-efficient, future-oriented communication network for users. MTG2000B supports a wide-range of signaling protocols, realizing the interconnection between SIP and traditional signals like ISDN PRI / SS7, utilizing efficiency of trunking resources while ensuring voice quality. With multiple voice codes, secure signal encryption and smart voice recognition technology, MTG2000B is ideal for various applications of large enterprises, call centers, services providers and telecom operators.",
+      "More than 10-year experiences to integrate with a wide range of Legacy PBXs/Service providers' PSTN networks"
+    ],
+    "features": [
+      "4/8/12/16/ E1s/T1s, RJ48 interface",
+      "Codecs:G.711a/μ law,G.723.1, G.729A/B, iLBC 13k/15k,AMR",
+      "Dual Power Supplies",
+      "Silence Suppression",
+      "2 GE",
+      "Comfort Noise",
+      "SIP v2.0",
+      "Voice Activity Detection",
+      "SIP-T,RFC3372, RFC3204, RFC3398",
+      "Echo Cancellation (G.168),with up to 128ms",
+      "SIP Trunk Work Mode: Peer/Access",
+      "Adaptive Dynamic Buffer",
+      "SIP/IMS Registration :with up to 256 SIP Accounts",
+      "Voice, Fax Gain Control",
+      "NAT: Dynamic NAT, Rport",
+      "FAX:T.38 and Pass-through",
+      "Flexible Route Methods: PSTN-PSTN, PSTN-IP, IP-PSTN",
+      "Support Modem/POS",
+      "Intelligent Routing Rules",
+      "DTMF Mode: RFC2833/SIP Info/In-band",
+      "Call Routing base on Time",
+      "Clear Channel/Clear Mode",
+      "Call Routing base on Caller/Called Prefixes",
+      "ISDN PRI:",
+      "256 Route Rules for each Direction",
+      "Signal 7/SS7: ITU-T, ANSI, ITU-CHINA, MTP1/MTP2/MTP3, TUP/ISUP",
+      "Caller and Called Number Manipulation",
+      "R2 MFC",
+      "Local/Transparent Ring Back Tone",
+      "Web GUI Configuration",
+      "Overlapping Dialing",
+      "Data Backup/Restore",
+      "Dialing Rules, with up to 2000",
+      "PSTN Call Statistics",
+      "PSTN group by E1 port or E1 Timeslot",
+      "SIP Trunk Call Statistics",
+      "IP Trunk Group Configuration",
+      "Firmware Upgrade via TFTP/Web",
+      "Voice Codecs Group",
+      "SNMP v1/v2/v3",
+      "Caller and Called Number White Lists",
+      "Network Capture",
+      "Caller and Called Number Black Lists",
+      "Syslog: Debug, Info, Error, Warning , Notice",
+      "Access Rule Lists",
+      "Call History Records via Syslog",
+      "IP Trunk Priority",
+      "NTP Synchronization",
+      "Radius",
+      "Centralized Management System"
+    ],
+    "highlights": [
+      "4 to 16 ports E1/T1 in 1U chassis",
+      "Up to 480 simultaneous calls",
+      "Redundant MCUs (Main Control Unit)",
+      "Dual Power Supplies"
+    ],
+    "specifications": [
+      {
+        "label": "Model",
+        "value": "MTG2000B"
+      },
+      {
+        "label": "Product type",
+        "value": "High Availability Digital VoIP Gateway"
+      },
+      {
+        "label": "Codecs",
+        "value": "G.711a/μ law,G.723.1, G.729A/B, iLBC 13k/15k,AMR"
+      },
+      {
+        "label": "SIP Trunk Work Mode",
+        "value": "Peer/Access"
+      },
+      {
+        "label": "SIP/IMS Registration",
+        "value": "with up to 256 SIP Accounts"
+      },
+      {
+        "label": "NAT",
+        "value": "Dynamic NAT, Rport"
+      },
+      {
+        "label": "FAX",
+        "value": "T.38 and Pass-through"
+      },
+      {
+        "label": "Flexible Route Methods",
+        "value": "PSTN-PSTN, PSTN-IP, IP-PSTN"
+      },
+      {
+        "label": "DTMF Mode",
+        "value": "RFC2833/SIP Info/In-band"
+      },
+      {
+        "label": "Signal 7/SS7",
+        "value": "ITU-T, ANSI, ITU-CHINA, MTP1/MTP2/MTP3, TUP/ISUP"
+      },
+      {
+        "label": "Syslog",
+        "value": "Debug, Info, Error, Warning , Notice"
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://www.dinstar.com/WEB/files/15297/2021-06-18/MTG2000B%20VoIP%20Trunk%20Gateway%20Datasheet%20v2.0.pdf",
+        "title": "MTG2000B Digital VoIP Gateway Datasheet"
+      },
+      {
+        "url": "https://www.dinstar.com/WEB/files/15299/2018-09-06/MTG2000%20Digital%20VoIP%20Gateway%20User%20Manual.pdf",
+        "title": "MTG2000B Digital VoIP Gateway User Manual"
+      },
+      {
+        "url": "https://www.dinstar.com/WEB/files/15298/2019-04-30/MTG%20Series%20Quick%20Installation%20Guide.pdf",
+        "title": "MTG Series Digital VoIP Quick Installation Guide"
+      }
+    ]
   },
   {
     "slug": "mtg3000",
     "name": "MTG3000",
     "category": "Digital VoIP Gateway",
-    "imageKey": "mtg3000Front",
-    "galleryKeys": ["mtg3000Front", "mtg3000Side", "mtg3000Side2"],
-    "description": "High-capacity digital VoIP gateway for connecting digital trunks with SIP networks. Contact us for specifications."
+    "imageKey": "mtg3000_0",
+    "galleryKeys": [
+      "mtg3000_0",
+      "mtg3000_1"
+    ],
+    "description": "MTG3000 is a carrier-grade Digital VoIP gateway, scalable from 16 to 63 ports E1/T1 with STM-1 interface. It provides carrier-grade VoIP and FoIP services, as well as value-added functions such as modem and voice recognition. With highly maintainable, manageable and operable features, it offers a high performance, reliable communication network for users. MTG3000 supports a wide-range of signaling protocols, realizing the interconnection between SIP and traditional signals like ISDN PRI / SS7, utilizing efficiency of trunking resources while ensuring voice quality. With multiple voice codes, secure signal encryption and smart voice recognition technology, MTG3000 is ideal for a variety of applications of services providers and telecom operators.",
+    "sourceUrl": "https://www.dinstar.com/digital-voip-gateway/mtg3000",
+    "subtitle": "High Density Digital VoIP Gateway",
+    "overview": [
+      "MTG3000 is a carrier-grade Digital VoIP gateway, scalable from 16 to 63 ports E1/T1 with STM-1 interface. It provides carrier-grade VoIP and FoIP services, as well as value-added functions such as modem and voice recognition. With highly maintainable, manageable and operable features, it offers a high performance, reliable communication network for users. MTG3000 supports a wide-range of signaling protocols, realizing the interconnection between SIP and traditional signals like ISDN PRI / SS7, utilizing efficiency of trunking resources while ensuring voice quality. With multiple voice codes, secure signal encryption and smart voice recognition technology, MTG3000 is ideal for a variety of applications of services providers and telecom operators.",
+      "More than 10-year experiences to integrate with a wide range of Legacy PBXs / Service providers' PSTN networks"
+    ],
+    "features": [
+      "1+1 Redundant Main Control Unit (MCU)",
+      "Up to 63 E1s/T1s, STM-1 interface",
+      "4 Digital Processing Unit (DTU), each support 512 channels",
+      "Codecs:G.711a/μ law,G.723.1, G.729A/B, iLBC 13k/15k,AMR",
+      "Dual Power Supplies",
+      "Silence Suppression",
+      "2 GE",
+      "Comfort Noise",
+      "SIP v2.0",
+      "Voice Activity Detection",
+      "SIP-T,RFC3372, RFC3204, RFC3398",
+      "Echo Cancellation (G.168),with up to 128ms",
+      "SIP Trunk Work Mode: Peer/Access",
+      "Adaptive Dynamic Buffer",
+      "SIP/IMS Registration :with up to 256 SIP Accounts",
+      "Voice, Fax Gain Control",
+      "NAT: Dynamic NAT, Rport",
+      "FAX:T.38 and Pass-through",
+      "Flexible Route Methods: PSTN-PSTN, PSTN-IP, IP-PSTN",
+      "Support Modem/POS",
+      "Intelligent Routing Rules",
+      "DTMF Mode: RFC2833/SIP Info/In-band",
+      "Call Routing base on Time",
+      "Clear Channel/Clear Mode",
+      "Call Routing base on Caller/Called Prefixes",
+      "ISDN PRI:",
+      "256 Route Rules for each Direction",
+      "Signal 7/SS7: ITU-T, ANSI, ITU-CHINA, MTP1/MTP2/MTP3, TUP/ISUP",
+      "Caller and Called Number Manipulation",
+      "R2 MFC",
+      "Local/Transparent Ring Back Tone",
+      "Web GUI Configuration",
+      "Overlapping Dialing",
+      "Data Backup/Restore",
+      "Dialing Rules, with up to 2000",
+      "PSTN Call Statistics",
+      "PSTN group by E1 port or E1 Timeslot",
+      "SIP Trunk Call Statistics",
+      "IP Trunk Group Configuration",
+      "Firmware Upgrade via TFTP/Web",
+      "Voice Codecs Group",
+      "SNMP v1/v2/v3",
+      "Caller and Called Number White Lists",
+      "Network Capture",
+      "Caller and Called Number Black Lists",
+      "Syslog: Debug, Info, Error, Warning , Notice",
+      "Access Rule Lists",
+      "Call History Records via Syslog",
+      "IP Trunk Priority",
+      "NTP Synchronization",
+      "Radius",
+      "Centralized Management System"
+    ],
+    "highlights": [
+      "4 Digital Processing Unit (DTU), each support 512 channels",
+      "16 to 63 ports E1/T1 in 2U chassis, STM-1 interface",
+      "Up to 1890 simultaneous calls",
+      "Redundancy Dual MCU units"
+    ],
+    "specifications": [
+      {
+        "label": "Model",
+        "value": "MTG3000"
+      },
+      {
+        "label": "Product type",
+        "value": "High Density Digital VoIP Gateway"
+      },
+      {
+        "label": "Codecs",
+        "value": "G.711a/μ law,G.723.1, G.729A/B, iLBC 13k/15k,AMR"
+      },
+      {
+        "label": "SIP Trunk Work Mode",
+        "value": "Peer/Access"
+      },
+      {
+        "label": "SIP/IMS Registration",
+        "value": "with up to 256 SIP Accounts"
+      },
+      {
+        "label": "NAT",
+        "value": "Dynamic NAT, Rport"
+      },
+      {
+        "label": "FAX",
+        "value": "T.38 and Pass-through"
+      },
+      {
+        "label": "Flexible Route Methods",
+        "value": "PSTN-PSTN, PSTN-IP, IP-PSTN"
+      },
+      {
+        "label": "DTMF Mode",
+        "value": "RFC2833/SIP Info/In-band"
+      },
+      {
+        "label": "Signal 7/SS7",
+        "value": "ITU-T, ANSI, ITU-CHINA, MTP1/MTP2/MTP3, TUP/ISUP"
+      },
+      {
+        "label": "Syslog",
+        "value": "Debug, Info, Error, Warning , Notice"
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://www.dinstar.com/WEB/files/15297/2018-09-06/MTG3000_Digital_VoIP_Gateway_Datasheet.pdf",
+        "title": "MTG3000 Digital VoIP Gateway Datasheet"
+      },
+      {
+        "url": "https://www.dinstar.com/WEB/files/15299/2019-04-19/MTG3000_Digital_VoIP_Gateway_User_Manual.pdf",
+        "title": "MTG3000 Digital VoIP Gateway User Manual"
+      },
+      {
+        "url": "https://www.dinstar.com/WEB/files/15298/2019-04-30/MTG_Series_Digital_VoIP_Gateway_Quick_Installation_Guide.pdf",
+        "title": "MTG Series Digital VoIP Gateway Quick Installation Guide"
+      }
+    ]
   },
   {
     "slug": "mtg5000",
     "name": "MTG5000",
     "category": "Digital VoIP Gateway",
-    "imageKey": "mtg5000Front",
-    "galleryKeys": ["mtg5000Front", "mtg5000Back", "mtg5000Side"],
-    "description": "High-capacity digital VoIP gateway for connecting digital trunks with SIP networks. Contact us for specifications."
+    "imageKey": "mtg5000_0",
+    "galleryKeys": [
+      "mtg5000_0",
+      "mtg5000_1"
+    ],
+    "description": "MTG5000 is a carrier-grade Digital VoIP gateway, and it is purposely designed for large enterprise networks, call centers, and Telecom service providers to connect with E1/T1 network interfaces. It is developed with the aspect of powerful call control features and maintenance tools. MTG5000 supports high density calls with a very stable system support. It also provides carrier grade VoIP and FoIP services, as well as value added functions such as fax modem and voice recognition service.",
+    "sourceUrl": "https://www.dinstar.com/digital-voip-gateway/mtg5000",
+    "subtitle": "High Density Digital VoIP Gateway",
+    "overview": [
+      "MTG5000 is a carrier-grade Digital VoIP gateway, and it is purposely designed for large enterprise networks, call centers, and Telecom service providers to connect with E1/T1 network interfaces. It is developed with the aspect of powerful call control features and maintenance tools. MTG5000 supports high density calls with a very stable system support. It also provides carrier grade VoIP and FoIP services, as well as value added functions such as fax modem and voice recognition service.",
+      "More than 10-year experiences to integrate with a wide range of Legacy PBXs / Service providers' PSTN networks"
+    ],
+    "features": [
+      "64 E1/T1 Ports",
+      "4 Digital Processing Unit (DTU), each support 480 channels",
+      "Codecs: G.711A/U, G.723.1, G.729A/B and iLBC",
+      "Dual Power Supplies",
+      "Silence Suppression",
+      "2 GE",
+      "Comfort Noise",
+      "SIP v2.0",
+      "Voice Activity Detection",
+      "SIP-T, RFC3372, RFC3204, RFC3398",
+      "Echo Cancellation (G.168), with up to 128ms",
+      "SIP Trunk Work Mode: Peer/Access",
+      "Adaptive Dynamic Buffer",
+      "SIP/IMS Registration: with up to 2000 SIP Accounts",
+      "Voice, Fax Gain Control",
+      "NAT: Dynamic NAT, Rport",
+      "FAX: T.38 and Pass-through",
+      "Flexible Route Methods: PSTN-PSTN, PSTN-IP, IP-PSTN",
+      "Support Modem/POS",
+      "Intelligent Routing Rules",
+      "DTMF Mode: RFC2833/SIP Info/In-band",
+      "Call Routing base on Time",
+      "Clear Channel/Clear Mode",
+      "Call Routing base on Caller/Called Prefixes",
+      "ISDN PRI",
+      "512 Route Rules for each Direction",
+      "Signal 7/SS7: ITU-T, ANSI, ITU-CHINA, MTP1/MTP2/MTP3, TUP/ISUP",
+      "Caller and Called Number Manipulation",
+      "R2 MFC",
+      "Local/Transparent Ring Back Tone",
+      "Web GUI Configuration",
+      "Overlapping Dialing",
+      "Data Backup/Restore",
+      "Dialing Rules, with up to 2000",
+      "PSTN Call Statistics",
+      "PSTN group by E1 port or E1 Timeslot",
+      "SIP Trunk Call Statistics",
+      "IP Trunk Group Configuration",
+      "Firmware Upgrade via TFTP/Web",
+      "Voice Codecs Group",
+      "SNMP v1/v2/v3",
+      "Caller and Called Number White Lists",
+      "Network Capture",
+      "Caller and Called Number Black Lists",
+      "Syslog: Debug, Info, Error, Warning , Notice",
+      "Access Rule Lists",
+      "Call History Records via Syslog",
+      "IP Trunk Priority",
+      "NTP Synchronization",
+      "Radius",
+      "Centralized Management System"
+    ],
+    "highlights": [
+      "64 E1/T1 Ports",
+      "4 Digital Processing Unit (DTU), each support 480 channels",
+      "64  E1/T1 ports",
+      "Up to 1920 simultaneous calls"
+    ],
+    "specifications": [
+      {
+        "label": "Model",
+        "value": "MTG5000"
+      },
+      {
+        "label": "Product type",
+        "value": "High Density Digital VoIP Gateway"
+      },
+      {
+        "label": "Codecs",
+        "value": "G.711A/U, G.723.1, G.729A/B and iLBC"
+      },
+      {
+        "label": "SIP Trunk Work Mode",
+        "value": "Peer/Access"
+      },
+      {
+        "label": "SIP/IMS Registration",
+        "value": "with up to 2000 SIP Accounts"
+      },
+      {
+        "label": "NAT",
+        "value": "Dynamic NAT, Rport"
+      },
+      {
+        "label": "FAX",
+        "value": "T.38 and Pass-through"
+      },
+      {
+        "label": "Flexible Route Methods",
+        "value": "PSTN-PSTN, PSTN-IP, IP-PSTN"
+      },
+      {
+        "label": "DTMF Mode",
+        "value": "RFC2833/SIP Info/In-band"
+      },
+      {
+        "label": "Signal 7/SS7",
+        "value": "ITU-T, ANSI, ITU-CHINA, MTP1/MTP2/MTP3, TUP/ISUP"
+      },
+      {
+        "label": "Syslog",
+        "value": "Debug, Info, Error, Warning , Notice"
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://www.dinstar.com/WEB/files/15297/2022-08-25/MTG5000%20VoIP%20Trunk%20Gateway%20Datasheet.pdf",
+        "title": "MTG5000 Digital VoIP Gateway Datasheet"
+      },
+      {
+        "url": "https://www.dinstar.com/WEB/files/15299/2022-08-25/MTG5000%20Digital%20VoIP%20Gateway%20User%20Manual.pdf",
+        "title": "MTG5000 Digital VoIP Gateway User Manual"
+      },
+      {
+        "url": "https://www.dinstar.com/WEB/files/15298/2019-04-30/MTG%20Series%20Quick%20Installation%20Guide.pdf",
+        "title": "MTG Series Digital VoIP Gateway Quick Installation Guide"
+      }
+    ]
   },
   {
     "slug": "mtg3000t",
     "name": "MTG3000T",
     "category": "Digital VoIP Gateway",
-    "imageKey": "mtg3000tFront",
-    "galleryKeys": ["mtg3000tFront", "mtg3000tBack"],
-    "description": "Digital VoIP gateway for connecting digital trunks with SIP networks. Contact us for MTG3000T specifications."
+    "imageKey": "mtg3000t_0",
+    "galleryKeys": [
+      "mtg3000t_0",
+      "mtg3000t_1"
+    ],
+    "description": "MTG3000T series is a flexible and high-performance transcoding gateway with up to 1568 transcoding sessions. It converts simultaneous channels of transcoding among a number of popular voice codecs like G.711A/U, G.723.1, G.729A/B, iLBC,G.726 and AMR from IP to IP, bridge differences in capabilities between the telecommunications systems with high reliability.",
+    "sourceUrl": "https://www.dinstar.com/digital-voip-gateway/mtg3000t",
+    "subtitle": "High Density Trancoding Gateway",
+    "overview": [
+      "MTG3000T series is a flexible and high-performance transcoding gateway with up to 1568 transcoding sessions. It converts simultaneous channels of transcoding among a number of popular voice codecs like G.711A/U, G.723.1, G.729A/B, iLBC,G.726 and AMR from IP to IP, bridge differences in capabilities between the telecommunications systems with high reliability.",
+      "More than 10-year experiences to integrate with a wide range of Legacy PBXs/Service providers' PSTN networks"
+    ],
+    "features": [
+      "Up to 4 Digital Processing Unit (DTU)",
+      "SIP Trunk Groups",
+      "2 GE ports",
+      "256 SIP trunks",
+      "Redundant Power Supply",
+      "Outbound Proxy supported",
+      "G.711—G.711: 2048 sessions",
+      "Maximum 256 SIP accounts",
+      "G.711—G.729: 1568 sessions",
+      "Cloud based management system",
+      "G.711—G.723: 1344 sessions",
+      "Web GUI management",
+      "G.711—G.726: 2048 sessions",
+      "SNMP",
+      "G.711—iLBC: 960 sessions",
+      "Firmware Upgrade via TFTP/FTP/HTTP",
+      "G.711— AMR: 832 sessions",
+      "Support configuration backup/restore",
+      "G.723—G.729: 896 sessions",
+      "Local maintenance via console",
+      "SIP, SIP-T",
+      "Call trace/syslog",
+      "SIP Trunk Work Mode: Peer/Access",
+      "Call test",
+      "SIP/IMS Registration: with up to 256 SIP Accounts",
+      "Network capture",
+      "NAT: Dynamic NAT, Rport",
+      "Signaling hunter",
+      "Caller/Called Number Black lists",
+      "Voice codecs: G.711a/μ law,G.723.1,G.729A/B, iLBC, AMR",
+      "Caller/Called Number White lists",
+      "FAX: T.38 and Pass-through",
+      "IP access rule list",
+      "Support Modem/POS"
+    ],
+    "highlights": [
+      "2 GE ports",
+      "G.711—G.711: 2048 sessions",
+      "G.711—G.729: 1568 sessions",
+      "G.711—G.723: 1344 sessions"
+    ],
+    "specifications": [
+      {
+        "label": "Model",
+        "value": "MTG3000T"
+      },
+      {
+        "label": "Product type",
+        "value": "High Density Trancoding Gateway"
+      },
+      {
+        "label": "G.711—G.711",
+        "value": "2048 sessions"
+      },
+      {
+        "label": "G.711—G.729",
+        "value": "1568 sessions"
+      },
+      {
+        "label": "G.711—G.723",
+        "value": "1344 sessions"
+      },
+      {
+        "label": "G.711—G.726",
+        "value": "2048 sessions"
+      },
+      {
+        "label": "G.711—iLBC",
+        "value": "960 sessions"
+      },
+      {
+        "label": "G.711— AMR",
+        "value": "832 sessions"
+      },
+      {
+        "label": "G.723—G.729",
+        "value": "896 sessions"
+      },
+      {
+        "label": "SIP Trunk Work Mode",
+        "value": "Peer/Access"
+      },
+      {
+        "label": "SIP/IMS Registration",
+        "value": "with up to 256 SIP Accounts"
+      },
+      {
+        "label": "NAT",
+        "value": "Dynamic NAT, Rport"
+      },
+      {
+        "label": "Voice codecs",
+        "value": "G.711a/μ law,G.723.1,G.729A/B, iLBC, AMR"
+      },
+      {
+        "label": "FAX",
+        "value": "T.38 and Pass-through"
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://www.dinstar.com/WEB/files/15297/2018-09-06/MTG3000T%20Transcoding%20Gateway%20Datasheet.pdf",
+        "title": "MTG3000T Transcoding Gateway Datasheet"
+      }
+    ]
   },
   {
     "slug": "dag1000-1-2s",
     "name": "DAG1000-1/2S",
     "category": "FXS VoIP Gateway",
-    "imageKey": "dag1000-1sFront",
-    "galleryKeys": ["dag1000-1sFront", "dag1000-1sBack", "dag1000-2sFront", "dag1000-2sBack"],
-    "description": "Analog FXS VoIP gateway models for connecting analog telephone devices to SIP networks. Contact us for model options and specifications."
+    "imageKey": "dag1000_1_2s_0",
+    "galleryKeys": [
+      "dag1000_1_2s_0",
+      "dag1000_1_2s_1"
+    ],
+    "description": "DAG1000-1S/2S is a multi-functional analog telephone adapter which offers seamless connectivity between IP Telephony networks and legacy telephones (POTS), fax machines and PBX systems. The device provides 1 or 2 FXS port(s), fax over IP and a built-in high-speed NAT router. These powerful features and good voice quality make the device ideal for various application environments such as SOHO and small enterprises and for personal use. Moreover, with automatic provisioning and centralized management system, the device is easy to maintain and deploy.",
+    "sourceUrl": "https://www.dinstar.com/analog-voip-gateway/1-2-fxs",
+    "subtitle": "Analog Telephone Adaptor 1/2 FXS",
+    "overview": [
+      "DAG1000-1S/2S is a multi-functional analog telephone adapter which offers seamless connectivity between IP Telephony networks and legacy telephones (POTS), fax machines and PBX systems. The device provides 1 or 2 FXS port(s), fax over IP and a built-in high-speed NAT router. These powerful features and good voice quality make the device ideal for various application environments such as SOHO and small enterprises and for personal use. Moreover, with automatic provisioning and centralized management system, the device is easy to maintain and deploy."
+    ],
+    "features": [
+      "IPv6, IPv4",
+      "Call waiting",
+      "SIP/IMS",
+      "Call Transfer (Blind transfer, Attend transfer)",
+      "SIP v2.0 (RFC3261) based on UDP/TCP/TLS",
+      "Call Forwarding (Unconditional, No reply)",
+      "Fax over T.38 and Pass-through",
+      "Speed Dial",
+      "QoS:L3 DIFFServ, 802, 1P/Q VLAN Tagging",
+      "Do Not Disturb(DND)",
+      "3-way conference",
+      "Automatic firmware upgrade and configuration via HTTP/HTTPS",
+      "Hunting group",
+      "System logs & CDR",
+      "Voice Mail",
+      "Flexible routing & dial plan",
+      "Pluse Dialing",
+      "Backup and restore",
+      "MWI",
+      "SNMP/TR-069",
+      "Caller ID",
+      "TLS/SRTP",
+      "Music on hold"
+    ],
+    "highlights": [
+      "1/2 FXS ports, 1 WAN, 1 LAN",
+      "Support SIP, IMS",
+      "Flexible routing & Dial plan",
+      "Interoperable with leading softswitches, IP PBXs and SIP servers"
+    ],
+    "specifications": [
+      {
+        "label": "Model",
+        "value": "DAG1000-1/2S"
+      },
+      {
+        "label": "Product type",
+        "value": "Analog Telephone Adaptor 1/2 FXS"
+      },
+      {
+        "label": "QoS",
+        "value": "L3 DIFFServ, 802, 1P/Q VLAN Tagging"
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://www.dinstar.com/WEB/files/13119/2018-09-05/DAG1000-1S2S%20Analog%20Telephone%20Adapter%20Datasheet.pdf",
+        "title": "DAG1000-1S&2S Analog Telephone Adapter Datasheet"
+      },
+      {
+        "url": "https://www.dinstar.com/WEB/files/13121/2019-06-10/DAG1000-1S_2S_FXS_Gateway_User_Manual.pdf",
+        "title": "DAG1000-1S/2S Analog Telephone Adapter User Manual"
+      }
+    ]
   },
   {
     "slug": "dag1000-4s",
     "name": "DAG1000-4S",
     "category": "FXS VoIP Gateway",
-    "imageKey": "dag1000-4sFront",
-    "galleryKeys": ["dag1000-4sFront", "dag1000-4sBack"],
-    "description": "Analog FXS VoIP gateway for connecting analog telephone devices to SIP networks. Contact us for specifications."
+    "imageKey": "dag1000_4s_0",
+    "galleryKeys": [
+      "dag1000_4s_0",
+      "dag1000_4s_1"
+    ],
+    "description": "DAG1000-4S is a multi-functional analog telephone adapter which offers seamless connectivity between IP Telephony networks and legacy telephones (POTS), fax machines and PBX systems. With standard SIP protocol, it's compatible with leading IMS/NGN platforms and SIP-based IP Telephony systems. It provides 4 FXS ports, fax over IP and flexible dial plans. Offering high-quality and reliable voice-over-IP service, the device is ideal for call centers, small and medium enterprises, SOHO and residential users.",
+    "sourceUrl": "https://www.dinstar.com/analog-voip-gateway/4-fxs",
+    "subtitle": "4 FXS Analog VoIP Gateway",
+    "overview": [
+      "DAG1000-4S is a multi-functional analog telephone adapter which offers seamless connectivity between IP Telephony networks and legacy telephones (POTS), fax machines and PBX systems. With standard SIP protocol, it's compatible with leading IMS/NGN platforms and SIP-based IP Telephony systems. It provides 4 FXS ports, fax over IP and flexible dial plans. Offering high-quality and reliable voice-over-IP service, the device is ideal for call centers, small and medium enterprises, SOHO and residential users."
+    ],
+    "features": [
+      "IPv6, IPv4",
+      "Call waiting",
+      "SIP/IMS",
+      "Call Transfer (Blind transfer, Attend transfer)",
+      "SIP v2.0 (RFC3261) based on UDP/TCP/TLS",
+      "Call Forwarding (Unconditional, No reply)",
+      "Fax over T.38 and Pass-through",
+      "Speed Dial",
+      "QoS:L3 DIFFServ, 802, 1P/Q VLAN Tagging",
+      "Do Not Disturb(DND)",
+      "3-way conference",
+      "Automatic firmware upgrade and configuration via HTTP/HTTPS",
+      "Hunting group",
+      "System logs & CDR",
+      "Voice Mail",
+      "Flexible routing & dial plan",
+      "Pluse Dialing",
+      "Backup and restore",
+      "MWI",
+      "SNMP/TR-069",
+      "Caller ID",
+      "TLS/SRTP",
+      "Music on hold"
+    ],
+    "highlights": [
+      "4 FXS ports, 1 WAN, 1 LAN",
+      "Support SIP, IMS",
+      "Flexible routing & Dial plan",
+      "Interoperable with leading softswitches, IP PBXs and SIP servers"
+    ],
+    "specifications": [
+      {
+        "label": "Model",
+        "value": "DAG1000-4S"
+      },
+      {
+        "label": "Product type",
+        "value": "4 FXS Analog VoIP Gateway"
+      },
+      {
+        "label": "QoS",
+        "value": "L3 DIFFServ, 802, 1P/Q VLAN Tagging"
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://www.dinstar.com/WEB/files/13119/2018-09-05/DAG1000-4S%20Analog%20VoIP%20Gateway%20Datasheet.pdf",
+        "title": "DAG1000-4S Analog VoIP Gateway Datasheet"
+      },
+      {
+        "url": "https://www.dinstar.com/WEB/files/13121/2023-07-11/DAG1000-4S_FXS_Gateway_User_Manual.pdf",
+        "title": "DAG1000-4S Analog VoIP Gateway User Manual"
+      }
+    ]
   },
   {
     "slug": "dag1000-4s-ge",
     "name": "DAG1000-4S(GE)",
     "category": "FXS VoIP Gateway",
-    "imageKey": "dag1000-4sGeFront",
-    "galleryKeys": ["dag1000-4sGeFront", "dag1000-4sGeBack", "dag1000-4sGeSide", "dag1000-4sGeTop"],
-    "description": "Analog FXS VoIP gateway with Gigabit Ethernet (GE). Contact us for specifications."
+    "imageKey": "dag1000_4s_ge_0",
+    "galleryKeys": [
+      "dag1000_4s_ge_0",
+      "dag1000_4s_ge_1"
+    ],
+    "description": "TheDAG1000-4S(GE) is a multifunctional VoIP gateway with 1000Mbps full-duplex connectivity capability. The gateway offers 2 Gigabit Ethernet ports and 4 FXS RJ11 phone ports, which helps to seamless connectivity between IP-based telephony network sand legacy telephones (POTS), fax machines and PBX systems. It is ideally suited for small and medium enterprises, service providers and multi-location environments that need VoIP services.",
+    "sourceUrl": "https://www.dinstar.com/analog-voip-gateway/fxs-gateway/4s-ge",
+    "subtitle": "4 FXS VoIP Gateway",
+    "overview": [
+      "TheDAG1000-4S(GE) is a multifunctional VoIP gateway with 1000Mbps full-duplex connectivity capability. The gateway offers 2 Gigabit Ethernet ports and 4 FXS RJ11 phone ports, which helps to seamless connectivity between IP-based telephony network sand legacy telephones (POTS), fax machines and PBX systems. It is ideally suited for small and medium enterprises, service providers and multi-location environments that need VoIP services."
+    ],
+    "features": [
+      "IPv6, IPv4",
+      "Call waiting",
+      "SIP/IMS",
+      "Call Transfer (Blind transfer, Attend transfer)",
+      "SIP v2.0 (RFC3261) based on UDP/TCP/TLS",
+      "Call Forwarding (Unconditional, No reply)",
+      "Fax over T.38 and Pass-through",
+      "Speed Dial",
+      "QoS:L3 DIFFServ, 802, 1P/Q VLAN Tagging",
+      "Do Not Disturb(DND)",
+      "3-way conference",
+      "Automatic firmware upgrade and configuration via HTTP/HTTPS",
+      "Hunting group",
+      "System logs & CDR",
+      "Voice Mail",
+      "Flexible routing & dial plan",
+      "Pluse Dialing",
+      "Backup and restore",
+      "MWI",
+      "SNMP/TR-069",
+      "Caller ID",
+      "TLS/SRTP",
+      "Music on hold"
+    ],
+    "highlights": [
+      "4 FXS ports, 1 WAN, 1 LAN(GE)",
+      "Support SIP, IMS",
+      "Flexible routing & Dial plan",
+      "Interoperable with leading softswitches, IP PBXs and SIP servers"
+    ],
+    "specifications": [
+      {
+        "label": "Model",
+        "value": "DAG1000-4S(GE)"
+      },
+      {
+        "label": "Product type",
+        "value": "4 FXS VoIP Gateway"
+      },
+      {
+        "label": "QoS",
+        "value": "L3 DIFFServ, 802, 1P/Q VLAN Tagging"
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://www.dinstar.com/WEB/files/62645/2018-06-23/DAG1000-4S(GE)%20Analog%20VoIP%20Gateway%20Datasheet%20%20v1.0.pdf",
+        "title": "DAG1000-4S(GE) Analog VoIP Gateway Datasheet"
+      },
+      {
+        "url": "https://www.dinstar.com/WEB/files/62645/2018-06-23/DAG1000-4S&8S(GE)%20Analog%20Gateway%20Quick%20Installation%20Guide.pdf",
+        "title": "DAG1000-4S&8S(GE) Analog Gateway Quick Installation Guide"
+      },
+      {
+        "url": "https://www.dinstar.com/WEB/files/62645/2018-06-23/DAG1000_4S_8S(GE)%20FXS%20VoIP%20Gateway%20User%20Manual%20v1.0.pdf",
+        "title": "DAG1000-4S&8S(GE) Analog Gateway Quick Installation Guide"
+      }
+    ]
   },
   {
     "slug": "dag1000-8s-ge",
     "name": "DAG1000-8S(GE)",
     "category": "FXS VoIP Gateway",
-    "imageKey": "dag1000-8sGe1",
-    "galleryKeys": ["dag1000-8sGe1", "dag1000-8sGe2", "dag1000-8sGe3", "dag1000-8sGe4"],
-    "description": "Analog FXS VoIP gateway with Gigabit Ethernet (GE). Contact us for specifications."
+    "imageKey": "dag1000_8s_ge_0",
+    "galleryKeys": [
+      "dag1000_8s_ge_0",
+      "dag1000_8s_ge_1"
+    ],
+    "description": "DAG1000-8S(GE) is a multi-functional analog gateway offering seamless connectivity between IP-based telephony networks and legacy telephones (POTS), fax machines and PBX systems. The gateway offers 2 Gigabit Ethernet ports, 8 FXS RJ11 phone ports, fax over IP and flexible dial plans. It is ideally suited for small and medium businesses, call centers and multi-location environments that need VoIP services.",
+    "sourceUrl": "https://www.dinstar.com/analog-voip-gateway/8-fxs",
+    "subtitle": "8 FXS Analog VoIP Gateway",
+    "overview": [
+      "DAG1000-8S(GE) is a multi-functional analog gateway offering seamless connectivity between IP-based telephony networks and legacy telephones (POTS), fax machines and PBX systems. The gateway offers 2 Gigabit Ethernet ports, 8 FXS RJ11 phone ports, fax over IP and flexible dial plans. It is ideally suited for small and medium businesses, call centers and multi-location environments that need VoIP services."
+    ],
+    "features": [
+      "IPv6, IPv4",
+      "Call waiting",
+      "SIP/IMS",
+      "Call Transfer (Blind transfer, Attend transfer)",
+      "SIP v2.0 (RFC3261) based on UDP/TCP/TLS",
+      "Call Forwarding (Unconditional, No reply)",
+      "Fax over T.38 and Pass-through",
+      "Speed Dial",
+      "QoS:L3 DIFFServ, 802, 1P/Q VLAN Tagging",
+      "Do Not Disturb(DND)",
+      "3-way conference",
+      "Automatic firmware upgrade and configuration via HTTP/HTTPS",
+      "Hunting group",
+      "System logs & CDR",
+      "Voice Mail",
+      "Flexible routing & dial plan",
+      "Pluse Dialing",
+      "Backup and restore",
+      "MWI",
+      "SNMP/TR-069",
+      "5 km long haul",
+      "TLS/SRTP",
+      "Music on hold"
+    ],
+    "highlights": [
+      "8 FXS ports, 1 WAN, 1 LAN",
+      "Support SIP, IMS",
+      "Flexible routing & Dial plan",
+      "Interoperable with leading softswitches, IP PBXs and SIP servers"
+    ],
+    "specifications": [
+      {
+        "label": "Model",
+        "value": "DAG1000-8S(GE)"
+      },
+      {
+        "label": "Product type",
+        "value": "8 FXS Analog VoIP Gateway"
+      },
+      {
+        "label": "QoS",
+        "value": "L3 DIFFServ, 802, 1P/Q VLAN Tagging"
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://www.dinstar.com/WEB/files/14415/2025-03-12/DAG1000-8S(GE)%20Analog%20VoIP%20Gateway%20Datasheet.pdf",
+        "title": "DAG1000-8S(GE) Analog VoIP Gateway Datasheet"
+      },
+      {
+        "url": "https://www.dinstar.com/WEB/files/13119/2018-09-05/DAG1000-8S%20Analog%20VoIP%20Gateway%20Datasheet_2025.pdf",
+        "title": "DAG1000-8S Analog VoIP Gateway Datasheet"
+      },
+      {
+        "url": "https://www.dinstar.com/WEB/files/62645/2018-06-23/DAG1000_4S_8S(GE)%20FXS%20VoIP%20Gateway%20User%20Manual%20v1.0.pdf",
+        "title": "DAG1000-8S Analog VoIP Gateway User Manual"
+      },
+      {
+        "url": "https://www.dinstar.com/WEB/files/62645/2018-06-23/DAG1000-4S&8S(GE)%20Analog%20Gateway%20Quick%20Installation%20Guide.pdf",
+        "title": "DAG1000-4S&8S(GE) Analog Gateway Quick Installation Guide"
+      }
+    ]
   },
   {
     "slug": "dag2000-16s-ge",
     "name": "DAG2000-16S(GE)",
     "category": "FXS VoIP Gateway",
-    "imageKey": "dag2000-16sFront",
-    "galleryKeys": ["dag2000-16sFront", "dag2000-16sBack", "dag2000-16sDetail", "dag2000-16sExtra"],
-    "description": "Analog FXS VoIP gateway with 16 ports and Gigabit Ethernet (GE). Contact us for specifications."
+    "imageKey": "dag2000_16s_ge_0",
+    "galleryKeys": [
+      "dag2000_16s_ge_0",
+      "dag2000_16s_ge_1"
+    ],
+    "description": "DAG2000-16S is a multi-functional analog VoIP gateway offering seamless connectivity between IP-based telephony networks and legacy telephones (POTS), fax machines and PBX systems. With the standard SIP protocol, it's compatible with leading IMS/NGN platforms and SIP-based IP Phone systems. The device offers 16 FXS ports, fax over IP and flexible dial plans. It is ideally suited for small and medium businesses, call centers and multi-location environments that need VoIP services.",
+    "sourceUrl": "https://www.dinstar.com/analog-voip-gateway/16-fxs",
+    "subtitle": "16 FXS Analog VoIP Gateway",
+    "overview": [
+      "DAG2000-16S is a multi-functional analog VoIP gateway offering seamless connectivity between IP-based telephony networks and legacy telephones (POTS), fax machines and PBX systems. With the standard SIP protocol, it's compatible with leading IMS/NGN platforms and SIP-based IP Phone systems. The device offers 16 FXS ports, fax over IP and flexible dial plans. It is ideally suited for small and medium businesses, call centers and multi-location environments that need VoIP services."
+    ],
+    "features": [
+      "IPv6, IPv4",
+      "Call waiting",
+      "SIP/IMS",
+      "Call Transfer (Blind transfer, Attend transfer)",
+      "SIP v2.0 (RFC3261) based on UDP/TCP/TLS",
+      "Call Forwarding (Unconditional, No reply)",
+      "Fax over T.38 and Pass-through",
+      "Speed Dial",
+      "QoS:L3 DIFFServ, 802, 1P/Q VLAN Tagging",
+      "Do Not Disturb(DND)",
+      "3-way conference",
+      "Automatic firmware upgrade and configuration via HTTP/HTTPS",
+      "Hunting group",
+      "System logs & CDR",
+      "Voice Mail",
+      "Flexible routing & dial plan",
+      "Pluse Dialing",
+      "Backup and restore",
+      "MWI",
+      "SNMP/TR-069",
+      "5 km long haul",
+      "TLS/SRTP",
+      "Music on hold"
+    ],
+    "highlights": [
+      "16 FXS ports",
+      "Support SIP, IMS",
+      "Flexible routing & Dial plan",
+      "Interoperable with leading softswitches, IP PBXs and SIP servers"
+    ],
+    "specifications": [
+      {
+        "label": "Model",
+        "value": "DAG2000-16S(GE)"
+      },
+      {
+        "label": "Product type",
+        "value": "16 FXS Analog VoIP Gateway"
+      },
+      {
+        "label": "QoS",
+        "value": "L3 DIFFServ, 802, 1P/Q VLAN Tagging"
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://www.dinstar.com/WEB/files/13119/2025-03-12/DAG2000-16S(GE)%20Analog%20VoIP%20Gateway%20Datasheet.pdf",
+        "title": "DAG1000-16S(GE) Analog VoIP Gateway Datasheet"
+      },
+      {
+        "url": "https://www.dinstar.com/WEB/files/13119/2018-09-05/DAG2000-16S%20Analog%20VoIP%20Gateway%20Datasheet%20v2025.pdf",
+        "title": "DAG2000-16S Analog VoIP Gateway Datasheet"
+      },
+      {
+        "url": "https://www.dinstar.com/WEB/files/15144/2019-04-25/DAG2000-16&24&32S%20VoIP%20Gateway%20User%20Manual%20V3.0.pdf",
+        "title": "DAG2000-16S VoIP Gateway User Manual"
+      }
+    ]
   },
   {
     "slug": "dag2000-24s-ge",
     "name": "DAG2000-24S(GE)",
     "category": "FXS VoIP Gateway",
-    "imageKey": "dag2000-24sFront",
-    "galleryKeys": ["dag2000-24sFront", "dag2000-24sBack"],
-    "description": "Analog FXS VoIP gateway with 24 ports and Gigabit Ethernet (GE). Contact us for specifications."
+    "imageKey": "dag2000_24s_ge_0",
+    "galleryKeys": [
+      "dag2000_24s_ge_0",
+      "dag2000_24s_ge_1"
+    ],
+    "description": "DAG2000-24S is a multi-functional analog VoIP gateway offering seamless connectivity between IP-based telephony networks and legacy telephones (POTS), fax machines and PBX systems. With the standard RJ11 and RJ21 interfaces, the device offers maximum 24 FXS ports. It provides the standard SIP protocol and is compatible with leading IMS/NGN platforms and SIP-based IP Phone systems. It is ideally suited for small and medium businesses, call centers and multi-location environments that need VoIP services.",
+    "sourceUrl": "https://www.dinstar.com/analog-voip-gateway/24-fxs",
+    "subtitle": "24 FXS Analog VoIP Gateway",
+    "overview": [
+      "DAG2000-24S is a multi-functional analog VoIP gateway offering seamless connectivity between IP-based telephony networks and legacy telephones (POTS), fax machines and PBX systems. With the standard RJ11 and RJ21 interfaces, the device offers maximum 24 FXS ports. It provides the standard SIP protocol and is compatible with leading IMS/NGN platforms and SIP-based IP Phone systems. It is ideally suited for small and medium businesses, call centers and multi-location environments that need VoIP services."
+    ],
+    "features": [
+      "IPv6, IPv4",
+      "Call waiting",
+      "SIP/IMS",
+      "Call Transfer (Blind transfer, Attend transfer)",
+      "SIP v2.0 (RFC3261) based on UDP/TCP/TLS",
+      "Call Forwarding (Unconditional, No reply)",
+      "Fax over T.38 and Pass-through",
+      "Speed Dial",
+      "QoS:L3 DIFFServ, 802, 1P/Q VLAN Tagging",
+      "Do Not Disturb(DND)",
+      "3-way conference",
+      "Automatic firmware upgrade and configuration via HTTP/HTTPS",
+      "Hunting group",
+      "System logs & CDR",
+      "Voice Mail",
+      "Flexible routing & dial plan",
+      "Pluse Dialing",
+      "Backup and restore",
+      "MWI",
+      "SNMP/TR-069",
+      "5 km long haul",
+      "TLS/SRTP",
+      "Music on hold"
+    ],
+    "highlights": [
+      "24 FXS ports",
+      "Support SIP, IMS",
+      "Flexible routing & Dial plan",
+      "Interoperable with leading softswitches, IP PBXs and SIP servers"
+    ],
+    "specifications": [
+      {
+        "label": "Model",
+        "value": "DAG2000-24S(GE)"
+      },
+      {
+        "label": "Product type",
+        "value": "24 FXS Analog VoIP Gateway"
+      },
+      {
+        "label": "QoS",
+        "value": "L3 DIFFServ, 802, 1P/Q VLAN Tagging"
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://www.dinstar.com/WEB/files/13119/2025-03-12/DAG2000-24S(GE)%20Analog%20VoIP%20Gateway%20Datasheet.pdf",
+        "title": "DAG2000-24S(GE) Analog VoIP Gateway Datasheet"
+      },
+      {
+        "url": "https://www.dinstar.com/WEB/files/13119/2018-09-05/DAG2000-24S%20Analog%20VoIP%20Gateway%20Datasheet_2025.pdf",
+        "title": "DAG2000-24S Analog VoIP Gateway Datasheet"
+      },
+      {
+        "url": "https://www.dinstar.com/WEB/files/15144/2019-04-25/DAG2000-16&24&32S%20VoIP%20Gateway%20User%20Manual%20V3.0.pdf",
+        "title": "DAG2000-24S/32S Analog VoIP Gateway User Manual"
+      }
+    ]
   },
   {
     "slug": "dag2000-32s-ge",
     "name": "DAG2000-32S(GE)",
     "category": "FXS VoIP Gateway",
-    "imageKey": "dag2000-32sFront",
-    "galleryKeys": ["dag2000-32sFront", "dag2000-32sBack"],
-    "description": "Analog FXS VoIP gateway with 32 ports and Gigabit Ethernet (GE). Contact us for specifications."
+    "imageKey": "dag2000_32s_ge_0",
+    "galleryKeys": [
+      "dag2000_32s_ge_0",
+      "dag2000_32s_ge_1"
+    ],
+    "description": "DAG2000-32S is a multi-functional analog VoIP gateway offering seamless connectivity between IP-based telephony networks and legacy telephones (POTS), fax machines and PBX systems. With the standard RJ11 and RJ21 interfaces, the device offers maximum 32 FXS ports. It provides the standard SIP protocol and is compatible with leading IMS/NGN platforms and SIP-based IP Phone systems. It is ideally suited for small and medium businesses, call centers and multi-location environments that need VoIP services.",
+    "sourceUrl": "https://www.dinstar.com/analog-voip-gateway/32-fxs",
+    "subtitle": "32 FXS Analog VoIP Gateway",
+    "overview": [
+      "DAG2000-32S is a multi-functional analog VoIP gateway offering seamless connectivity between IP-based telephony networks and legacy telephones (POTS), fax machines and PBX systems. With the standard RJ11 and RJ21 interfaces, the device offers maximum 32 FXS ports. It provides the standard SIP protocol and is compatible with leading IMS/NGN platforms and SIP-based IP Phone systems. It is ideally suited for small and medium businesses, call centers and multi-location environments that need VoIP services."
+    ],
+    "features": [
+      "IPv6, IPv4",
+      "Call waiting",
+      "SIP/IMS",
+      "Call Transfer (Blind transfer, Attend transfer)",
+      "SIP v2.0 (RFC3261) based on UDP/TCP/TLS",
+      "Call Forwarding (Unconditional, No reply)",
+      "Fax over T.38 and Pass-through",
+      "Speed Dial",
+      "QoS:L3 DIFFServ, 802, 1P/Q VLAN Tagging",
+      "Do Not Disturb(DND)",
+      "3-way conference",
+      "Automatic firmware upgrade and configuration via HTTP/HTTPS",
+      "Hunting group",
+      "System logs & CDR",
+      "Voice Mail",
+      "Flexible routing & dial plan",
+      "Pluse Dialing",
+      "Backup and restore",
+      "MWI",
+      "SNMP/TR-069",
+      "5 km long haul",
+      "TLS/SRTP",
+      "Music on hold"
+    ],
+    "highlights": [
+      "32 FXS ports",
+      "Support SIP, IMS",
+      "Flexible routing & Dial plan",
+      "Interoperable with leading softswitches, IP PBXs and SIP servers"
+    ],
+    "specifications": [
+      {
+        "label": "Model",
+        "value": "DAG2000-32S(GE)"
+      },
+      {
+        "label": "Product type",
+        "value": "32 FXS Analog VoIP Gateway"
+      },
+      {
+        "label": "QoS",
+        "value": "L3 DIFFServ, 802, 1P/Q VLAN Tagging"
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://www.dinstar.com/WEB/files/13119/2025-03-12/DAG2000-32S(GE)%20Analog%20VoIP%20Gateway%20Datasheet.pdf",
+        "title": "DAG2000-32S(GE) Analog VoIP Gateway Datasheet"
+      },
+      {
+        "url": "https://www.dinstar.com/WEB/files/13119/2018-09-05/DAG2000-32S%20Analog%20VoIP%20Gateway%20Datasheet_2025.pdf",
+        "title": "DAG2000-32S Analog VoIP Gateway Datasheet"
+      },
+      {
+        "url": "https://www.dinstar.com/WEB/files/15144/2019-04-25/DAG2000-16&24&32S%20VoIP%20Gateway%20User%20Manual%20V3.0.pdf",
+        "title": "DAG2000-24S/32S Analog VoIP Gateway User Manual"
+      }
+    ]
   },
   {
     "slug": "dag2500-48-72-96s",
     "name": "DAG2500-48/72/96S",
     "category": "FXS VoIP Gateway",
-    "imageKey": "placeholder",
-    "galleryKeys": ["placeholder"],
-    "description": "High-density analog FXS VoIP gateway series. Contact us for port configuration and specifications."
+    "imageKey": "dag2500_48_72_96s_0",
+    "galleryKeys": [
+      "dag2500_48_72_96s_0",
+      "dag2500_48_72_96s_1"
+    ],
+    "description": "Dinstar DAG2500 is a reliable high-density analog VoIP gateway, with up to 96 FXS ports in 1U size, the most unique one you can find in the market. It offers a cost-effective solution for businesses who transit to new all-IP infrastructure unified communications such as Softswitches, IP PBXs, SIP trunks, and Hosted UC solutions while retaining investments in legacy phone equipment such as analog phones, fax machines, modems, or PSTN lines. Interoperable with legacy / IP equipment, easy-to-use management, and eliminating the cost of re-wiring, DAG2500 is ideal for hospitality, apartment buildings, hospitals, schools/campuses, and service providers.",
+    "sourceUrl": "https://www.dinstar.com/analog-voip-gateway/48-72-96-fxs",
+    "subtitle": "High-density Analog VoIP Gateway",
+    "overview": [
+      "Dinstar DAG2500 is a reliable high-density analog VoIP gateway, with up to 96 FXS ports in 1U size, the most unique one you can find in the market. It offers a cost-effective solution for businesses who transit to new all-IP infrastructure unified communications such as Softswitches, IP PBXs, SIP trunks, and Hosted UC solutions while retaining investments in legacy phone equipment such as analog phones, fax machines, modems, or PSTN lines. Interoperable with legacy / IP equipment, easy-to-use management, and eliminating the cost of re-wiring, DAG2500 is ideal for hospitality, apartment buildings, hospitals, schools/campuses, and service providers.",
+      "Dinstar Cloud NMS: Dinstar own mangement system enables you to manage, monitor and maintain devices in bulk"
+    ],
+    "features": [
+      "Digit Map",
+      "IMPU",
+      "Action URL",
+      "Voicemail",
+      "Custom IVR",
+      "Call Holding",
+      "Call Waiting",
+      "Do-not-disturb",
+      "Blind Transfer",
+      "Attend Transfer",
+      "Call Forward on Busy",
+      "Call Forward on No Reply",
+      "Ringing Group, Hotline",
+      "3-way Conference",
+      "Early Media/Early Answer",
+      "Abbreviated Dialing",
+      "Access and Peer Mode",
+      "SIP PnP Auto Provisioning",
+      "PBX IVR",
+      "Unconditional Call Forward",
+      "SIP registration to different servers",
+      "Flexible Call Routing Policy",
+      "Caller/Called Number Manipulation",
+      "Recording",
+      "T.38/Pass-through",
+      "Modem/POS",
+      "Silence Suppression",
+      "Bandwidth Optimization",
+      "Comfort Noise Generation(CNG)",
+      "Voice Activity Detection(VAD)",
+      "Packet Loss Concealment",
+      "Adaptive (Dynamic) Jitter Buffer",
+      "Programmable Gain Control",
+      "G.711A/U law, G.723.1, G.729A/B, G.726, iLBC, AMR, AMR-GSM",
+      "DTMF mode: Signal/RFC2833/INBAND",
+      "Echo Cancellation(G.168), with up to 128ms"
+    ],
+    "highlights": [
+      "The only Analog VoIP Gateway with 96 ports in 1U size, saving your rack space and cost",
+      "48/72/96 ports optional",
+      "RJ21(50-pin telco), RJ45&DB37 optional",
+      "Market-proven hardware design"
+    ],
+    "specifications": [
+      {
+        "label": "Model",
+        "value": "DAG2500-48/72/96S"
+      },
+      {
+        "label": "Product type",
+        "value": "High-density Analog VoIP Gateway"
+      },
+      {
+        "label": "DTMF mode",
+        "value": "Signal/RFC2833/INBAND"
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://www.dinstar.com/WEB/files/13119/2018-09-05/DAG2500%20Series%20Analog%20VoIP%20Gateway%20Datasheet_2025.pdf",
+        "title": "DAG2500-48/72/96S Analog VoIP Gateway Datasheet"
+      },
+      {
+        "url": "https://www.dinstar.com/WEB/files/13121/2019-04-25/DAG2500-48S-72S-96S_FXS_Gateway_User_Manual.pdf",
+        "title": "DAG2500-48/72/96S Analog VoIP Gateway User Manual"
+      },
+      {
+        "url": "https://www.dinstar.com/WEB/files/13120/2023-05-06/DAG2500&DAG3000%20FXS%20Gateway%20Quick%20Installation%20Guide.pdf",
+        "title": "DAG2500 Analog VoIP Gateway Quick Installation Guide"
+      }
+    ]
   },
   {
     "slug": "dag3000-312s",
     "name": "DAG3000-312S",
     "category": "FXS VoIP Gateway",
-    "imageKey": "placeholder",
-    "galleryKeys": ["placeholder"],
-    "description": "High-density analog FXS VoIP gateway. Contact us for configuration and specifications."
+    "imageKey": "dag3000_312s_0",
+    "galleryKeys": [
+      "dag3000_312s_0",
+      "dag3000_312s_1"
+    ],
+    "description": "DAG3000-312S FXS analog gateway is a multi-functional voice gateway that provides seamless connectivity with analog phones, fax machine or analog PBXs to VoIP gateway. The overall frame of DAG3000-312S is compact and structured, supporting RJ21 interface standards and up to 312 FXS voice interfaces via user boards plugging at a size of 3U. In addition, DAG3000-312S provides high-performance hardware solution with good voice/fax processing capability. It is able to provide efficient and high-quality IP voice services for service providers, enterprises, community residents, and hospitalities.",
+    "sourceUrl": "https://www.dinstar.com/analog-voip-gateway/312-fxs",
+    "subtitle": "High-density Analog VoIP Gateway",
+    "overview": [
+      "DAG3000-312S FXS analog gateway is a multi-functional voice gateway that provides seamless connectivity with analog phones, fax machine or analog PBXs to VoIP gateway. The overall frame of DAG3000-312S is compact and structured, supporting RJ21 interface standards and up to 312 FXS voice interfaces via user boards plugging at a size of 3U. In addition, DAG3000-312S provides high-performance hardware solution with good voice/fax processing capability. It is able to provide efficient and high-quality IP voice services for service providers, enterprises, community residents, and hospitalities.",
+      "Dinstar Cloud NMS: Dinstar own mangement system enables you to manage, monitor and maintain devices in bulk"
+    ],
+    "features": [
+      "Digit Map",
+      "IMPU",
+      "Action URL",
+      "Voicemail",
+      "Custom IVR",
+      "Call Holding",
+      "Call Waiting",
+      "Do-not-disturb",
+      "Blind Transfer",
+      "Attend Transfer",
+      "Call Forward on Busy",
+      "Call Forward on No Reply",
+      "Ringing Group, Hotline",
+      "3-way Conference",
+      "Early Media/Early Answer",
+      "Abbreviated Dialing",
+      "Access and Peer Mode",
+      "SIP PnP Auto Provisioning",
+      "PBX IVR",
+      "Unconditional Call Forward",
+      "SIP registration to different servers",
+      "Flexible Call Routing Policy",
+      "Caller/Called Number Manipulation",
+      "Recording",
+      "T.38/Pass-through",
+      "Modem/POS",
+      "Silence Suppression",
+      "Bandwidth Optimization",
+      "Comfort Noise Generation(CNG)",
+      "Voice Activity Detection(VAD)",
+      "Packet Loss Concealment",
+      "Adaptive (Dynamic) Jitter Buffer",
+      "Programmable Gain Control",
+      "G.711A/U law, G.723.1, G.729A/B, G.726, iLBC, AMR, AMR-GSM",
+      "DTMF mode: Signal/RFC2833/INBAND",
+      "Echo Cancellation(G.168), with up to 128ms"
+    ],
+    "highlights": [
+      "Max 312 FXS Ports, RJ21(50-pin telco), 3U Chassis",
+      "312 concurrent calls for all voice codecs",
+      "Ideal for VoIP deployments with large install base of analog devices",
+      "Redundant power supplies"
+    ],
+    "specifications": [
+      {
+        "label": "Model",
+        "value": "DAG3000-312S"
+      },
+      {
+        "label": "Product type",
+        "value": "High-density Analog VoIP Gateway"
+      },
+      {
+        "label": "DTMF mode",
+        "value": "Signal/RFC2833/INBAND"
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://www.dinstar.com/WEB/files/13119/2023-11-17/DAG3000-312S-Analog%20VoIP%20Gateway%20Datasheet.pdf",
+        "title": "DAG3000-312S Analog VoIP Gateway Datasheet"
+      },
+      {
+        "url": "https://www.dinstar.com/WEB/files/13121/2024-03-05/DAG3000-312S_FXS_Gateway_User_Manual.pdf",
+        "title": "DAG3000-312S Analog VoIP Gateway User Manual"
+      },
+      {
+        "url": "https://www.dinstar.com/WEB/files/13120/2023-05-06/DAG2500&DAG3000%20FXS%20Gateway%20Quick%20Installation%20Guide.pdf",
+        "title": "DAG3000 Analog VoIP Gateway Quick Installation Guide"
+      }
+    ]
   },
   {
     "slug": "dag1000-2o",
     "name": "DAG1000-2O",
     "category": "FXO VoIP Gateway",
-    "imageKey": "dag1000-2oFront",
-    "galleryKeys": ["dag1000-2oFront", "dag1000-2oBack"],
-    "description": "Analog FXO VoIP gateway for connecting PSTN lines to SIP networks. Contact us for specifications."
+    "imageKey": "dag1000_2o_0",
+    "galleryKeys": [
+      "dag1000_2o_0",
+      "dag1000_2o_1"
+    ],
+    "description": "DAG1000-2O FXO analog gateway is a type of access gateway offering seamless connectivity between IP-based telephony networks and legacy telephones (POTS) and PBX systems. The analog gateway has 2 FXO ports and is used to connect to analog PBX or the PSTN lines of telecom carriers. With the standard SIP protocol, it's compatible with leading IMS/NGN platforms and SIP-based IP Phone systems. It provides low-cost and easy-to-use VoIP solutions for small businesses, SOHO, remote offices as well as enterprises with multiple branches.",
+    "sourceUrl": "https://www.dinstar.com/analog-voip-gateway/2-fxo",
+    "subtitle": "2 * FXO Analog VoIP Gateway",
+    "overview": [
+      "DAG1000-2O FXO analog gateway is a type of access gateway offering seamless connectivity between IP-based telephony networks and legacy telephones (POTS) and PBX systems. The analog gateway has 2 FXO ports and is used to connect to analog PBX or the PSTN lines of telecom carriers. With the standard SIP protocol, it's compatible with leading IMS/NGN platforms and SIP-based IP Phone systems. It provides low-cost and easy-to-use VoIP solutions for small businesses, SOHO, remote offices as well as enterprises with multiple branches."
+    ],
+    "features": [
+      "IPv6, IPv4",
+      "Call waiting",
+      "SIP/IMS",
+      "Call Transfer (Blind transfer, Attend transfer)",
+      "SIP v2.0 (RFC3261) based on UDP/TCP/TLS",
+      "Call Forwarding (Unconditional, No reply)",
+      "Fax over T.38 and Pass-through",
+      "Speed Dial",
+      "QoS:L3 DIFFServ, 802, 1P/Q VLAN Tagging",
+      "Do Not Disturb(DND)",
+      "3-way conference",
+      "Automatic firmware upgrade and configuration via HTTP/HTTPS",
+      "Hunting group",
+      "System logs & CDR",
+      "Voice Mail",
+      "Flexible routing & dial plan",
+      "Pluse Dialing",
+      "Backup and restore",
+      "MWI",
+      "SNMP/TR-069",
+      "TLS/SRTP",
+      "Music on hold"
+    ],
+    "highlights": [
+      "2 FXO ports, 1 WAN, 1 LAN",
+      "Support SIP, IMS",
+      "Flexible routing & Dial plan",
+      "Interoperable with leading softswitches, IP-PBXs and SIP servers"
+    ],
+    "specifications": [
+      {
+        "label": "Model",
+        "value": "DAG1000-2O"
+      },
+      {
+        "label": "Product type",
+        "value": "2 * FXO Analog VoIP Gateway"
+      },
+      {
+        "label": "QoS",
+        "value": "L3 DIFFServ, 802, 1P/Q VLAN Tagging"
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://www.dinstar.com/WEB/files/13119/2018-06-22/DAG1000-2O&4O&8O%20Analog%20VoIP%20Gateway%20Datasheet.pdf",
+        "title": "DAG1000-2O/4O/8O Analog VoIP Gateway Datasheet"
+      },
+      {
+        "url": "https://www.dinstar.com/WEB/files/13121/2019-04-25/DAG%20Series_FXO%20Analog%20Gateway%20User%20Manual.pdf",
+        "title": "DAG Series FXO VoIP Gateway User Manual"
+      },
+      {
+        "url": "https://www.dinstar.com/WEB/files/13120/2019-04-25/DAG1000%201S1O&2S2O&2O%20Quick%20Installation%20Guide.pdf",
+        "title": "DAG1000-1S1O/2S2O/2O Quick Installation Guide"
+      }
+    ]
   },
   {
     "slug": "dag1000-4o",
     "name": "DAG1000-4O",
     "category": "FXO VoIP Gateway",
-    "imageKey": "dag1000-4oFront",
-    "galleryKeys": ["dag1000-4oFront", "dag1000-4oBack"],
-    "description": "Analog FXO VoIP gateway for connecting PSTN lines to SIP networks. Contact us for specifications."
+    "imageKey": "dag1000_4o_0",
+    "galleryKeys": [
+      "dag1000_4o_0",
+      "dag1000_4o_1"
+    ],
+    "description": "DAG1000-4O FXO analog gateway is a type of access gateway offering seamless connectivity between IP-based telephony networks and legacy telephones (POTS) and PBX systems. The analog gateway has 4 FXO ports and is used to connect to analog PBX or the PSTN lines of telecom carriers. With the standard SIP protocol, it's compatible with leading IMS/NGN platforms and SIP-based IP Phone systems. It provides low-cost and easy-to-use VoIP solutions for small businesses, SOHO, remote offices as well as enterprises with multiple branches.",
+    "sourceUrl": "https://www.dinstar.com/analog-voip-gateway/4-fxo",
+    "subtitle": "4 * FXO Analog VoIP Gateway",
+    "overview": [
+      "DAG1000-4O FXO analog gateway is a type of access gateway offering seamless connectivity between IP-based telephony networks and legacy telephones (POTS) and PBX systems. The analog gateway has 4 FXO ports and is used to connect to analog PBX or the PSTN lines of telecom carriers. With the standard SIP protocol, it's compatible with leading IMS/NGN platforms and SIP-based IP Phone systems. It provides low-cost and easy-to-use VoIP solutions for small businesses, SOHO, remote offices as well as enterprises with multiple branches."
+    ],
+    "features": [
+      "IPv6, IPv4",
+      "Call waiting",
+      "SIP/IMS",
+      "Call Transfer (Blind transfer, Attend transfer)",
+      "SIP v2.0 (RFC3261) based on UDP/TCP/TLS",
+      "Call Forwarding (Unconditional, No reply)",
+      "Fax over T.38 and Pass-through",
+      "Speed Dial",
+      "QoS:L3 DIFFServ, 802, 1P/Q VLAN Tagging",
+      "Do Not Disturb(DND)",
+      "3-way conference",
+      "Automatic firmware upgrade and configuration via HTTP/HTTPS",
+      "Hunting group",
+      "System logs & CDR",
+      "Voice Mail",
+      "Flexible routing & dial plan",
+      "Pluse Dialing",
+      "Backup and restore",
+      "MWI",
+      "SNMP/TR-069",
+      "TLS/SRTP",
+      "Music on hold"
+    ],
+    "highlights": [
+      "4 FXO ports, 1 WAN, 2 LAN",
+      "Support SIP, IMS",
+      "Flexible routing & Dial plan",
+      "Interoperable with leading softswitches, IP-PBXs and SIP servers"
+    ],
+    "specifications": [
+      {
+        "label": "Model",
+        "value": "DAG1000-4O"
+      },
+      {
+        "label": "Product type",
+        "value": "4 * FXO Analog VoIP Gateway"
+      },
+      {
+        "label": "QoS",
+        "value": "L3 DIFFServ, 802, 1P/Q VLAN Tagging"
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://www.dinstar.com/WEB/files/13119/2018-06-22/DAG1000-2O&4O&8O%20Analog%20VoIP%20Gateway%20Datasheet.pdf",
+        "title": "DAG1000-2O/4O/8O Analog VoIP Gateway Datasheet"
+      },
+      {
+        "url": "https://www.dinstar.com/WEB/files/13121/2019-04-25/DAG%20Series_FXO%20Analog%20Gateway%20User%20Manual.pdf",
+        "title": "DAG Series FXO VoIP Gateway User Manual"
+      }
+    ]
   },
   {
     "slug": "dag1000-8o",
     "name": "DAG1000-8O",
     "category": "FXO VoIP Gateway",
-    "imageKey": "dag1000-8oFront",
-    "galleryKeys": ["dag1000-8oFront", "dag1000-8oBack"],
-    "description": "Analog FXO VoIP gateway for connecting PSTN lines to SIP networks. Contact us for specifications."
+    "imageKey": "dag1000_8o_0",
+    "galleryKeys": [
+      "dag1000_8o_0",
+      "dag1000_8o_1"
+    ],
+    "description": "DAG1000-8O FXO Analog VoIP Gateway is a type of access gateway offering seamless connectivity between IP-based telephony networks and legacy telephones (POTS) and PBX systems. The analog gateway has 8 FXO ports and is used to connect to analog PBX or the PSTN lines of telecom carriers. With the standard SIP protocol, it's compatible with leading IMS/NGN platforms and SIP-based IP Phone systems. It provides low-cost and easy-to-use VoIP solutions for small and medium businesses, call centers, SOHO, remote offices as well as enterprises with multiple branches.",
+    "sourceUrl": "https://www.dinstar.com/analog-voip-gateway/8-fxo",
+    "subtitle": "8 * FXO Analog VoIP Gateway",
+    "overview": [
+      "DAG1000-8O FXO Analog VoIP Gateway is a type of access gateway offering seamless connectivity between IP-based telephony networks and legacy telephones (POTS) and PBX systems. The analog gateway has 8 FXO ports and is used to connect to analog PBX or the PSTN lines of telecom carriers. With the standard SIP protocol, it's compatible with leading IMS/NGN platforms and SIP-based IP Phone systems. It provides low-cost and easy-to-use VoIP solutions for small and medium businesses, call centers, SOHO, remote offices as well as enterprises with multiple branches."
+    ],
+    "features": [
+      "IPv6, IPv4",
+      "Call waiting",
+      "SIP/IMS",
+      "Call Transfer (Blind transfer, Attend transfer)",
+      "SIP v2.0 (RFC3261) based on UDP/TCP/TLS",
+      "Call Forwarding (Unconditional, No reply)",
+      "Fax over T.38 and Pass-through",
+      "Speed Dial",
+      "QoS:L3 DIFFServ, 802, 1P/Q VLAN Tagging",
+      "Do Not Disturb(DND)",
+      "3-way conference",
+      "Automatic firmware upgrade and configuration via HTTP/HTTPS",
+      "Hunting group",
+      "System logs & CDR",
+      "Voice Mail",
+      "Flexible routing & dial plan",
+      "Pluse Dialing",
+      "Backup and restore",
+      "MWI",
+      "SNMP/TR-069",
+      "TLS/SRTP",
+      "Music on hold"
+    ],
+    "highlights": [
+      "8 FXO ports, 1 WAN, 2 LAN",
+      "Support SIP, IMS",
+      "Flexible routing & Dial plan",
+      "Interoperable with leading softswitches, IP PBXs and SIP servers"
+    ],
+    "specifications": [
+      {
+        "label": "Model",
+        "value": "DAG1000-8O"
+      },
+      {
+        "label": "Product type",
+        "value": "8 * FXO Analog VoIP Gateway"
+      },
+      {
+        "label": "QoS",
+        "value": "L3 DIFFServ, 802, 1P/Q VLAN Tagging"
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://www.dinstar.com/WEB/files/13119/2018-06-22/DAG1000-2O&4O&8O%20Analog%20VoIP%20Gateway%20Datasheet.pdf",
+        "title": "DAG1000-2O/4O/8O Analog VoIP Gateway Datasheet"
+      },
+      {
+        "url": "https://www.dinstar.com/WEB/files/13121/2019-04-25/DAG%20Series_FXO%20Analog%20Gateway%20User%20Manual.pdf",
+        "title": "DAG Series FXO VoIP Gateway User Manual"
+      }
+    ]
   },
   {
     "slug": "dag2000-16o",
     "name": "DAG2000-16O",
     "category": "FXO VoIP Gateway",
-    "imageKey": "dag2000-16oFront",
-    "galleryKeys": ["dag2000-16oFront", "dag2000-16oBack"],
-    "description": "Analog FXO VoIP gateway for connecting PSTN lines to SIP networks. Contact us for specifications."
+    "imageKey": "dag2000_16o_0",
+    "galleryKeys": [
+      "dag2000_16o_0",
+      "dag2000_16o_1"
+    ],
+    "description": "DAG2000-16O FXO analog gateway is a type of access gateway offering seamless connectivity between IP-based telephony networks and legacy telephones (POTS) and PBX systems. The analog gateway has 16 FXO ports and is used to connect to analog PBX or the PSTN lines of telecom carriers. With the standard SIP protocol, it's compatible with leading IMS/NGN platforms and SIP-based IP Phone systems. It provides low-cost and easy-to-use VoIP solutions for small and medium businesses, call centers, SOHO, remote offices as well as enterprises with multiple branches.",
+    "sourceUrl": "https://www.dinstar.com/analog-voip-gateway/16-fxo",
+    "subtitle": "16 * FXO Analog VoIP Gateway",
+    "overview": [
+      "DAG2000-16O FXO analog gateway is a type of access gateway offering seamless connectivity between IP-based telephony networks and legacy telephones (POTS) and PBX systems. The analog gateway has 16 FXO ports and is used to connect to analog PBX or the PSTN lines of telecom carriers. With the standard SIP protocol, it's compatible with leading IMS/NGN platforms and SIP-based IP Phone systems. It provides low-cost and easy-to-use VoIP solutions for small and medium businesses, call centers, SOHO, remote offices as well as enterprises with multiple branches."
+    ],
+    "features": [
+      "IPv6, IPv4",
+      "Call waiting",
+      "SIP/IMS",
+      "Call Transfer (Blind transfer, Attend transfer)",
+      "SIP v2.0 (RFC3261) based on UDP/TCP/TLS",
+      "Call Forwarding (Unconditional, No reply)",
+      "Fax over T.38 and Pass-through",
+      "Speed Dial",
+      "QoS:L3 DIFFServ, 802, 1P/Q VLAN Tagging",
+      "Do Not Disturb(DND)",
+      "3-way conference",
+      "Automatic firmware upgrade and configuration via HTTP/HTTPS",
+      "Hunting group",
+      "System logs & CDR",
+      "Voice Mail",
+      "Flexible routing & dial plan",
+      "Pluse Dialing",
+      "Backup and restore",
+      "MWI",
+      "SNMP/TR-069",
+      "5 km long haul",
+      "TLS/SRTP",
+      "Music on hold"
+    ],
+    "highlights": [
+      "16 FXO ports, 3 LAN",
+      "Support SIP, IMS",
+      "Flexible routing & Dial plan",
+      "Interoperable with leading softswitches, IP-PBXs and SIP servers"
+    ],
+    "specifications": [
+      {
+        "label": "Model",
+        "value": "DAG2000-16O"
+      },
+      {
+        "label": "Product type",
+        "value": "16 * FXO Analog VoIP Gateway"
+      },
+      {
+        "label": "QoS",
+        "value": "L3 DIFFServ, 802, 1P/Q VLAN Tagging"
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://www.dinstar.com/WEB/files/13119/2019-04-25/DAG2000-16O%20Analog%20VoIP%20Gateway%20Datasheet.pdf",
+        "title": "DAG2000-16O Analog VoIP Gateway Datasheet"
+      },
+      {
+        "url": "https://www.dinstar.com/WEB/files/13121/2019-04-25/DAG%20Series_FXO%20Analog%20Gateway%20User%20Manual.pdf",
+        "title": "DAG Series FXO VoIP Gateway User Manual"
+      }
+    ]
   }
 ]

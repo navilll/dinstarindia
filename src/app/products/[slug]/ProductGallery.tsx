@@ -15,7 +15,9 @@ const ProductGallery = ({ images, productName }: ProductGalleryProps) => {
   return (
     <div className={styles.gallery}>
       <div className={styles.mainImage}>
-        <Image src={images[selectedImage]} alt={`Dinstar ${productName}`} fill priority sizes="(max-width: 991px) 100vw, 50vw" />
+        <span className={styles.galleryLabel}>PRODUCT VIEW</span>
+        <Image src={images[selectedImage]} alt={`Dinstar ${productName}, view ${selectedImage + 1}`} fill priority sizes="(max-width: 767px) 100vw, 50vw" />
+        <span className={styles.imageCounter}>{String(selectedImage + 1).padStart(2, "0")} / {String(images.length).padStart(2, "0")}</span>
       </div>
       {images.length > 1 && (
         <div className={styles.thumbnailList} aria-label={`${productName} product images`}>

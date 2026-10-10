@@ -8,7 +8,7 @@ type ProductTab = "description" | "specifications" | "features";
 
 const ProductTabs = ({ product }: { product: Product }) => {
   const [activeTab, setActiveTab] = useState<ProductTab>("description");
-  const featureList = [...(product.highlights ?? []), ...(product.features ?? [])];
+  const featureList = Array.from(new Set([...(product.highlights ?? []), ...(product.features ?? [])]));
 
   return (
     <section className={styles.tabsSection} aria-label={`${product.name} information`}>
@@ -28,6 +28,8 @@ const ProductTabs = ({ product }: { product: Product }) => {
       <div className={styles.tabPanel} aria-live="polite">
         {activeTab === "description" && (
           <div>
+            <span className={styles.category}>MEET {product.name}</span>
+            <h2 className={styles.panelTitle}>{product.subtitle ?? "Product overview"}</h2>
             {(product.overview.length ? product.overview : [product.description]).map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
           </div>
         )}
