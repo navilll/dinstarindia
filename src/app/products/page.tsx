@@ -7,7 +7,7 @@ import Mainlayout from "@/component/Mainlayout";
 import { products } from "@/data/products";
 import styles from "./page.module.css";
 
-const PAGE_SIZE = 10;
+const PAGE_SIZE = 12;
 type ViewMode = "grid" | "compact" | "list";
 
 const Products = () => {
